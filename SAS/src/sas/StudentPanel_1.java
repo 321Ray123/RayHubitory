@@ -70,25 +70,7 @@ public class StudentPanel_1 extends javax.swing.JFrame {
     initComponents();
     loadStudentData();
     }
-private void determineStudentProgram() {
-         // List of all student tables to check
-    String[] studentTables = {"bsis_students", "bsit_students", "bscs_students", "students"};
-    
-     try {
-            String query = "SELECT program FROM students WHERE student_id = ?";
-            pstmt = connection.prepareStatement(query);
-            pstmt.setInt(1, studentId);
-            ResultSet rs = pstmt.executeQuery();
-            if (rs.next()) {
-                studentProgram = rs.getString("program");
-            }
-        } catch (SQLException e) {
-            e.printStackTrace();
-        this.dispose(); // Close the window on error    
-        }
-    
-    }   
-    // Default constructor (for testing)
+
 
 
   private void connectToDatabase() {
@@ -104,7 +86,7 @@ private void determineStudentProgram() {
 
  private void loadStudentData() {
  try{
-        String tableName = studentProgram.toLowerCase() + "_students";
+        String tableName = studentProgram.toUpperCase();
         // Use the correct ID column name here too
        
          
@@ -117,15 +99,33 @@ private void determineStudentProgram() {
             
             if (rs.next()) {
                 // Set all the student information from the result set
+                jLabel17.setText(rs.getString("last_name"));
+                jLabel5.setText(rs.getString("last_name"));
+                jLabel16.setText(rs.getString("id"));
+                jLabel9.setText(rs.getString("id"));
                 lfname.setText(rs.getString("first_name"));
+                lmname.setText(rs.getString("middle_name"));
                 llname.setText(rs.getString("last_name"));
+                dontmind.setText(rs.getString("grade"));
                 lEmail.setText(rs.getString("email"));
                 lCourse.setText(studentProgram); // Display the clean program name (BSIT, BSCS, etc.)
                 lCampus.setText(rs.getString("campus"));
                 lYearLevel.setText(rs.getString("school_year"));
+                lPlaceofBirth.setText(rs.getString("birth_place"));
                 lSection.setText(rs.getString("section"));
                 lAddress.setText(rs.getString("home_address"));
+                lSex.setText(rs.getString("sex"));
+                lCivil.setText(rs.getString("civil_status"));
+                lDateofBirth.setText(rs.getString("birth_date"));
+                lZip.setText(rs.getString("zip_code"));
+                lNationality.setText(rs.getString("nationality"));
+                lReligion.setText(rs.getString("religion"));
+                lHeight.setText(rs.getString("height"));
+                lWeight.setText(rs.getString("weight"));
                 lCity.setText(rs.getString("city"));
+                lScheme.setText(rs.getString("scheme"));
+                lBarangay.setText(rs.getString("barangay"));
+                lDistrict.setText(rs.getString("district"));
                 lProvince.setText(rs.getString("province"));
                 lContactNo.setText(rs.getString("contact_no"));
                 lMobileNo.setText(rs.getString("mobile_no"));
@@ -165,19 +165,16 @@ private void determineStudentProgram() {
         jLabel6 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jLabel11 = new javax.swing.JLabel();
-        jLabel12 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jComboBox1 = new javax.swing.JComboBox<>();
         jLayeredPane2 = new javax.swing.JLayeredPane();
-        jLabel13 = new javax.swing.JLabel();
-        jLabel14 = new javax.swing.JLabel();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
         jLabel17 = new javax.swing.JLabel();
         jPanel1 = new javax.swing.JPanel();
-        jScrollPane4 = new javax.swing.JScrollPane();
+        jLabel21 = new javax.swing.JLabel();
+        jPanel4 = new javax.swing.JPanel();
         jPanel2 = new javax.swing.JPanel();
         jLabel18 = new javax.swing.JLabel();
         jLabel20 = new javax.swing.JLabel();
@@ -232,7 +229,6 @@ private void determineStudentProgram() {
         lHeight = new javax.swing.JLabel();
         lWeight = new javax.swing.JLabel();
         dontmind = new javax.swing.JLabel();
-        jLabel21 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 145, 77));
@@ -242,7 +238,7 @@ private void determineStudentProgram() {
         jPanel3.setAlignmentX(0.0F);
         jPanel3.setAlignmentY(0.0F);
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/simple/crud/Logoutresized.png"))); // NOI18N
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sas/Logoutresized.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -292,21 +288,20 @@ private void determineStudentProgram() {
 
         jLabel10.setText("Student ID:  ");
 
-        jLabel11.setText("Student Name");
-
-        jLabel12.setText("Course");
-
         jLabel7.setText("Year & Section:");
 
         jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
+        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox1ActionPerformed(evt);
+            }
+        });
 
         jLayeredPane4.setLayer(jScrollPane3, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jLabel5, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jLabel6, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jLabel9, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jLabel10, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane4.setLayer(jLabel11, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane4.setLayer(jLabel12, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jLabel7, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jComboBox1, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
@@ -317,26 +312,20 @@ private void determineStudentProgram() {
             .addGroup(jLayeredPane4Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 1048, Short.MAX_VALUE)
                     .addGroup(jLayeredPane4Layout.createSequentialGroup()
-                        .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jLayeredPane4Layout.createSequentialGroup()
-                                    .addComponent(jLabel12)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jLabel11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jLayeredPane4Layout.createSequentialGroup()
-                                    .addComponent(jLabel10)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jLayeredPane4Layout.createSequentialGroup()
-                                    .addComponent(jLabel6)
-                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                    .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                            .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addComponent(jLabel10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jLayeredPane4Layout.createSequentialGroup()
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                        .addComponent(jComboBox1, javax.swing.GroupLayout.Alignment.LEADING, 0, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addComponent(jLabel7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addContainerGap(820, Short.MAX_VALUE))
+            .addGroup(jLayeredPane4Layout.createSequentialGroup()
+                .addComponent(jScrollPane3)
                 .addContainerGap())
         );
         jLayeredPane4Layout.setVerticalGroup(
@@ -350,24 +339,16 @@ private void determineStudentProgram() {
                 .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
                     .addComponent(jLabel9))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel12)
-                    .addComponent(jLabel11))
-                .addGap(18, 18, 18)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jLabel7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 618, Short.MAX_VALUE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 659, Short.MAX_VALUE)
                 .addContainerGap())
         );
 
         jTabbedPane1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/sas/SecandProgresized.png")), jLayeredPane4); // NOI18N
-
-        jLabel13.setText("Course");
-
-        jLabel14.setText("Student Name");
 
         jLabel15.setText("Student ID:  ");
 
@@ -381,11 +362,7 @@ private void determineStudentProgram() {
         jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setForeground(new java.awt.Color(214, 237, 198));
 
-        jScrollPane4.setBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane4.setForeground(new java.awt.Color(255, 255, 255));
-        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        jScrollPane4.setToolTipText("");
-        jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sas/PersonalInforesized2.png"))); // NOI18N
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -657,7 +634,7 @@ private void determineStudentProgram() {
                                 .addComponent(jLabel22, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(dontmind, javax.swing.GroupLayout.PREFERRED_SIZE, 80, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addGap(315, 315, 315)
+                                .addGap(314, 314, 314)
                                 .addComponent(photoPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 199, javax.swing.GroupLayout.PREFERRED_SIZE)))
                         .addContainerGap(588, Short.MAX_VALUE))))
         );
@@ -778,9 +755,26 @@ private void determineStudentProgram() {
                 .addGap(82, 82, 82))
         );
 
-        jScrollPane4.setViewportView(jPanel2);
-
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/simple/crud/PersonalInforesized2.png"))); // NOI18N
+        javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
+        jPanel4.setLayout(jPanel4Layout);
+        jPanel4Layout.setHorizontalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 0, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel4Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
+        jPanel4Layout.setVerticalGroup(
+            jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGap(0, 668, Short.MAX_VALUE)
+            .addGroup(jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel4Layout.createSequentialGroup()
+                    .addGap(0, 0, Short.MAX_VALUE)
+                    .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGap(0, 0, Short.MAX_VALUE)))
+        );
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
@@ -789,10 +783,10 @@ private void determineStudentProgram() {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(jLabel21)
-                        .addGap(0, 0, Short.MAX_VALUE))
-                    .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 0, Short.MAX_VALUE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addContainerGap())
         );
         jPanel1Layout.setVerticalGroup(
@@ -800,11 +794,10 @@ private void determineStudentProgram() {
             .addGroup(jPanel1Layout.createSequentialGroup()
                 .addComponent(jLabel21)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 668, Short.MAX_VALUE))
+                .addComponent(jPanel4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
-        jLayeredPane2.setLayer(jLabel13, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane2.setLayer(jLabel14, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane2.setLayer(jLabel15, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane2.setLayer(jLabel16, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane2.setLayer(jLabel8, javax.swing.JLayeredPane.DEFAULT_LAYER);
@@ -824,18 +817,13 @@ private void determineStudentProgram() {
                     .addGroup(jLayeredPane2Layout.createSequentialGroup()
                         .addComponent(jLabel8)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 194, Short.MAX_VALUE)
+                        .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 711, Short.MAX_VALUE)
                         .addGap(801, 801, 801))
                     .addGroup(jLayeredPane2Layout.createSequentialGroup()
                         .addComponent(jLabel15)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel16, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jLayeredPane2Layout.createSequentialGroup()
-                        .addComponent(jLabel13)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel14, javax.swing.GroupLayout.PREFERRED_SIZE, 143, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(0, 0, Short.MAX_VALUE))))
+                        .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
         );
         jLayeredPane2Layout.setVerticalGroup(
             jLayeredPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -848,11 +836,7 @@ private void determineStudentProgram() {
                 .addGroup(jLayeredPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel15)
                     .addComponent(jLabel16))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jLayeredPane2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(jLabel13)
-                    .addComponent(jLabel14))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
         );
@@ -865,15 +849,17 @@ private void determineStudentProgram() {
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
             .addGroup(layout.createSequentialGroup()
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1060, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 0, Short.MAX_VALUE))
+                .addContainerGap()
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1054, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 826, Short.MAX_VALUE))
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 845, Short.MAX_VALUE)
+                .addContainerGap())
         );
 
         pack();
@@ -885,6 +871,10 @@ private void determineStudentProgram() {
         new testing_1().setVisible(true); // Assuming you have a LoginForm class
               
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -930,10 +920,6 @@ private void determineStudentProgram() {
     private javax.swing.JButton jButton1;
     private javax.swing.JComboBox<String> jComboBox1;
     private javax.swing.JLabel jLabel10;
-    private javax.swing.JLabel jLabel11;
-    private javax.swing.JLabel jLabel12;
-    private javax.swing.JLabel jLabel13;
-    private javax.swing.JLabel jLabel14;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
     private javax.swing.JLabel jLabel17;
@@ -973,9 +959,9 @@ private void determineStudentProgram() {
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
     private javax.swing.JPanel jPanel3;
+    private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
     private javax.swing.JScrollPane jScrollPane3;
-    private javax.swing.JScrollPane jScrollPane4;
     private javax.swing.JTabbedPane jTabbedPane1;
     private javax.swing.JTable jTable3;
     private javax.swing.JLabel lAddress;
