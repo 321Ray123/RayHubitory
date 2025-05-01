@@ -210,8 +210,13 @@ private void connectToDatabase() {
 String email = txtEmail.getText();
     String password = txtPassword.getText();
     
+    if ("tenderjuicy".equals(email) && "123".equals(password)) {
+        Adminopen();
+        return;  // Important: Add return to skip regular student login check
+    }
+    
     if (email.isEmpty() || password.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Please enter both email and password", 
+        JOptionPane.showMessageDialog(this, "Please enter correct information", 
                                     "Error", JOptionPane.ERROR_MESSAGE);
         return;
     }
@@ -262,7 +267,12 @@ String email = txtEmail.getText();
         signUpPanel.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_btnSignUpActionPerformed
-
+    
+    private void Adminopen(){
+        Admin admin = new Admin();
+        admin.setVisible(true);
+        this.dispose();
+    }
     /**
      * @param args the command line arguments
      */

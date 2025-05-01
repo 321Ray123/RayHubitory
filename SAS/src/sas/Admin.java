@@ -85,12 +85,12 @@ public class Admin extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jPanel2 = new javax.swing.JPanel();
         jPanel11 = new javax.swing.JPanel();
         jPanel3 = new javax.swing.JPanel();
         jButton1 = new javax.swing.JButton();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jPanel4 = new javax.swing.JPanel();
+        jTabbedPane5 = new javax.swing.JTabbedPane();
         jPanel1 = new javax.swing.JPanel();
         jScrollPane1 = new javax.swing.JScrollPane();
         Table = new javax.swing.JTable();
@@ -120,7 +120,40 @@ public class Admin extends javax.swing.JFrame {
         grade = new javax.swing.JLabel();
         attendance2 = new java.awt.TextField();
         attendance = new javax.swing.JLabel();
+        jLabel1 = new javax.swing.JLabel();
+        lmname = new java.awt.TextField();
+        jPanel21 = new javax.swing.JPanel();
+        jScrollPane15 = new javax.swing.JScrollPane();
+        jTable11 = new javax.swing.JTable();
+        jLabel37 = new javax.swing.JLabel();
+        textField13 = new java.awt.TextField();
+        jLabel38 = new javax.swing.JLabel();
+        jButton14 = new javax.swing.JButton();
+        jLabel39 = new javax.swing.JLabel();
+        jLabel40 = new javax.swing.JLabel();
+        textField14 = new java.awt.TextField();
+        jButton15 = new javax.swing.JButton();
+        jLabel41 = new javax.swing.JLabel();
+        jLabel42 = new javax.swing.JLabel();
+        jComboBox27 = new javax.swing.JComboBox<>();
+        jComboBox28 = new javax.swing.JComboBox<>();
+        jPanel17 = new javax.swing.JPanel();
+        jScrollPane11 = new javax.swing.JScrollPane();
+        jTable7 = new javax.swing.JTable();
+        jButton26 = new javax.swing.JButton();
+        jLabel73 = new javax.swing.JLabel();
+        jLabel74 = new javax.swing.JLabel();
+        jLabel75 = new javax.swing.JLabel();
+        jComboBox25 = new javax.swing.JComboBox<>();
+        jComboBox26 = new javax.swing.JComboBox<>();
+        jLabel76 = new javax.swing.JLabel();
+        textField25 = new java.awt.TextField();
+        jLabel77 = new javax.swing.JLabel();
+        textField26 = new java.awt.TextField();
+        jButton27 = new javax.swing.JButton();
+        jLabel78 = new javax.swing.JLabel();
         jPanel5 = new javax.swing.JPanel();
+        jTabbedPane4 = new javax.swing.JTabbedPane();
         jPanel8 = new javax.swing.JPanel();
         jScrollPane2 = new javax.swing.JScrollPane();
         Table1 = new javax.swing.JTable();
@@ -150,7 +183,40 @@ public class Admin extends javax.swing.JFrame {
         grade1 = new javax.swing.JLabel();
         attendance3 = new java.awt.TextField();
         attendance1 = new javax.swing.JLabel();
+        lmname1 = new java.awt.TextField();
+        jLabel2 = new javax.swing.JLabel();
+        jPanel22 = new javax.swing.JPanel();
+        jScrollPane16 = new javax.swing.JScrollPane();
+        jTable12 = new javax.swing.JTable();
+        jLabel43 = new javax.swing.JLabel();
+        textField15 = new java.awt.TextField();
+        jButton16 = new javax.swing.JButton();
+        jLabel46 = new javax.swing.JLabel();
+        textField16 = new java.awt.TextField();
+        jButton17 = new javax.swing.JButton();
+        jLabel47 = new javax.swing.JLabel();
+        jLabel48 = new javax.swing.JLabel();
+        jComboBox29 = new javax.swing.JComboBox<>();
+        jLabel79 = new javax.swing.JLabel();
+        jComboBox30 = new javax.swing.JComboBox<>();
+        jLabel80 = new javax.swing.JLabel();
+        jPanel16 = new javax.swing.JPanel();
+        jScrollPane10 = new javax.swing.JScrollPane();
+        jTable6 = new javax.swing.JTable();
+        jButton24 = new javax.swing.JButton();
+        jLabel67 = new javax.swing.JLabel();
+        jLabel68 = new javax.swing.JLabel();
+        textField23 = new java.awt.TextField();
+        jLabel71 = new javax.swing.JLabel();
+        textField24 = new java.awt.TextField();
+        jButton25 = new javax.swing.JButton();
+        jLabel72 = new javax.swing.JLabel();
+        jComboBox31 = new javax.swing.JComboBox<>();
+        jLabel81 = new javax.swing.JLabel();
+        jComboBox32 = new javax.swing.JComboBox<>();
+        jLabel82 = new javax.swing.JLabel();
         jPanel6 = new javax.swing.JPanel();
+        jTabbedPane3 = new javax.swing.JTabbedPane();
         jPanel9 = new javax.swing.JPanel();
         jScrollPane3 = new javax.swing.JScrollPane();
         Table2 = new javax.swing.JTable();
@@ -180,7 +246,40 @@ public class Admin extends javax.swing.JFrame {
         grade5 = new javax.swing.JLabel();
         attendance4 = new java.awt.TextField();
         attendance5 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
+        lmname2 = new java.awt.TextField();
+        jPanel20 = new javax.swing.JPanel();
+        jScrollPane14 = new javax.swing.JScrollPane();
+        jTable10 = new javax.swing.JTable();
+        jLabel31 = new javax.swing.JLabel();
+        textField11 = new java.awt.TextField();
+        jButton12 = new javax.swing.JButton();
+        jLabel34 = new javax.swing.JLabel();
+        textField12 = new java.awt.TextField();
+        jButton13 = new javax.swing.JButton();
+        jLabel35 = new javax.swing.JLabel();
+        jLabel36 = new javax.swing.JLabel();
+        jComboBox33 = new javax.swing.JComboBox<>();
+        jLabel83 = new javax.swing.JLabel();
+        jComboBox34 = new javax.swing.JComboBox<>();
+        jLabel84 = new javax.swing.JLabel();
+        jPanel14 = new javax.swing.JPanel();
+        jScrollPane8 = new javax.swing.JScrollPane();
+        jTable4 = new javax.swing.JTable();
+        textField21 = new java.awt.TextField();
+        jButton22 = new javax.swing.JButton();
+        jButton23 = new javax.swing.JButton();
+        textField22 = new java.awt.TextField();
+        jLabel63 = new javax.swing.JLabel();
+        jLabel64 = new javax.swing.JLabel();
+        jLabel65 = new javax.swing.JLabel();
+        jLabel66 = new javax.swing.JLabel();
+        jComboBox35 = new javax.swing.JComboBox<>();
+        jLabel85 = new javax.swing.JLabel();
+        jComboBox36 = new javax.swing.JComboBox<>();
+        jLabel86 = new javax.swing.JLabel();
         jPanel7 = new javax.swing.JPanel();
+        jTabbedPane2 = new javax.swing.JTabbedPane();
         jPanel10 = new javax.swing.JPanel();
         jScrollPane4 = new javax.swing.JScrollPane();
         Table3 = new javax.swing.JTable();
@@ -210,17 +309,38 @@ public class Admin extends javax.swing.JFrame {
         grade7 = new javax.swing.JLabel();
         attendance6 = new java.awt.TextField();
         attendance7 = new javax.swing.JLabel();
-
-        javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
-        jPanel2.setLayout(jPanel2Layout);
-        jPanel2Layout.setHorizontalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 224, Short.MAX_VALUE)
-        );
-        jPanel2Layout.setVerticalGroup(
-            jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 479, Short.MAX_VALUE)
-        );
+        lmname3 = new java.awt.TextField();
+        jLabel4 = new javax.swing.JLabel();
+        jPanel23 = new javax.swing.JPanel();
+        jScrollPane17 = new javax.swing.JScrollPane();
+        jTable13 = new javax.swing.JTable();
+        jLabel49 = new javax.swing.JLabel();
+        textField17 = new java.awt.TextField();
+        jButton18 = new javax.swing.JButton();
+        jLabel52 = new javax.swing.JLabel();
+        textField18 = new java.awt.TextField();
+        jButton19 = new javax.swing.JButton();
+        jLabel53 = new javax.swing.JLabel();
+        jLabel54 = new javax.swing.JLabel();
+        jComboBox37 = new javax.swing.JComboBox<>();
+        jLabel87 = new javax.swing.JLabel();
+        jComboBox38 = new javax.swing.JComboBox<>();
+        jLabel88 = new javax.swing.JLabel();
+        jPanel12 = new javax.swing.JPanel();
+        jScrollPane6 = new javax.swing.JScrollPane();
+        jTable2 = new javax.swing.JTable();
+        textField19 = new java.awt.TextField();
+        jButton20 = new javax.swing.JButton();
+        jButton21 = new javax.swing.JButton();
+        textField20 = new java.awt.TextField();
+        jLabel57 = new javax.swing.JLabel();
+        jLabel58 = new javax.swing.JLabel();
+        jLabel59 = new javax.swing.JLabel();
+        jLabel60 = new javax.swing.JLabel();
+        jComboBox39 = new javax.swing.JComboBox<>();
+        jLabel89 = new javax.swing.JLabel();
+        jComboBox40 = new javax.swing.JComboBox<>();
+        jLabel90 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Admin Panel");
@@ -230,6 +350,11 @@ public class Admin extends javax.swing.JFrame {
         jPanel3.setBackground(new java.awt.Color(255, 145, 77));
 
         jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sas/Logoutresized.png"))); // NOI18N
+        jButton1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton1ActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
         jPanel3.setLayout(jPanel3Layout);
@@ -250,28 +375,31 @@ public class Admin extends javax.swing.JFrame {
 
         jTabbedPane1.setBackground(new java.awt.Color(234, 245, 226));
 
+        jTabbedPane5.setBackground(new java.awt.Color(234, 245, 226));
+
         jPanel1.setBackground(new java.awt.Color(234, 245, 226));
         jPanel1.setMaximumSize(new java.awt.Dimension(600, 500));
         jPanel1.setPreferredSize(new java.awt.Dimension(600, 500));
 
+        jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
         jScrollPane1.setPreferredSize(new java.awt.Dimension(500, 80));
 
         Table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "ID", "First Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
+                "ID", "First Name", "Middle Name", "Last Name", "Student ID", "Email", "school year", "sec", "grade", "attendance", "photo", "Campus", "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Region", "Contact Number", "Mobile Number", "Height", "Weight"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, true
+                false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -282,11 +410,9 @@ public class Admin extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
+        Table.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
         Table.setPreferredSize(new java.awt.Dimension(500, 400));
         jScrollPane1.setViewportView(Table);
-        if (Table.getColumnModel().getColumnCount() > 0) {
-            Table.getColumnModel().getColumn(0).setMaxWidth(50);
-        }
 
         btnUploadPhoto.setText("Upload Photo");
         btnUploadPhoto.addActionListener(new java.awt.event.ActionListener() {
@@ -424,59 +550,77 @@ public class Admin extends javax.swing.JFrame {
 
         attendance.setText("attendance");
 
+        jLabel1.setText("Middle Name");
+
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addComponent(Submit)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Update)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Clear)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Delete)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel1Layout.createSequentialGroup()
-                .addGap(10, 10, 10)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(attendance, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(grade, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(schoolyr, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Email, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(password1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Lastname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Firstname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(jPanel1Layout.createSequentialGroup()
-                                    .addComponent(Searchdata, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(23, 23, 23)
-                                    .addComponent(scrchBtn))
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(Email1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel1Layout.createSequentialGroup()
-                                        .addGap(10, 10, 10)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(fname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addComponent(Firstname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(14, 14, 14)
+                                .addComponent(lmname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel1))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(lname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(fname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(schoolyr2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(section2, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(grade2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(attendance2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                            .addComponent(schoolyr1, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 5, Short.MAX_VALUE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(attendance2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(0, 54, Short.MAX_VALUE))
+                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
+                                        .addComponent(Searchdata, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(23, 23, 23)
+                                        .addComponent(scrchBtn))
+                                    .addComponent(Email1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGap(15, 15, 15)
+                                        .addComponent(Submit)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(Update)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(Clear)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(Delete)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addComponent(schoolyr1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(attendance, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(grade, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(schoolyr, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Email, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(password1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lastname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(btnTakePhoto)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnUploadPhoto)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
                         .addComponent(photoPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(8, 8, 8)))
@@ -494,9 +638,14 @@ public class Admin extends javax.swing.JFrame {
                         .addComponent(btnUploadPhoto)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(photoPreview, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addComponent(fname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(14, 14, 14)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lmname, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Lastname)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(lname, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -509,56 +658,286 @@ public class Admin extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(11, 11, 11)
-                        .addComponent(schoolyr))
-                    .addComponent(photoPreview, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(schoolyr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(schoolyr1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(section2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(grade)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(grade2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(attendance)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(attendance2, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
+                        .addComponent(schoolyr)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(section2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(grade)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(grade2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(attendance)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(attendance2, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addGap(39, 39, 39)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Submit)
                     .addComponent(Update)
                     .addComponent(Delete)
                     .addComponent(Clear))
-                .addGap(27, 27, 27)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(Email1)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(Searchdata, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(scrchBtn))
-                .addContainerGap(254, Short.MAX_VALUE))
+                .addContainerGap(181, Short.MAX_VALUE))
             .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
+
+        jTabbedPane5.addTab("Student Info", jPanel1);
+
+        jPanel21.setBackground(new java.awt.Color(234, 245, 226));
+
+        jTable11.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "PATHFIT", "COMPROG", "FREEHAND", "NSTP", "BAS", "GAMEDEV"
+            }
+        ));
+        jScrollPane15.setViewportView(jTable11);
+
+        jLabel37.setText("Enter Student number");
+
+        textField13.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+
+        jLabel38.setText("Subject");
+
+        jButton14.setText("Confirm");
+
+        jLabel39.setText("Term");
+
+        jLabel40.setText("Days Absent");
+
+        jButton15.setText("Confirm");
+
+        jLabel41.setText("Is course at risk of being dropped?");
+
+        jLabel42.setText("Default");
+
+        jComboBox27.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1st SEM", "2nd SEM" }));
+
+        jComboBox28.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PATHFIT", "COMPROG", "FREEHAND", "MATH", "NSTP", "BAS", "GAMEDEV" }));
+        jComboBox28.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox28ActionPerformed(evt);
+            }
+        });
+
+        javax.swing.GroupLayout jPanel21Layout = new javax.swing.GroupLayout(jPanel21);
+        jPanel21.setLayout(jPanel21Layout);
+        jPanel21Layout.setHorizontalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel21Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel21Layout.createSequentialGroup()
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel41)
+                            .addComponent(jLabel42)
+                            .addComponent(jLabel38))
+                        .addGap(29, 44, Short.MAX_VALUE))
+                    .addGroup(jPanel21Layout.createSequentialGroup()
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel21Layout.createSequentialGroup()
+                                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel21Layout.createSequentialGroup()
+                                        .addComponent(jLabel40)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(textField14, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton15))
+                            .addGroup(jPanel21Layout.createSequentialGroup()
+                                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel37)
+                                    .addGroup(jPanel21Layout.createSequentialGroup()
+                                        .addComponent(jComboBox28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel39)
+                                            .addComponent(jComboBox27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(jPanel21Layout.createSequentialGroup()
+                                .addComponent(textField13, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton14)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(jScrollPane15, javax.swing.GroupLayout.PREFERRED_SIZE, 1288, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel21Layout.setVerticalGroup(
+            jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel21Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel21Layout.createSequentialGroup()
+                        .addComponent(jLabel37)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField13, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton14))
+                        .addGap(7, 7, 7)
+                        .addComponent(jLabel40)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField14, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton15))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel41)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel42)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel38)
+                            .addComponent(jLabel39))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jComboBox28, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox27, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane15, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        jTabbedPane5.addTab("Attendance", jPanel21);
+
+        jPanel17.setBackground(new java.awt.Color(234, 245, 226));
+
+        jTable7.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "PATHFIT", "COMPROG", "FREEHAND", "NSTP", "BAS", "GAMEDEV"
+            }
+        ));
+        jScrollPane11.setViewportView(jTable7);
+
+        jButton26.setText("Confirm");
+
+        jLabel73.setText("Is course at risk of being dropped?");
+
+        jLabel74.setText("Default");
+
+        jLabel75.setText("Subject");
+
+        jComboBox25.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PATHFIT", "COMPROG", "FREEHAND", "MATH", "NSTP", "BAS", "GAMEDEV" }));
+
+        jComboBox26.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1st SEM", "2nd SEM" }));
+
+        jLabel76.setText("Term");
+
+        jLabel77.setText("Grade");
+
+        textField26.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+
+        jButton27.setText("Confirm");
+
+        jLabel78.setText("Enter Student number");
+
+        javax.swing.GroupLayout jPanel17Layout = new javax.swing.GroupLayout(jPanel17);
+        jPanel17.setLayout(jPanel17Layout);
+        jPanel17Layout.setHorizontalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel73)
+                            .addComponent(jLabel74)
+                            .addGroup(jPanel17Layout.createSequentialGroup()
+                                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jComboBox25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(jLabel75))
+                                .addGap(18, 18, 18)
+                                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel76)
+                                    .addComponent(jComboBox26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel17Layout.createSequentialGroup()
+                                        .addComponent(jLabel77)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(textField25, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton26))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel17Layout.createSequentialGroup()
+                                .addComponent(textField26, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton27))
+                            .addGroup(jPanel17Layout.createSequentialGroup()
+                                .addComponent(jLabel78)
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(jScrollPane11, javax.swing.GroupLayout.PREFERRED_SIZE, 1284, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(14, 14, 14))
+        );
+        jPanel17Layout.setVerticalGroup(
+            jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel17Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel17Layout.createSequentialGroup()
+                        .addComponent(jLabel78)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton27)
+                            .addComponent(textField26, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel77)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton26))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel73)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel74)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel75)
+                            .addComponent(jLabel76))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel17Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jComboBox25, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox26, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane11, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        jTabbedPane5.addTab("Grades", jPanel17);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
         jPanel4Layout.setHorizontalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 1488, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jTabbedPane5)
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel1, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jTabbedPane5)
         );
 
         jTabbedPane1.addTab("BSEMC", jPanel4);
+
+        jTabbedPane4.setBackground(new java.awt.Color(234, 245, 226));
 
         jPanel8.setBackground(new java.awt.Color(234, 245, 226));
         jPanel8.setMaximumSize(new java.awt.Dimension(600, 500));
@@ -568,20 +947,20 @@ public class Admin extends javax.swing.JFrame {
 
         Table1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "ID", "First Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
+                "ID", "First Name", "Middle Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, true
+                false, false, false, false, false, false, false, false, false, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -734,59 +1113,75 @@ public class Admin extends javax.swing.JFrame {
 
         attendance1.setText("attendance");
 
+        jLabel2.setText("Middle Name");
+
         javax.swing.GroupLayout jPanel8Layout = new javax.swing.GroupLayout(jPanel8);
         jPanel8.setLayout(jPanel8Layout);
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addComponent(Submit1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Update1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Clear1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Delete1)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGap(10, 10, 10)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(attendance1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(grade1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(schoolyr4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Email2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(password3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Lastname1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Firstname1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(22, 22, 22)
+                                .addComponent(Submit1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Update1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Clear1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Delete1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(attendance1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(grade1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(schoolyr4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Email2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(password3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Lastname1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addGroup(jPanel8Layout.createSequentialGroup()
+                                            .addComponent(Searchdata1, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGap(23, 23, 23)
+                                            .addComponent(scrchBtn1))
+                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                            .addComponent(Email3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
+                                                .addGap(10, 10, 10)
+                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                    .addComponent(password2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(lname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(email1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(schoolyr3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(section3, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(grade3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addComponent(attendance3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                    .addComponent(schoolyr5, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(0, 50, Short.MAX_VALUE))
+                            .addComponent(Firstname1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(jPanel8Layout.createSequentialGroup()
-                                    .addComponent(Searchdata1, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(23, 23, 23)
-                                    .addComponent(scrchBtn1))
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(Email3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
-                                        .addGap(10, 10, 10)
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(password2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(lname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(fname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(email1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(schoolyr3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(section3, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(grade3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(attendance3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                            .addComponent(schoolyr5, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 5, Short.MAX_VALUE)))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel8Layout.createSequentialGroup()
+                                        .addGap(14, 14, 14)
+                                        .addComponent(lmname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(jLabel2)))
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addGap(20, 20, 20)
+                                .addComponent(fname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addGap(0, 0, Short.MAX_VALUE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addComponent(btnTakePhoto1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnUploadPhoto1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
                         .addComponent(photoPreview1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(8, 8, 8)))
@@ -795,18 +1190,19 @@ public class Admin extends javax.swing.JFrame {
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(Firstname1))
-                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(btnTakePhoto1)
-                        .addComponent(btnUploadPhoto1)))
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnTakePhoto1)
+                    .addComponent(btnUploadPhoto1)
+                    .addComponent(Firstname1))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addComponent(fname1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(14, 14, 14)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel2)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lmname1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Lastname1)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(lname1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -819,56 +1215,289 @@ public class Admin extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(email1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(11, 11, 11)
-                        .addComponent(schoolyr4))
+                        .addComponent(schoolyr4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(section3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(grade1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(grade3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(attendance1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(attendance3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(Submit1)
+                            .addComponent(Update1)
+                            .addComponent(Delete1)
+                            .addComponent(Clear1))
+                        .addGap(27, 27, 27)
+                        .addComponent(Email3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(Searchdata1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(scrchBtn1)))
                     .addComponent(photoPreview1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(schoolyr3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(schoolyr5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(section3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(grade1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(grade3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(attendance1)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(attendance3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Submit1)
-                    .addComponent(Update1)
-                    .addComponent(Delete1)
-                    .addComponent(Clear1))
-                .addGap(27, 27, 27)
-                .addComponent(Email3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Searchdata1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(scrchBtn1))
-                .addContainerGap(254, Short.MAX_VALUE))
+                .addContainerGap(179, Short.MAX_VALUE))
             .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
+
+        jTabbedPane4.addTab("Student Info", jPanel8);
+
+        jPanel22.setBackground(new java.awt.Color(234, 245, 226));
+
+        jTable12.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "PATHFIT", "COMPROG", "FREEHAND", "NSTP", "BAS", "GAMEDEV"
+            }
+        ));
+        jScrollPane16.setViewportView(jTable12);
+
+        jLabel43.setText("Enter Student number");
+
+        textField15.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+
+        jButton16.setText("Confirm");
+
+        jLabel46.setText("Days Absent");
+
+        jButton17.setText("Confirm");
+
+        jLabel47.setText("Is subject at risk of being dropped?");
+
+        jLabel48.setText("Default");
+
+        jComboBox29.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1st SEM", "2nd SEM" }));
+
+        jLabel79.setText("Term");
+
+        jComboBox30.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PATHFIT", "COMPROG", "FREEHAND", "MATH", "NSTP", "BAS", "GAMEDEV" }));
+        jComboBox30.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jComboBox30ActionPerformed(evt);
+            }
+        });
+
+        jLabel80.setText("Subject");
+
+        javax.swing.GroupLayout jPanel22Layout = new javax.swing.GroupLayout(jPanel22);
+        jPanel22.setLayout(jPanel22Layout);
+        jPanel22Layout.setHorizontalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel22Layout.createSequentialGroup()
+                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel47)
+                            .addComponent(jLabel48))
+                        .addGap(29, 41, Short.MAX_VALUE))
+                    .addGroup(jPanel22Layout.createSequentialGroup()
+                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
+                                .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel22Layout.createSequentialGroup()
+                                        .addComponent(jLabel46)
+                                        .addGap(0, 69, Short.MAX_VALUE))
+                                    .addComponent(textField16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton17))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
+                                .addComponent(textField15, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton16))
+                            .addGroup(jPanel22Layout.createSequentialGroup()
+                                .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel43)
+                                    .addGroup(jPanel22Layout.createSequentialGroup()
+                                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jComboBox30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel80))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel79)
+                                            .addComponent(jComboBox29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(jScrollPane16, javax.swing.GroupLayout.PREFERRED_SIZE, 1288, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel22Layout.setVerticalGroup(
+            jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel22Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel22Layout.createSequentialGroup()
+                        .addComponent(jLabel43)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton16)
+                            .addComponent(textField15, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel46)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField16, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton17))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel47)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel48)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel80)
+                            .addComponent(jLabel79))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jComboBox30, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox29, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane16, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        jTabbedPane4.addTab("Attendance", jPanel22);
+
+        jPanel16.setBackground(new java.awt.Color(234, 245, 226));
+
+        jTable6.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "PATHFIT", "COMPROG", "FREEHAND", "NSTP", "BAS", "GAMEDEV"
+            }
+        ));
+        jScrollPane10.setViewportView(jTable6);
+
+        jButton24.setText("Confirm");
+
+        jLabel67.setText("Is course at risk of being dropped?");
+
+        jLabel68.setText("Default");
+
+        jLabel71.setText("Grade");
+
+        textField24.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+
+        jButton25.setText("Confirm");
+
+        jLabel72.setText("Enter Student number");
+
+        jComboBox31.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1st SEM", "2nd SEM" }));
+
+        jLabel81.setText("Term");
+
+        jComboBox32.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PATHFIT", "COMPROG", "FREEHAND", "MATH", "NSTP", "BAS", "GAMEDEV" }));
+
+        jLabel82.setText("Subject");
+
+        javax.swing.GroupLayout jPanel16Layout = new javax.swing.GroupLayout(jPanel16);
+        jPanel16.setLayout(jPanel16Layout);
+        jPanel16Layout.setHorizontalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel67)
+                            .addComponent(jLabel68))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel16Layout.createSequentialGroup()
+                                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel16Layout.createSequentialGroup()
+                                        .addComponent(jLabel71)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(textField23, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton24))
+                            .addGroup(jPanel16Layout.createSequentialGroup()
+                                .addComponent(textField24, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton25))
+                            .addGroup(jPanel16Layout.createSequentialGroup()
+                                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel72)
+                                    .addGroup(jPanel16Layout.createSequentialGroup()
+                                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jComboBox32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel82))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel81)
+                                            .addComponent(jComboBox31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(jScrollPane10, javax.swing.GroupLayout.PREFERRED_SIZE, 1284, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(14, 14, 14))
+        );
+        jPanel16Layout.setVerticalGroup(
+            jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel16Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel16Layout.createSequentialGroup()
+                        .addComponent(jLabel72)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton25)
+                            .addComponent(textField24, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel71)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField23, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton24))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel67)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel68)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel82)
+                            .addComponent(jLabel81))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel16Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jComboBox32, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox31, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane10, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        jTabbedPane4.addTab("Grades", jPanel16);
 
         javax.swing.GroupLayout jPanel5Layout = new javax.swing.GroupLayout(jPanel5);
         jPanel5.setLayout(jPanel5Layout);
         jPanel5Layout.setHorizontalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, 1488, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jTabbedPane4)
         );
         jPanel5Layout.setVerticalGroup(
             jPanel5Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel5Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel8, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jTabbedPane4)
         );
 
         jTabbedPane1.addTab("BSIT", jPanel5);
+
+        jTabbedPane3.setBackground(new java.awt.Color(234, 245, 226));
 
         jPanel9.setBackground(new java.awt.Color(234, 245, 226));
         jPanel9.setMaximumSize(new java.awt.Dimension(600, 500));
@@ -878,20 +1507,20 @@ public class Admin extends javax.swing.JFrame {
 
         Table2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "ID", "First Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
+                "ID", "First Name", "Middle Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, true
+                false, false, false, false, false, false, false, false, false, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -1044,59 +1673,73 @@ public class Admin extends javax.swing.JFrame {
 
         attendance5.setText("attendance");
 
+        jLabel3.setText("Middle Name");
+
         javax.swing.GroupLayout jPanel9Layout = new javax.swing.GroupLayout(jPanel9);
         jPanel9.setLayout(jPanel9Layout);
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addComponent(Submit2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Update2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Clear2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Delete2)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel9Layout.createSequentialGroup()
                 .addGap(10, 10, 10)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(attendance5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(grade5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(schoolyr7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Email4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(password5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Lastname2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Firstname2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addGroup(jPanel9Layout.createSequentialGroup()
-                                    .addComponent(Searchdata2, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(23, 23, 23)
-                                    .addComponent(scrchBtn2))
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(Email5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel9Layout.createSequentialGroup()
-                                        .addGap(10, 10, 10)
-                                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(password4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(lname2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(fname2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(email2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(schoolyr6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(section4, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(grade4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(attendance4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                            .addComponent(schoolyr8, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 5, Short.MAX_VALUE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                    .addGap(22, 22, 22)
+                                    .addComponent(Submit2)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(Update2)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(Clear2)
+                                    .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                    .addComponent(Delete2))
+                                .addComponent(schoolyr8, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(schoolyr7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Email4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(password5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Lastname2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(jPanel9Layout.createSequentialGroup()
+                                    .addGap(10, 10, 10)
+                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(password4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(lname2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(email2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(schoolyr6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(section4, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(grade4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(attendance4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(grade5, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addComponent(attendance5, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addGap(14, 14, 14)
+                                .addComponent(lmname2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel9Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(jLabel3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(fname2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                        .addGroup(jPanel9Layout.createSequentialGroup()
+                                            .addComponent(Searchdata2, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGap(23, 23, 23)
+                                            .addComponent(scrchBtn2))
+                                        .addComponent(Email5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                                .addGap(40, 40, 40))
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(Firstname2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))))
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(btnTakePhoto2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(btnUploadPhoto2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE))
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
                         .addComponent(photoPreview2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(8, 8, 8)))
@@ -1105,18 +1748,20 @@ public class Admin extends javax.swing.JFrame {
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(Firstname2))
-                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(btnTakePhoto2)
-                        .addComponent(btnUploadPhoto2)))
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnTakePhoto2)
+                    .addComponent(btnUploadPhoto2)
+                    .addComponent(Firstname2))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(photoPreview2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(fname2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(14, 14, 14)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel3)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lmname2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(Lastname2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(lname2, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1129,56 +1774,281 @@ public class Admin extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(email2, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(11, 11, 11)
-                        .addComponent(schoolyr7))
-                    .addComponent(photoPreview2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(schoolyr6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(schoolyr8)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(section4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(grade5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(grade4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(attendance5)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(attendance4, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Submit2)
-                    .addComponent(Update2)
-                    .addComponent(Delete2)
-                    .addComponent(Clear2))
-                .addGap(27, 27, 27)
+                        .addComponent(schoolyr7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr8)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(section4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(grade5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(grade4, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(attendance5)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(attendance4, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(Submit2)
+                            .addComponent(Update2)
+                            .addComponent(Delete2)
+                            .addComponent(Clear2))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 159, Short.MAX_VALUE)
                 .addComponent(Email5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(Searchdata2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(scrchBtn2))
-                .addContainerGap(254, Short.MAX_VALUE))
+                .addGap(47, 47, 47))
             .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
+
+        jTabbedPane3.addTab("Student Info", jPanel9);
+
+        jPanel20.setBackground(new java.awt.Color(234, 245, 226));
+
+        jTable10.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "PATHFIT", "COMPROG", "FREEHAND", "NSTP", "BAS", "GAMEDEV"
+            }
+        ));
+        jScrollPane14.setViewportView(jTable10);
+
+        jLabel31.setText("Enter Student number");
+
+        textField11.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+
+        jButton12.setText("Confirm");
+
+        jLabel34.setText("Days Absent");
+
+        jButton13.setText("Confirm");
+
+        jLabel35.setText("Is course at risk of being dropped?");
+
+        jLabel36.setText("Default");
+
+        jComboBox33.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1st SEM", "2nd SEM" }));
+
+        jLabel83.setText("Term");
+
+        jComboBox34.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PATHFIT", "COMPROG", "FREEHAND", "MATH", "NSTP", "BAS", "GAMEDEV" }));
+
+        jLabel84.setText("Subject");
+
+        javax.swing.GroupLayout jPanel20Layout = new javax.swing.GroupLayout(jPanel20);
+        jPanel20.setLayout(jPanel20Layout);
+        jPanel20Layout.setHorizontalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel35)
+                            .addComponent(jLabel36))
+                        .addGap(29, 29, 29))
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel20Layout.createSequentialGroup()
+                                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(textField11, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel20Layout.createSequentialGroup()
+                                        .addComponent(jLabel34)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(textField12, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jButton13, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jButton12, javax.swing.GroupLayout.Alignment.TRAILING)))
+                            .addGroup(jPanel20Layout.createSequentialGroup()
+                                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel31)
+                                    .addGroup(jPanel20Layout.createSequentialGroup()
+                                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jComboBox34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel84))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel83)
+                                            .addComponent(jComboBox33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(0, 27, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 1288, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel20Layout.setVerticalGroup(
+            jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel20Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel20Layout.createSequentialGroup()
+                        .addComponent(jLabel31)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton12)
+                            .addComponent(textField11, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel34)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField12, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton13))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel35)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel36)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel84)
+                            .addComponent(jLabel83))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jComboBox34, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane14, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        jTabbedPane3.addTab("Attendance", jPanel20);
+
+        jPanel14.setBackground(new java.awt.Color(234, 245, 226));
+
+        jTable4.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "PATHFIT", "COMPROG", "FREEHAND", "NSTP", "BAS", "GAMEDEV"
+            }
+        ));
+        jScrollPane8.setViewportView(jTable4);
+
+        jButton22.setText("Confirm");
+
+        jButton23.setText("Confirm");
+
+        textField22.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+
+        jLabel63.setText("Enter Student number");
+
+        jLabel64.setText("Grade");
+
+        jLabel65.setText("Is course at risk of being dropped?");
+
+        jLabel66.setText("Default");
+
+        jComboBox35.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1st SEM", "2nd SEM" }));
+
+        jLabel85.setText("Term");
+
+        jComboBox36.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PATHFIT", "COMPROG", "FREEHAND", "MATH", "NSTP", "BAS", "GAMEDEV" }));
+
+        jLabel86.setText("Subject");
+
+        javax.swing.GroupLayout jPanel14Layout = new javax.swing.GroupLayout(jPanel14);
+        jPanel14.setLayout(jPanel14Layout);
+        jPanel14Layout.setHorizontalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel65)
+                            .addComponent(jLabel66))
+                        .addGap(37, 37, 37))
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel14Layout.createSequentialGroup()
+                                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel14Layout.createSequentialGroup()
+                                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jComboBox36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel86))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel85)
+                                            .addComponent(jComboBox35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                    .addComponent(jLabel63))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel14Layout.createSequentialGroup()
+                                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(textField22, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel14Layout.createSequentialGroup()
+                                        .addComponent(jLabel64)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(textField21, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jButton22, javax.swing.GroupLayout.Alignment.TRAILING)
+                                    .addComponent(jButton23, javax.swing.GroupLayout.Alignment.TRAILING))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(jScrollPane8, javax.swing.GroupLayout.PREFERRED_SIZE, 1292, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel14Layout.setVerticalGroup(
+            jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel14Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(jScrollPane8, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE)
+                    .addGroup(jPanel14Layout.createSequentialGroup()
+                        .addComponent(jLabel63)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField22, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton23))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel64)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField21, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton22))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel65)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel66)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel86)
+                            .addComponent(jLabel85))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel14Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jComboBox36, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox35, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addContainerGap())
+        );
+
+        jTabbedPane3.addTab("Grades", jPanel14);
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
         jPanel6Layout.setHorizontalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, 1488, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jTabbedPane3)
         );
         jPanel6Layout.setVerticalGroup(
             jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(jPanel6Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel9, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jTabbedPane3)
         );
 
         jTabbedPane1.addTab("BSCS", jPanel6);
+
+        jTabbedPane2.setBackground(new java.awt.Color(234, 245, 226));
 
         jPanel10.setBackground(new java.awt.Color(234, 245, 226));
         jPanel10.setMaximumSize(new java.awt.Dimension(600, 500));
@@ -1188,20 +2058,20 @@ public class Admin extends javax.swing.JFrame {
 
         Table3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "ID", "First Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
+                "ID", "First Name", "Middle Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, true
+                false, false, false, false, false, false, false, false, false, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -1354,62 +2224,81 @@ public class Admin extends javax.swing.JFrame {
 
         attendance7.setText("attendance");
 
+        jLabel4.setText("Middle Name");
+
         javax.swing.GroupLayout jPanel10Layout = new javax.swing.GroupLayout(jPanel10);
         jPanel10.setLayout(jPanel10Layout);
         jPanel10Layout.setHorizontalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
-                .addGap(32, 32, 32)
-                .addComponent(Submit3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Update3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Clear3)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(Delete3)
-                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-            .addGroup(jPanel10Layout.createSequentialGroup()
-                .addGap(10, 10, 10)
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addComponent(attendance7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(grade7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(schoolyr10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Email6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(password7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Lastname3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                    .addComponent(Firstname3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(jPanel10Layout.createSequentialGroup()
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                .addGroup(jPanel10Layout.createSequentialGroup()
-                                    .addComponent(Searchdata3, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGap(23, 23, 23)
-                                    .addComponent(scrchBtn3))
-                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                    .addComponent(Email7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel10Layout.createSequentialGroup()
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Lastname3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(Firstname3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel10Layout.createSequentialGroup()
                                         .addGap(10, 10, 10)
                                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(password6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                                             .addComponent(lname3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(fname3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(email3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(schoolyr9, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(section5, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(grade6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(attendance6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                            .addComponent(schoolyr11, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
-                        .addGap(0, 17, Short.MAX_VALUE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                            .addComponent(fname3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(0, 53, Short.MAX_VALUE))))
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addContainerGap()
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel10Layout.createSequentialGroup()
+                                        .addGap(22, 22, 22)
+                                        .addComponent(Submit3)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(Update3)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(Clear3)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                        .addComponent(Delete3)
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                    .addComponent(attendance7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(grade7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(schoolyr10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(Email6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(password7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addGroup(jPanel10Layout.createSequentialGroup()
+                                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                                .addGroup(jPanel10Layout.createSequentialGroup()
+                                                    .addComponent(Searchdata3, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                    .addGap(23, 23, 23)
+                                                    .addComponent(scrchBtn3))
+                                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                    .addComponent(Email7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel10Layout.createSequentialGroup()
+                                                        .addGap(10, 10, 10)
+                                                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                            .addComponent(password6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(email3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(schoolyr9, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(section5, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(grade6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                            .addComponent(attendance6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                            .addComponent(schoolyr11, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addGap(0, 53, Short.MAX_VALUE)))))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addComponent(lmname3, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE))
+                            .addComponent(jLabel4))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel10Layout.createSequentialGroup()
                         .addComponent(btnTakePhoto3)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnUploadPhoto3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel10Layout.createSequentialGroup()
-                        .addComponent(photoPreview3, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(8, 8, 8)))
+                        .addComponent(btnUploadPhoto3))
+                    .addComponent(photoPreview3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 899, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel10Layout.setVerticalGroup(
@@ -1431,6 +2320,10 @@ public class Admin extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(lname3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel4)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(lmname3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(17, 17, 17)
                         .addComponent(password7)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(password6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -1438,52 +2331,283 @@ public class Admin extends javax.swing.JFrame {
                         .addComponent(Email6)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(email3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(11, 11, 11)
-                        .addComponent(schoolyr10))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(schoolyr11)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(section5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(grade7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(grade6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(attendance7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(attendance6, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(20, 20, 20)
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(Submit3)
+                            .addComponent(Update3)
+                            .addComponent(Delete3)
+                            .addComponent(Clear3))
+                        .addGap(27, 27, 27)
+                        .addComponent(Email7)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addComponent(Searchdata3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(scrchBtn3)))
                     .addComponent(photoPreview3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(schoolyr9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(schoolyr11)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(section5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(grade7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(grade6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(attendance7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(attendance6, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(20, 20, 20)
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Submit3)
-                    .addComponent(Update3)
-                    .addComponent(Delete3)
-                    .addComponent(Clear3))
-                .addGap(27, 27, 27)
-                .addComponent(Email7)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(Searchdata3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(scrchBtn3))
-                .addContainerGap(254, Short.MAX_VALUE))
-            .addComponent(jScrollPane4, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addContainerGap(169, Short.MAX_VALUE))
+            .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
+
+        jTabbedPane2.addTab("Student Info", jPanel10);
+
+        jPanel23.setBackground(new java.awt.Color(234, 245, 226));
+
+        jTable13.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "PATHFIT", "COMPROG", "FREEHAND", "NSTP", "BAS", "GAMEDEV"
+            }
+        ));
+        jScrollPane17.setViewportView(jTable13);
+
+        jLabel49.setText("Enter Student number");
+
+        textField17.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+
+        jButton18.setText("Confirm");
+
+        jLabel52.setText("Days Absent");
+
+        jButton19.setText("Confirm");
+
+        jLabel53.setText("Is course at risk of being dropped?");
+
+        jLabel54.setText("Default");
+
+        jComboBox37.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1st SEM", "2nd SEM" }));
+
+        jLabel87.setText("Term");
+
+        jComboBox38.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PATHFIT", "COMPROG", "FREEHAND", "MATH", "NSTP", "BAS", "GAMEDEV" }));
+
+        jLabel88.setText("Subject");
+
+        javax.swing.GroupLayout jPanel23Layout = new javax.swing.GroupLayout(jPanel23);
+        jPanel23.setLayout(jPanel23Layout);
+        jPanel23Layout.setHorizontalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel23Layout.createSequentialGroup()
+                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel53)
+                            .addComponent(jLabel54))
+                        .addGap(29, 29, 29))
+                    .addGroup(jPanel23Layout.createSequentialGroup()
+                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
+                                .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel23Layout.createSequentialGroup()
+                                        .addComponent(jLabel52)
+                                        .addGap(0, 69, Short.MAX_VALUE))
+                                    .addComponent(textField18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton19))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel23Layout.createSequentialGroup()
+                                .addComponent(textField17, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton18))
+                            .addGroup(jPanel23Layout.createSequentialGroup()
+                                .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel49)
+                                    .addGroup(jPanel23Layout.createSequentialGroup()
+                                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jComboBox38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel88))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel87)
+                                            .addComponent(jComboBox37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(jScrollPane17, javax.swing.GroupLayout.PREFERRED_SIZE, 1288, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel23Layout.setVerticalGroup(
+            jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel23Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel23Layout.createSequentialGroup()
+                        .addComponent(jLabel49)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton18)
+                            .addComponent(textField17, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel52)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField18, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton19))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel53)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel54)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel88)
+                            .addComponent(jLabel87))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jComboBox38, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox37, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane17, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        jTabbedPane2.addTab("Attendance", jPanel23);
+
+        jPanel12.setBackground(new java.awt.Color(234, 245, 226));
+
+        jTable2.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null},
+                {null, null, null, null, null, null}
+            },
+            new String [] {
+                "PATHFIT", "COMPROG", "FREEHAND", "NSTP", "BAS", "GAMEDEV"
+            }
+        ));
+        jScrollPane6.setViewportView(jTable2);
+
+        jButton20.setText("Confirm");
+
+        jButton21.setText("Confirm");
+
+        textField20.setCursor(new java.awt.Cursor(java.awt.Cursor.TEXT_CURSOR));
+
+        jLabel57.setText("Enter Student number");
+
+        jLabel58.setText("Grade");
+
+        jLabel59.setText("Is course at risk of being dropped?");
+
+        jLabel60.setText("Default");
+
+        jComboBox39.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "1st SEM", "2nd SEM" }));
+
+        jLabel89.setText("Term");
+
+        jComboBox40.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "PATHFIT", "COMPROG", "FREEHAND", "MATH", "NSTP", "BAS", "GAMEDEV" }));
+
+        jLabel90.setText("Subject");
+
+        javax.swing.GroupLayout jPanel12Layout = new javax.swing.GroupLayout(jPanel12);
+        jPanel12.setLayout(jPanel12Layout);
+        jPanel12Layout.setHorizontalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jLabel59)
+                            .addComponent(jLabel60))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addGroup(jPanel12Layout.createSequentialGroup()
+                                        .addComponent(jLabel58)
+                                        .addGap(0, 0, Short.MAX_VALUE))
+                                    .addComponent(textField19, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton20))
+                            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel12Layout.createSequentialGroup()
+                                .addComponent(textField20, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(jButton21))
+                            .addGroup(jPanel12Layout.createSequentialGroup()
+                                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(jLabel57)
+                                    .addGroup(jPanel12Layout.createSequentialGroup()
+                                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jComboBox40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(jLabel90))
+                                        .addGap(18, 18, 18)
+                                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(jLabel89)
+                                            .addComponent(jComboBox39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(0, 0, Short.MAX_VALUE)))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
+                .addComponent(jScrollPane6, javax.swing.GroupLayout.PREFERRED_SIZE, 1292, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
+        );
+        jPanel12Layout.setVerticalGroup(
+            jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel12Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel12Layout.createSequentialGroup()
+                        .addComponent(jLabel57)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(jButton21)
+                            .addComponent(textField20, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel58)
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(textField19, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jButton20))
+                        .addGap(18, 18, 18)
+                        .addComponent(jLabel59)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel60)
+                        .addGap(18, 18, 18)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jLabel90)
+                            .addComponent(jLabel89))
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addGroup(jPanel12Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                            .addComponent(jComboBox40, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(jComboBox39, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addComponent(jScrollPane6, javax.swing.GroupLayout.DEFAULT_SIZE, 785, Short.MAX_VALUE))
+                .addContainerGap())
+        );
+
+        jTabbedPane2.addTab("Grades", jPanel12);
 
         javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
         jPanel7.setLayout(jPanel7Layout);
         jPanel7Layout.setHorizontalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, 1500, Short.MAX_VALUE)
+            .addComponent(jTabbedPane2)
         );
         jPanel7Layout.setVerticalGroup(
             jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel7Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jPanel10, javax.swing.GroupLayout.DEFAULT_SIZE, 820, Short.MAX_VALUE)
-                .addContainerGap())
+            .addComponent(jTabbedPane2)
         );
+
+        jTabbedPane2.getAccessibleContext().setAccessibleName("BSISTAB");
 
         jTabbedPane1.addTab("BSIS", jPanel7);
 
@@ -1491,8 +2615,8 @@ public class Admin extends javax.swing.JFrame {
         jPanel11.setLayout(jPanel11Layout);
         jPanel11Layout.setHorizontalGroup(
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addComponent(jPanel3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-            .addGroup(jPanel11Layout.createSequentialGroup()
+            .addComponent(jPanel3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel11Layout.createSequentialGroup()
                 .addContainerGap()
                 .addComponent(jTabbedPane1)
                 .addContainerGap())
@@ -1501,9 +2625,8 @@ public class Admin extends javax.swing.JFrame {
             jPanel11Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel11Layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 867, Short.MAX_VALUE)
-                .addContainerGap())
+                .addGap(18, 18, 18)
+                .addComponent(jTabbedPane1))
         );
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
@@ -1543,11 +2666,13 @@ public void loadData() throws SQLException {
         
         // 1. Define columns INCLUDING photo
         String[] columns = {"ID","First Name","Last Name","Email","School Year", 
-                           "Section", "Grade", "Attendance", "Photo"};
+                           "Section", "Grade", "Attendance", "Photo", "Campus", " Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" };
         
 DefaultTableModel model = new DefaultTableModel(
     new Object[][]{}, 
-    new String[]{"ID", "First Name", "Last Name", "Email", "School Year", "Section", "Grade", "Attendance", "Photo"}
+    new String[]{"ID", "First Name", "Middle Name" ,"Last Name", "Email", "School Year", "Section", "Grade", "Attendance", "Photo", "Campus",
+        "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status",
+        "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" }
 ) {
     @Override
     public Class<?> getColumnClass(int column) {
@@ -1556,8 +2681,9 @@ DefaultTableModel model = new DefaultTableModel(
 };
         
         // 2. Explicit column selection
-        String sql = "SELECT id, first_name, last_name, email, school_year, " +
-                    "section, grade, attendance, photo FROM students";
+        String sql = "SELECT id, first_name, middle_name, last_name, email, school_year, " +
+                    "section, grade, attendance, photo, campus, birth_place, home_address, province, city, scheme, barangay, district, sex, civil_status,"
+                + " birth_date, zip_code, nationality, religion, contact_no, mobile_no, height, weight  FROM students";
         
         ResultSet rs = st.executeQuery(sql);
         while (rs.next()) {
@@ -1568,13 +2694,32 @@ DefaultTableModel model = new DefaultTableModel(
             model.addRow(new Object[]{
                 rs.getString("id"),
                 rs.getString("first_name"),
+                rs.getString("middle_name"),
                 rs.getString("last_name"),
                 rs.getString("email"),
                 rs.getString("school_year"),
                 rs.getString("section"),
                 rs.getString("grade"),
                 rs.getString("attendance"),
-                photoData  // This must be included
+                photoData,  // This must be included
+                rs.getString("campus"),
+                rs.getString("birth_place"),
+                rs.getString("home_address"),
+                rs.getString("province"),
+                rs.getString("city"),
+                rs.getString("scheme"),
+                rs.getString("barangay"),
+                rs.getString("district"),
+                rs.getString("sex"),
+                rs.getString("civil_status"),
+                rs.getString("birth_date"),
+                rs.getString("zip_code"),
+                rs.getString("nationality"),
+                rs.getString("religion"),
+                rs.getString("contact_no"),
+                rs.getString("mobile_no"),
+                rs.getString("height"),
+                rs.getString("weight")
             });
         }
         
@@ -1846,10 +2991,16 @@ private void clearForm() {
     }//GEN-LAST:event_SearchdataActionPerformed
 
     private void ClearActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ClearActionPerformed
-                fname.setText("");
-                lname.setText("");
-                password.setText("");
-                email.setText("");
+    fname1.setText("");
+    lname1.setText("");
+    password2.setText("");
+    email1.setText("");
+    schoolyr3.setText("");
+    section3.setText("");
+    grade3.setText("");
+    attendance3.setText("");
+    photoPreview1.setIcon(null);
+    currentImage = null;
     }//GEN-LAST:event_ClearActionPerformed
 
     private void passwordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordActionPerformed
@@ -1971,12 +3122,87 @@ private void clearForm() {
     }//GEN-LAST:event_btnUploadPhotoActionPerformed
 
     private void btnUploadPhoto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadPhoto1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnUploadPhoto1ActionPerformed
+    JFileChooser fileChooser = new JFileChooser();
+    fileChooser.setAcceptAllFileFilterUsed(false);
+    fileChooser.addChoosableFileFilter(new FileNameExtensionFilter(
+        "Image files", "jpg", "jpeg", "png", "gif"));
+    
+    int returnValue = fileChooser.showOpenDialog(this);
+    if (returnValue == JFileChooser.APPROVE_OPTION) {
+        try {
+            File selectedFile = fileChooser.getSelectedFile();
+            currentImage = ImageIO.read(selectedFile);
+            if (currentImage != null) {
+                ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
+                    photoPreview1.getWidth(),
+                    photoPreview1.getHeight(),
+                    Image.SCALE_SMOOTH));
+                photoPreview1.setIcon(icon);
+            }
+        } catch (IOException ex) {
+            JOptionPane.showMessageDialog(this, "Error loading image: " + ex.getMessage());
+            ex.printStackTrace();
+        }
+    }    }//GEN-LAST:event_btnUploadPhoto1ActionPerformed
 
     private void btnTakePhoto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTakePhoto1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnTakePhoto1ActionPerformed
+   try {
+        if (webcam == null) {
+            System.out.println("Attempting to get default webcam...");
+            webcam = Webcam.getDefault();
+            
+            if (webcam == null) {
+                String errorMsg = "No webcam detected!\n" +
+                                 "1. Check if webcam is connected\n" +
+                                 "2. Try another USB port\n" +
+                                 "3. Test webcam in another application";
+                JOptionPane.showMessageDialog(this, errorMsg, "Webcam Error", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+            
+            webcam.setViewSize(WebcamResolution.VGA.getSize());
+            System.out.println("Webcam found: " + webcam.getName());
+            
+            webcam.open(true);
+            System.out.println("Webcam opened successfully");
+        }
+        
+        System.out.println("Webcam open status: " + webcam.isOpen());
+        
+        currentImage = webcam.getImage();
+        
+        if (currentImage == null) {
+            throw new Exception("Failed to capture image (null returned)");
+        }
+        
+        System.out.println("Image captured: " + currentImage.getWidth() + "x" + currentImage.getHeight());
+        
+        Image scaledImage = currentImage.getScaledInstance(
+            photoPreview1.getWidth(),
+            photoPreview1.getHeight(),
+            Image.SCALE_SMOOTH);
+        photoPreview1.setIcon(new ImageIcon(scaledImage));
+        
+    } catch (Exception e) {
+        String errorDetails = "Error accessing camera:\n" +
+                             e.getMessage() + "\n\n" +
+                             "Possible solutions:\n" +
+                             "1. Close other applications using the webcam\n" +
+                             "2. Reinstall webcam drivers\n" +
+                             "3. Restart your computer";
+        
+        JOptionPane.showMessageDialog(this, 
+            errorDetails,
+            "Camera Error",
+            JOptionPane.ERROR_MESSAGE);
+        
+        e.printStackTrace();
+        
+        if (webcam != null) {
+            webcam.close();
+            webcam = null;
+        }
+    }    }//GEN-LAST:event_btnTakePhoto1ActionPerformed
 
     private void fname1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fname1ActionPerformed
         // TODO add your handling code here:
@@ -1991,229 +3217,7 @@ private void clearForm() {
     }//GEN-LAST:event_email1ActionPerformed
 
     private void Submit1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Submit1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Submit1ActionPerformed
-
-    private void Update1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Update1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Update1ActionPerformed
-
-    private void Delete1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Delete1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Delete1ActionPerformed
-
-    private void scrchBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scrchBtn1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_scrchBtn1ActionPerformed
-
-    private void Clear1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Clear1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Clear1ActionPerformed
-
-    private void Searchdata1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Searchdata1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Searchdata1ActionPerformed
-
-    private void password2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_password2ActionPerformed
-
-    private void schoolyr3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_schoolyr3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_schoolyr3ActionPerformed
-
-    private void section3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_section3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_section3ActionPerformed
-
-    private void grade3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_grade3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_grade3ActionPerformed
-
-    private void attendance3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_attendance3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_attendance3ActionPerformed
-
-    private void btnUploadPhoto2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadPhoto2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnUploadPhoto2ActionPerformed
-
-    private void btnTakePhoto2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTakePhoto2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnTakePhoto2ActionPerformed
-
-    private void fname2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fname2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_fname2ActionPerformed
-
-    private void lname2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lname2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_lname2ActionPerformed
-
-    private void email2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_email2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_email2ActionPerformed
-
-    private void Submit2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Submit2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Submit2ActionPerformed
-
-    private void Update2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Update2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Update2ActionPerformed
-
-    private void Delete2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Delete2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Delete2ActionPerformed
-
-    private void scrchBtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scrchBtn2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_scrchBtn2ActionPerformed
-
-    private void Clear2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Clear2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Clear2ActionPerformed
-
-    private void Searchdata2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Searchdata2ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Searchdata2ActionPerformed
-
-    private void password4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_password4ActionPerformed
-
-    private void schoolyr6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_schoolyr6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_schoolyr6ActionPerformed
-
-    private void section4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_section4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_section4ActionPerformed
-
-    private void grade4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_grade4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_grade4ActionPerformed
-
-    private void attendance4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_attendance4ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_attendance4ActionPerformed
-
-    private void btnUploadPhoto3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadPhoto3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnUploadPhoto3ActionPerformed
-
-    private void btnTakePhoto3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTakePhoto3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_btnTakePhoto3ActionPerformed
-
-    private void fname3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fname3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_fname3ActionPerformed
-
-    private void lname3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lname3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_lname3ActionPerformed
-
-    private void email3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_email3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_email3ActionPerformed
-
-    private void Submit3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Submit3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Submit3ActionPerformed
-
-    private void Update3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Update3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Update3ActionPerformed
-
-    private void Delete3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Delete3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Delete3ActionPerformed
-
-    private void scrchBtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scrchBtn3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_scrchBtn3ActionPerformed
-
-    private void Clear3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Clear3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Clear3ActionPerformed
-
-    private void Searchdata3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Searchdata3ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_Searchdata3ActionPerformed
-
-    private void password6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_password6ActionPerformed
-
-    private void schoolyr9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_schoolyr9ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_schoolyr9ActionPerformed
-
-    private void section5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_section5ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_section5ActionPerformed
-
-    private void grade6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_grade6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_grade6ActionPerformed
-
-    private void attendance6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_attendance6ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_attendance6ActionPerformed
-
-    private void loadBSITData() throws SQLException {
-    try {
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        String url = "jdbc:MySQL://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        Connection con = DriverManager.getConnection(url, user, pass);
-        Statement st = con.createStatement();
-        
-        DefaultTableModel model = new DefaultTableModel(
-            new Object[][]{}, 
-            new String[]{"ID", "First Name", "Last Name", "Email", "School Year", "Section", "Grade", "Attendance", "Photo"}
-        ) {
-            @Override
-            public Class<?> getColumnClass(int column) {
-                return column == 8 ? byte[].class : String.class;
-            }
-        };
-        
-        String sql = "SELECT id, first_name, last_name, email, school_year, " +
-                    "section, grade, attendance, photo FROM bsit_students";
-        
-        ResultSet rs = st.executeQuery(sql);
-        while (rs.next()) {
-            byte[] photoData = rs.getBytes("photo");
-            model.addRow(new Object[]{
-                rs.getString("id"),
-                rs.getString("first_name"),
-                rs.getString("last_name"),
-                rs.getString("email"),
-                rs.getString("school_year"),
-                rs.getString("section"),
-                rs.getString("grade"),
-                rs.getString("attendance"),
-                photoData
-            });
-        }
-        
-        Table1.setModel(model);
-        Table1.setDefaultRenderer(byte[].class, new ImageRenderer());
-        Table1.getColumnModel().getColumn(8).setMinWidth(100);
-        Table1.getColumnModel().getColumn(8).setMaxWidth(150);
-        
-        con.close();
-    } catch (Exception e) {
-        System.out.println("Error " + e.getMessage());
-        e.printStackTrace();
-    }
-}
-
-private void Submit1ActionPerformed1(java.awt.event.ActionEvent evt) {                                       
+                                      
     String gradeInput = grade3.getText();       
     try {
         double gradeValue = Double.parseDouble(gradeInput);
@@ -2281,23 +3285,10 @@ private void Submit1ActionPerformed1(java.awt.event.ActionEvent evt) {
         JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());
         e.printStackTrace();
     }
-}
+    }//GEN-LAST:event_Submit1ActionPerformed
 
-private void clearBSITForm() {
-    fname1.setText("");
-    lname1.setText("");
-    password2.setText("");
-    email1.setText("");
-    schoolyr3.setText("");
-    section3.setText("");
-    grade3.setText("");
-    attendance3.setText("");
-    photoPreview1.setIcon(null);
-    currentImage = null;
-}
-
-private void Update1ActionPerformed1(java.awt.event.ActionEvent evt) {                                        
-    String ID = Searchdata1.getText(); 
+    private void Update1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Update1ActionPerformed
+String ID = Searchdata1.getText(); 
     if(ID.isEmpty()) {
         JOptionPane.showMessageDialog(this, "ID is required for update");
         return;
@@ -2356,10 +3347,9 @@ private void Update1ActionPerformed1(java.awt.event.ActionEvent evt) {
     } catch (Exception e) {
         JOptionPane.showMessageDialog(this, "Error updating: " + e.getMessage());
         e.printStackTrace();
-    }
-}                                       
+    }    }//GEN-LAST:event_Update1ActionPerformed
 
-private void Delete1ActionPerformed1(java.awt.event.ActionEvent evt) {                                        
+    private void Delete1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Delete1ActionPerformed
     String ID;
     int notfound = 0;
     try {
@@ -2389,10 +3379,9 @@ private void Delete1ActionPerformed1(java.awt.event.ActionEvent evt) {
         }
     } catch (Exception e){
         System.out.println("Error " +e.getMessage());
-    }
-}                                       
+    }    }//GEN-LAST:event_Delete1ActionPerformed
 
-private void scrchBtn1ActionPerformed1(java.awt.event.ActionEvent evt) {                                          
+    private void scrchBtn1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scrchBtn1ActionPerformed
     String ID = Searchdata1.getText();
     
     if(ID.isEmpty()) {
@@ -2440,10 +3429,69 @@ private void scrchBtn1ActionPerformed1(java.awt.event.ActionEvent evt) {
     } catch (Exception e) {
         JOptionPane.showMessageDialog(this, "Error searching: " + e.getMessage());
         e.printStackTrace();
-    }
-}                                         
+    }    }//GEN-LAST:event_scrchBtn1ActionPerformed
 
-private void btnTakePhoto1ActionPerformed1(java.awt.event.ActionEvent evt) {                                             
+    private void Clear1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Clear1ActionPerformed
+    fname1.setText("");
+    lname1.setText("");
+    password2.setText("");
+    email1.setText("");
+    schoolyr3.setText("");
+    section3.setText("");
+    grade3.setText("");
+    attendance3.setText("");
+    photoPreview1.setIcon(null);
+    currentImage = null;    }//GEN-LAST:event_Clear1ActionPerformed
+
+    private void Searchdata1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Searchdata1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Searchdata1ActionPerformed
+
+    private void password2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_password2ActionPerformed
+
+    private void schoolyr3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_schoolyr3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_schoolyr3ActionPerformed
+
+    private void section3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_section3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_section3ActionPerformed
+
+    private void grade3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_grade3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_grade3ActionPerformed
+
+    private void attendance3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_attendance3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_attendance3ActionPerformed
+
+    private void btnUploadPhoto2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadPhoto2ActionPerformed
+    JFileChooser fileChooser = new JFileChooser();
+    fileChooser.setAcceptAllFileFilterUsed(false);
+    fileChooser.addChoosableFileFilter(new FileNameExtensionFilter(
+        "Image files", "jpg", "jpeg", "png", "gif"));
+    
+    int returnValue = fileChooser.showOpenDialog(this);
+    if (returnValue == JFileChooser.APPROVE_OPTION) {
+        try {
+            File selectedFile = fileChooser.getSelectedFile();
+            currentImage = ImageIO.read(selectedFile);
+            if (currentImage != null) {
+                ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
+                    photoPreview2.getWidth(),
+                    photoPreview2.getHeight(),
+                    Image.SCALE_SMOOTH));
+                photoPreview2.setIcon(icon);
+            }
+        } catch (IOException ex) {
+            JOptionPane.showMessageDialog(this, "Error loading image: " + ex.getMessage());
+            ex.printStackTrace();
+        }
+    }    }//GEN-LAST:event_btnUploadPhoto2ActionPerformed
+
+    private void btnTakePhoto2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTakePhoto2ActionPerformed
     try {
         if (webcam == null) {
             System.out.println("Attempting to get default webcam...");
@@ -2476,10 +3524,10 @@ private void btnTakePhoto1ActionPerformed1(java.awt.event.ActionEvent evt) {
         System.out.println("Image captured: " + currentImage.getWidth() + "x" + currentImage.getHeight());
         
         Image scaledImage = currentImage.getScaledInstance(
-            photoPreview1.getWidth(),
-            photoPreview1.getHeight(),
+            photoPreview2.getWidth(),
+            photoPreview2.getHeight(),
             Image.SCALE_SMOOTH);
-        photoPreview1.setIcon(new ImageIcon(scaledImage));
+        photoPreview2.setIcon(new ImageIcon(scaledImage));
         
     } catch (Exception e) {
         String errorDetails = "Error accessing camera:\n" +
@@ -2500,10 +3548,271 @@ private void btnTakePhoto1ActionPerformed1(java.awt.event.ActionEvent evt) {
             webcam.close();
             webcam = null;
         }
-    }
-}                                            
+    }    }//GEN-LAST:event_btnTakePhoto2ActionPerformed
 
-private void btnUploadPhoto1ActionPerformed1(java.awt.event.ActionEvent evt) {                                                
+    private void fname2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fname2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fname2ActionPerformed
+
+    private void lname2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lname2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lname2ActionPerformed
+
+    private void email2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_email2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_email2ActionPerformed
+
+    private void Submit2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Submit2ActionPerformed
+String gradeInput = grade4.getText();       
+    try {
+        double gradeValue = Double.parseDouble(gradeInput);
+        if (gradeValue < 0 || gradeValue > 100) {
+            JOptionPane.showMessageDialog(this, "Grade must be between 0.00 and 100.00");
+            return;
+        }
+        DecimalFormat df = new DecimalFormat("#.00");
+        String grStr = df.format(gradeValue);
+        
+        if(fname2.getText().isEmpty() || lname2.getText().isEmpty() || 
+           email2.getText().isEmpty() || password4.getText().isEmpty() ||
+           schoolyr6.getText().isEmpty() || section4.getText().isEmpty() || 
+           attendance4.getText().isEmpty()) {
+            JOptionPane.showMessageDialog(this, "All fields are required!");
+            return;
+        }
+        
+        if(!email2.getText().matches("^[a-zA-Z0-9._%+-]+@(gmail\\.com|yahoo\\.com|outlook\\.com)$")) {
+            JOptionPane.showMessageDialog(this, "Enter a valid email address");
+            return;
+        }
+
+        String url = "jdbc:mysql://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        try (Connection con = DriverManager.getConnection(url, user, pass)) {
+            String sql = "INSERT INTO bscs_students (first_name, last_name, password, email, " +
+                         "school_year, section, grade, attendance, photo) " +
+                         "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            
+            pstmt.setString(1, fname2.getText());
+            pstmt.setString(2, lname2.getText());
+            pstmt.setString(3, password4.getText());
+            pstmt.setString(4, email2.getText());
+            pstmt.setString(5, schoolyr6.getText());
+            pstmt.setString(6, section4.getText());
+            pstmt.setString(7, grStr);
+            pstmt.setString(8, attendance4.getText());
+            
+            if (currentImage != null) {
+                try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
+                    ImageIO.write(currentImage, "jpg", baos);
+                    pstmt.setBytes(9, baos.toByteArray());
+                }
+            } else {
+                pstmt.setNull(9, Types.BLOB);
+            }
+            
+            int rowsAffected = pstmt.executeUpdate();
+            if (rowsAffected > 0) {
+                JOptionPane.showMessageDialog(this, "BSCS Student saved successfully!");
+                clearBSCSForm();
+                loadBSCSData();
+            } else {
+                JOptionPane.showMessageDialog(this, "Failed to save student");
+            }
+        }
+    } catch (NumberFormatException e) {
+        JOptionPane.showMessageDialog(this, "Invalid grade format. Use numbers like 95.50");
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());
+        e.printStackTrace();
+    }    }//GEN-LAST:event_Submit2ActionPerformed
+
+    private void Update2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Update2ActionPerformed
+    String ID = Searchdata2.getText(); 
+    if(ID.isEmpty()) {
+        JOptionPane.showMessageDialog(this, "ID is required for update");
+        return;
+    }
+    
+    try {
+        double gradeValue = Double.parseDouble(grade3.getText());
+        if (gradeValue < 0 || gradeValue > 100) {
+            JOptionPane.showMessageDialog(this, "Grade must be between 0.00 and 100.00");
+            return;
+        }
+        DecimalFormat df = new DecimalFormat("#.00");
+        String grStr = df.format(gradeValue);
+        
+        String url = "jdbc:mysql://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        try (Connection con = DriverManager.getConnection(url, user, pass)) {
+            String sql = "UPDATE bscs_students SET first_name=?, last_name=?, password=?, " +
+                         "email=?, school_year=?, section=?, grade=?, attendance=?, photo=? " +
+                         "WHERE id=?";
+            
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            
+            pstmt.setString(1, fname2.getText());
+            pstmt.setString(2, lname2.getText());
+            pstmt.setString(3, password4.getText());
+            pstmt.setString(4, email2.getText());
+            pstmt.setString(5, schoolyr6.getText());
+            pstmt.setString(6, section4.getText());
+            pstmt.setString(7, grStr);
+            pstmt.setString(8, attendance4.getText());
+            
+            if (currentImage != null) {
+                try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
+                    ImageIO.write(currentImage, "jpg", baos);
+                    pstmt.setBytes(9, baos.toByteArray());
+                }
+            } else {
+                pstmt.setNull(9, Types.BLOB);
+            }
+            
+            pstmt.setString(10, ID);
+            
+            int rowsAffected = pstmt.executeUpdate();
+            if (rowsAffected > 0) {
+                JOptionPane.showMessageDialog(this, "BSCS Student updated successfully!");
+                loadBSCSData();
+            } else {
+                JOptionPane.showMessageDialog(this, "No student found with ID: " + ID);
+            }
+        }
+    } catch (NumberFormatException e) {
+        JOptionPane.showMessageDialog(this, "Invalid grade format");
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Error updating: " + e.getMessage());
+        e.printStackTrace();
+    }    }//GEN-LAST:event_Update2ActionPerformed
+
+    private void Delete2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Delete2ActionPerformed
+    String ID;
+    int notfound = 0;
+    try {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        
+        String url = "jdbc:MySQL://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        Connection con = DriverManager.getConnection(url, user, pass);
+        Statement st = con.createStatement();
+        ID = Searchdata2.getText();
+        if("".equals(ID)) {
+            JOptionPane.showMessageDialog(new JFrame(), "ID is required", "Dialog", JOptionPane.ERROR_MESSAGE);
+        } else {
+            String sql = "SELECT * FROM bscs_students WHERE id=" + ID;
+            ResultSet rs = st.executeQuery(sql);
+            while(rs.next()) {                          
+                notfound = 1;
+                String sql2 = "DELETE FROM bscs_students WHERE id=" + ID;
+                st.executeUpdate(sql2);
+                loadBSCSData();
+            }
+            if(notfound == 0) {
+                JOptionPane.showMessageDialog(new JFrame(), "Invalid ID", "Dialog", JOptionPane.ERROR_MESSAGE);
+            }
+        }
+    } catch (Exception e){
+        System.out.println("Error " +e.getMessage());
+    }    }//GEN-LAST:event_Delete2ActionPerformed
+
+    private void scrchBtn2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scrchBtn2ActionPerformed
+    String ID = Searchdata2.getText();
+    
+    if(ID.isEmpty()) {
+        JOptionPane.showMessageDialog(this, "Please enter an ID to search");
+        return;
+    }
+    
+    try {
+        String url = "jdbc:mysql://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        try (Connection con = DriverManager.getConnection(url, user, pass)) {
+            String sql = "SELECT * FROM bscs_students WHERE id = ?";
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            pstmt.setString(1, ID);
+            
+            ResultSet rs = pstmt.executeQuery();
+            if (rs.next()) {
+                fname2.setText(rs.getString("first_name"));
+                lname2.setText(rs.getString("last_name"));
+                password2.setText(rs.getString("password"));
+                email2.setText(rs.getString("email"));
+                schoolyr6.setText(rs.getString("school_year"));
+                section4.setText(rs.getString("section"));
+                grade4.setText(rs.getString("grade"));
+                attendance4.setText(rs.getString("attendance"));
+                
+                byte[] photoData = rs.getBytes("photo");
+                if (photoData != null && photoData.length > 0) {
+                    currentImage = ImageIO.read(new ByteArrayInputStream(photoData));
+                    ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
+                        photoPreview2.getWidth(), 
+                        photoPreview2.getHeight(), 
+                        Image.SCALE_SMOOTH));
+                    photoPreview2.setIcon(icon);
+                } else {
+                    photoPreview2.setIcon(null);
+                    currentImage = null;
+                }
+            } else {
+                JOptionPane.showMessageDialog(this, "No BSCS student found with ID: " + ID);
+            }
+        }
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Error searching: " + e.getMessage());
+        e.printStackTrace();
+    }    }//GEN-LAST:event_scrchBtn2ActionPerformed
+
+    private void Clear2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Clear2ActionPerformed
+    fname2.setText("");
+    lname2.setText("");
+    password4.setText("");
+    email2.setText("");
+    schoolyr6.setText("");
+    section4.setText("");
+    grade4.setText("");
+    attendance4.setText("");
+    photoPreview2.setIcon(null);
+    currentImage = null;
+                email.setText("");    }//GEN-LAST:event_Clear2ActionPerformed
+
+    private void Searchdata2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Searchdata2ActionPerformed
+        // TODO adsddd your handling code here:
+    }//GEN-LAST:event_Searchdata2ActionPerformed
+
+    private void password4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_password4ActionPerformed
+
+    private void schoolyr6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_schoolyr6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_schoolyr6ActionPerformed
+
+    private void section4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_section4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_section4ActionPerformed
+
+    private void grade4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_grade4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_grade4ActionPerformed
+
+    private void attendance4ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_attendance4ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_attendance4ActionPerformed
+
+    private void btnUploadPhoto3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadPhoto3ActionPerformed
     JFileChooser fileChooser = new JFileChooser();
     fileChooser.setAcceptAllFileFilterUsed(false);
     fileChooser.addChoosableFileFilter(new FileNameExtensionFilter(
@@ -2516,19 +3825,402 @@ private void btnUploadPhoto1ActionPerformed1(java.awt.event.ActionEvent evt) {
             currentImage = ImageIO.read(selectedFile);
             if (currentImage != null) {
                 ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
-                    photoPreview1.getWidth(),
-                    photoPreview1.getHeight(),
+                    photoPreview3.getWidth(),
+                    photoPreview3.getHeight(),
                     Image.SCALE_SMOOTH));
-                photoPreview1.setIcon(icon);
+                photoPreview3.setIcon(icon);
             }
         } catch (IOException ex) {
             JOptionPane.showMessageDialog(this, "Error loading image: " + ex.getMessage());
             ex.printStackTrace();
         }
-    }
-}                                               
+    }    }//GEN-LAST:event_btnUploadPhoto3ActionPerformed
 
-private void Clear1ActionPerformed1(java.awt.event.ActionEvent evt) {                                       
+    private void btnTakePhoto3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTakePhoto3ActionPerformed
+    try {
+        if (webcam == null) {
+            System.out.println("Attempting to get default webcam...");
+            webcam = Webcam.getDefault();
+            
+            if (webcam == null) {
+                String errorMsg = "No webcam detected!\n" +
+                                 "1. Check if webcam is connected\n" +
+                                 "2. Try another USB port\n" +
+                                 "3. Test webcam in another application";
+                JOptionPane.showMessageDialog(this, errorMsg, "Webcam Error", JOptionPane.ERROR_MESSAGE);
+                return;
+            }
+            
+            webcam.setViewSize(WebcamResolution.VGA.getSize());
+            System.out.println("Webcam found: " + webcam.getName());
+            
+            webcam.open(true);
+            System.out.println("Webcam opened successfully");
+        }
+        
+        System.out.println("Webcam open status: " + webcam.isOpen());
+        
+        currentImage = webcam.getImage();
+        
+        if (currentImage == null) {
+            throw new Exception("Failed to capture image (null returned)");
+        }
+        
+        System.out.println("Image captured: " + currentImage.getWidth() + "x" + currentImage.getHeight());
+        
+        Image scaledImage = currentImage.getScaledInstance(
+            photoPreview3.getWidth(),
+            photoPreview3.getHeight(),
+            Image.SCALE_SMOOTH);
+        photoPreview3.setIcon(new ImageIcon(scaledImage));
+        
+    } catch (Exception e) {
+        String errorDetails = "Error accessing camera:\n" +
+                             e.getMessage() + "\n\n" +
+                             "Possible solutions:\n" +
+                             "1. Close other applications using the webcam\n" +
+                             "2. Reinstall webcam drivers\n" +
+                             "3. Restart your computer";
+        
+        JOptionPane.showMessageDialog(this, 
+            errorDetails,
+            "Camera Error",
+            JOptionPane.ERROR_MESSAGE);
+        
+        e.printStackTrace();
+        
+        if (webcam != null) {
+            webcam.close();
+            webcam = null;
+        }
+    }    }//GEN-LAST:event_btnTakePhoto3ActionPerformed
+
+    private void fname3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_fname3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_fname3ActionPerformed
+
+    private void lname3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_lname3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_lname3ActionPerformed
+
+    private void email3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_email3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_email3ActionPerformed
+
+    private void Submit3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Submit3ActionPerformed
+    String gradeInput = grade6.getText();       
+    try {
+        double gradeValue = Double.parseDouble(gradeInput);
+        if (gradeValue < 0 || gradeValue > 100) {
+            JOptionPane.showMessageDialog(this, "Grade must be between 0.00 and 100.00");
+            return;
+        }
+        DecimalFormat df = new DecimalFormat("#.00");
+        String grStr = df.format(gradeValue);
+        
+        if(fname3.getText().isEmpty() || lname3.getText().isEmpty() || 
+           email3.getText().isEmpty() || password6.getText().isEmpty() ||
+           schoolyr9.getText().isEmpty() || section5.getText().isEmpty() || 
+           attendance6.getText().isEmpty()) {
+            JOptionPane.showMessageDialog(this, "All fields are required!");
+            return;
+        }
+        
+        if(!email3.getText().matches("^[a-zA-Z0-9._%+-]+@(gmail\\.com|yahoo\\.com|outlook\\.com)$")) {
+            JOptionPane.showMessageDialog(this, "Enter a valid email address");
+            return;
+        }
+
+        String url = "jdbc:mysql://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        try (Connection con = DriverManager.getConnection(url, user, pass)) {
+            String sql = "INSERT INTO bsis_students (first_name, last_name, password, email, " +
+                         "school_year, section, grade, attendance, photo) " +
+                         "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
+            
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            
+            pstmt.setString(1, fname3.getText());
+            pstmt.setString(2, lname3.getText());
+            pstmt.setString(3, password6.getText());
+            pstmt.setString(4, email3.getText());
+            pstmt.setString(5, schoolyr9.getText());
+            pstmt.setString(6, section5.getText());
+            pstmt.setString(7, grStr);
+            pstmt.setString(8, attendance6.getText());
+            
+            if (currentImage != null) {
+                try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
+                    ImageIO.write(currentImage, "jpg", baos);
+                    pstmt.setBytes(9, baos.toByteArray());
+                }
+            } else {
+                pstmt.setNull(9, Types.BLOB);
+            }
+            
+            int rowsAffected = pstmt.executeUpdate();
+            if (rowsAffected > 0) {
+                JOptionPane.showMessageDialog(this, "BSIS Student saved successfully!");
+                clearBSISForm();
+                loadBSISData();
+            } else {
+                JOptionPane.showMessageDialog(this, "Failed to save student");
+            }
+        }
+    } catch (NumberFormatException e) {
+        JOptionPane.showMessageDialog(this, "Invalid grade format. Use numbers like 95.50");
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());
+        e.printStackTrace();
+    }    }//GEN-LAST:event_Submit3ActionPerformed
+
+    private void Update3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Update3ActionPerformed
+    String ID = Searchdata3.getText(); 
+    if(ID.isEmpty()) {
+        JOptionPane.showMessageDialog(this, "ID is required for update");
+        return;
+    }
+    
+    try {
+        double gradeValue = Double.parseDouble(grade6.getText());
+        if (gradeValue < 0 || gradeValue > 100) {
+            JOptionPane.showMessageDialog(this, "Grade must be between 0.00 and 100.00");
+            return;
+        }
+        DecimalFormat df = new DecimalFormat("#.00");
+        String grStr = df.format(gradeValue);
+        
+        String url = "jdbc:mysql://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        try (Connection con = DriverManager.getConnection(url, user, pass)) {
+            String sql = "UPDATE bsis_students SET first_name=?, last_name=?, password=?, " +
+                         "email=?, school_year=?, section=?, grade=?, attendance=?, photo=? " +
+                         "WHERE id=?";
+            
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            
+            pstmt.setString(1, fname3.getText());
+            pstmt.setString(2, lname3.getText());
+            pstmt.setString(3, password6.getText());
+            pstmt.setString(4, email3.getText());
+            pstmt.setString(5, schoolyr9.getText());
+            pstmt.setString(6, section5.getText());
+            pstmt.setString(7, grStr);
+            pstmt.setString(8, attendance6.getText());
+            
+            if (currentImage != null) {
+                try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
+                    ImageIO.write(currentImage, "jpg", baos);
+                    pstmt.setBytes(9, baos.toByteArray());
+                }
+            } else {
+                pstmt.setNull(9, Types.BLOB);
+            }
+            
+            pstmt.setString(10, ID);
+            
+            int rowsAffected = pstmt.executeUpdate();
+            if (rowsAffected > 0) {
+                JOptionPane.showMessageDialog(this, "BSIS Student updated successfully!");
+                loadBSITData();
+            } else {
+                JOptionPane.showMessageDialog(this, "No student found with ID: " + ID);
+            }
+        }
+    } catch (NumberFormatException e) {
+        JOptionPane.showMessageDialog(this, "Invalid grade format");
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Error updating: " + e.getMessage());
+        e.printStackTrace();
+    }    }//GEN-LAST:event_Update3ActionPerformed
+
+    private void Delete3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Delete3ActionPerformed
+    String ID;
+    int notfound = 0;
+    try {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        
+        String url = "jdbc:MySQL://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        Connection con = DriverManager.getConnection(url, user, pass);
+        Statement st = con.createStatement();
+        ID = Searchdata3.getText();
+        if("".equals(ID)) {
+            JOptionPane.showMessageDialog(new JFrame(), "ID is required", "Dialog", JOptionPane.ERROR_MESSAGE);
+        } else {
+            String sql = "SELECT * FROM bsis_students WHERE id=" + ID;
+            ResultSet rs = st.executeQuery(sql);
+            while(rs.next()) {                          
+                notfound = 1;
+                String sql2 = "DELETE FROM bsis_students WHERE id=" + ID;
+                st.executeUpdate(sql2);
+                loadBSISData();
+            }
+            if(notfound == 0) {
+                JOptionPane.showMessageDialog(new JFrame(), "Invalid ID", "Dialog", JOptionPane.ERROR_MESSAGE);
+            }
+        }
+    } catch (Exception e){
+        System.out.println("Error " +e.getMessage());
+    }    }//GEN-LAST:event_Delete3ActionPerformed
+
+    private void scrchBtn3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_scrchBtn3ActionPerformed
+    String ID = Searchdata3.getText();
+    
+    if(ID.isEmpty()) {
+        JOptionPane.showMessageDialog(this, "Please enter an ID to search");
+        return;
+    }
+    
+    try {
+        String url = "jdbc:mysql://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        try (Connection con = DriverManager.getConnection(url, user, pass)) {
+            String sql = "SELECT * FROM bsis_students WHERE id = ?";
+            PreparedStatement pstmt = con.prepareStatement(sql);
+            pstmt.setString(1, ID);
+            
+            ResultSet rs = pstmt.executeQuery();
+            if (rs.next()) {
+                fname3.setText(rs.getString("first_name"));
+                lname3.setText(rs.getString("last_name"));
+                password6.setText(rs.getString("password"));
+                email3.setText(rs.getString("email"));
+                schoolyr9.setText(rs.getString("school_year"));
+                section5.setText(rs.getString("section"));
+                grade6.setText(rs.getString("grade"));
+                attendance6.setText(rs.getString("attendance"));
+                
+                byte[] photoData = rs.getBytes("photo");
+                if (photoData != null && photoData.length > 0) {
+                    currentImage = ImageIO.read(new ByteArrayInputStream(photoData));
+                    ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
+                        photoPreview3.getWidth(), 
+                        photoPreview3.getHeight(), 
+                        Image.SCALE_SMOOTH));
+                    photoPreview3.setIcon(icon);
+                } else {
+                    photoPreview3.setIcon(null);
+                    currentImage = null;
+                }
+            } else {
+                JOptionPane.showMessageDialog(this, "No BSIS student found with ID: " + ID);
+            }
+        }
+    } catch (Exception e) {
+        JOptionPane.showMessageDialog(this, "Error searching: " + e.getMessage());
+        e.printStackTrace();
+    }    }//GEN-LAST:event_scrchBtn3ActionPerformed
+
+    private void Clear3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Clear3ActionPerformed
+    fname3.setText("");
+    lname3.setText("");
+    password6.setText("");
+    email3.setText("");
+    schoolyr9.setText("");
+    section5.setText("");
+    grade6.setText("");
+    attendance6.setText("");
+    photoPreview3.setIcon(null);
+    currentImage = null;    }//GEN-LAST:event_Clear3ActionPerformed
+
+    private void Searchdata3ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_Searchdata3ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_Searchdata3ActionPerformed
+
+    private void password6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_password6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_password6ActionPerformed
+
+    private void schoolyr9ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_schoolyr9ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_schoolyr9ActionPerformed
+
+    private void section5ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_section5ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_section5ActionPerformed
+
+    private void grade6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_grade6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_grade6ActionPerformed
+
+    private void attendance6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_attendance6ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_attendance6ActionPerformed
+
+    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+        this.dispose();
+        new testing_1().setVisible(true); 
+    }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void jComboBox30ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox30ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox30ActionPerformed
+
+    private void jComboBox28ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox28ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jComboBox28ActionPerformed
+
+    private void loadBSITData() throws SQLException {
+    try {
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        String url = "jdbc:MySQL://localhost:3306/finals_db";
+        String user = "root";
+        String pass = "";
+        
+        Connection con = DriverManager.getConnection(url, user, pass);
+        Statement st = con.createStatement();
+        
+        DefaultTableModel model = new DefaultTableModel(
+            new Object[][]{}, 
+            new String[]{"ID", "First Name", "Middle Name","Last Name", "Email", "School Year", "Section", "Grade", "Attendance", "Photo", "Campus"}
+        ) {
+            @Override
+            public Class<?> getColumnClass(int column) {
+                return column == 8 ? byte[].class : String.class;
+            }
+        };
+        
+        String sql = "SELECT id, first_name, last_name, email, school_year, " +
+                    "section, grade, attendance, photo FROM bsit_students";
+        
+        ResultSet rs = st.executeQuery(sql);
+        while (rs.next()) {
+            byte[] photoData = rs.getBytes("photo");
+            model.addRow(new Object[]{
+                rs.getString("id"),
+                rs.getString("first_name"),
+                rs.getString("last_name"),
+                rs.getString("email"),
+                rs.getString("school_year"),
+                rs.getString("section"),
+                rs.getString("grade"),
+                rs.getString("attendance"),
+                photoData
+            });
+        }
+        
+        Table1.setModel(model);
+        Table1.setDefaultRenderer(byte[].class, new ImageRenderer());
+        Table1.getColumnModel().getColumn(8).setMinWidth(100);
+        Table1.getColumnModel().getColumn(8).setMaxWidth(150);
+        
+        con.close();
+    } catch (Exception e) {
+        System.out.println("Error " + e.getMessage());
+        e.printStackTrace();
+    }
+}
+
+private void clearBSITForm() {
     fname1.setText("");
     lname1.setText("");
     password2.setText("");
@@ -2539,6 +4231,30 @@ private void Clear1ActionPerformed1(java.awt.event.ActionEvent evt) {
     attendance3.setText("");
     photoPreview1.setIcon(null);
     currentImage = null;
+}
+
+private void Update1ActionPerformed1(java.awt.event.ActionEvent evt) {                                        
+
+}                                       
+
+private void Delete1ActionPerformed1(java.awt.event.ActionEvent evt) {                                        
+
+}                                       
+
+private void scrchBtn1ActionPerformed1(java.awt.event.ActionEvent evt) {                                          
+
+}                                         
+
+private void btnTakePhoto1ActionPerformed1(java.awt.event.ActionEvent evt) {                                             
+ 
+}                                            
+
+private void btnUploadPhoto1ActionPerformed1(java.awt.event.ActionEvent evt) {                                                
+
+}                                               
+
+private void Clear1ActionPerformed1(java.awt.event.ActionEvent evt) {                                       
+
 }                           
 
 private void loadBSCSData() throws SQLException {
@@ -2580,10 +4296,10 @@ private void loadBSCSData() throws SQLException {
             });
         }
         
-        Table1.setModel(model);
-        Table1.setDefaultRenderer(byte[].class, new ImageRenderer());
-        Table1.getColumnModel().getColumn(8).setMinWidth(100);
-        Table1.getColumnModel().getColumn(8).setMaxWidth(150);
+        Table2.setModel(model);
+        Table2.setDefaultRenderer(byte[].class, new ImageRenderer());
+        Table2.getColumnModel().getColumn(8).setMinWidth(100);
+        Table2.getColumnModel().getColumn(8).setMaxWidth(150);
         
         con.close();
     } catch (Exception e) {
@@ -2592,74 +4308,7 @@ private void loadBSCSData() throws SQLException {
     }
 }
 
-private void Submit1ActionPerformed2(java.awt.event.ActionEvent evt) {                                       
-    String gradeInput = grade3.getText();       
-    try {
-        double gradeValue = Double.parseDouble(gradeInput);
-        if (gradeValue < 0 || gradeValue > 100) {
-            JOptionPane.showMessageDialog(this, "Grade must be between 0.00 and 100.00");
-            return;
-        }
-        DecimalFormat df = new DecimalFormat("#.00");
-        String grStr = df.format(gradeValue);
-        
-        if(fname1.getText().isEmpty() || lname1.getText().isEmpty() || 
-           email1.getText().isEmpty() || password2.getText().isEmpty() ||
-           schoolyr3.getText().isEmpty() || section3.getText().isEmpty() || 
-           attendance3.getText().isEmpty()) {
-            JOptionPane.showMessageDialog(this, "All fields are required!");
-            return;
-        }
-        
-        if(!email1.getText().matches("^[a-zA-Z0-9._%+-]+@(gmail\\.com|yahoo\\.com|outlook\\.com)$")) {
-            JOptionPane.showMessageDialog(this, "Enter a valid email address");
-            return;
-        }
-
-        String url = "jdbc:mysql://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        try (Connection con = DriverManager.getConnection(url, user, pass)) {
-            String sql = "INSERT INTO bscs_students (first_name, last_name, password, email, " +
-                         "school_year, section, grade, attendance, photo) " +
-                         "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
-            
-            PreparedStatement pstmt = con.prepareStatement(sql);
-            
-            pstmt.setString(1, fname1.getText());
-            pstmt.setString(2, lname1.getText());
-            pstmt.setString(3, password2.getText());
-            pstmt.setString(4, email1.getText());
-            pstmt.setString(5, schoolyr3.getText());
-            pstmt.setString(6, section3.getText());
-            pstmt.setString(7, grStr);
-            pstmt.setString(8, attendance3.getText());
-            
-            if (currentImage != null) {
-                try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
-                    ImageIO.write(currentImage, "jpg", baos);
-                    pstmt.setBytes(9, baos.toByteArray());
-                }
-            } else {
-                pstmt.setNull(9, Types.BLOB);
-            }
-            
-            int rowsAffected = pstmt.executeUpdate();
-            if (rowsAffected > 0) {
-                JOptionPane.showMessageDialog(this, "BSCS Student saved successfully!");
-                clearBSCSForm();
-                loadBSCSData();
-            } else {
-                JOptionPane.showMessageDialog(this, "Failed to save student");
-            }
-        }
-    } catch (NumberFormatException e) {
-        JOptionPane.showMessageDialog(this, "Invalid grade format. Use numbers like 95.50");
-    } catch (Exception e) {
-        JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());
-        e.printStackTrace();
-    }
+private void Submit1ActionPerformed2(java.awt.event.ActionEvent evt) {                                           
 }
 
 private void clearBSCSForm() {
@@ -2676,248 +4325,27 @@ private void clearBSCSForm() {
 }
 
 private void Update1ActionPerformed2(java.awt.event.ActionEvent evt) {                                        
-    String ID = Searchdata1.getText(); 
-    if(ID.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "ID is required for update");
-        return;
-    }
     
-    try {
-        double gradeValue = Double.parseDouble(grade3.getText());
-        if (gradeValue < 0 || gradeValue > 100) {
-            JOptionPane.showMessageDialog(this, "Grade must be between 0.00 and 100.00");
-            return;
-        }
-        DecimalFormat df = new DecimalFormat("#.00");
-        String grStr = df.format(gradeValue);
-        
-        String url = "jdbc:mysql://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        try (Connection con = DriverManager.getConnection(url, user, pass)) {
-            String sql = "UPDATE bscs_students SET first_name=?, last_name=?, password=?, " +
-                         "email=?, school_year=?, section=?, grade=?, attendance=?, photo=? " +
-                         "WHERE id=?";
-            
-            PreparedStatement pstmt = con.prepareStatement(sql);
-            
-            pstmt.setString(1, fname1.getText());
-            pstmt.setString(2, lname1.getText());
-            pstmt.setString(3, password2.getText());
-            pstmt.setString(4, email1.getText());
-            pstmt.setString(5, schoolyr3.getText());
-            pstmt.setString(6, section3.getText());
-            pstmt.setString(7, grStr);
-            pstmt.setString(8, attendance3.getText());
-            
-            if (currentImage != null) {
-                try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
-                    ImageIO.write(currentImage, "jpg", baos);
-                    pstmt.setBytes(9, baos.toByteArray());
-                }
-            } else {
-                pstmt.setNull(9, Types.BLOB);
-            }
-            
-            pstmt.setString(10, ID);
-            
-            int rowsAffected = pstmt.executeUpdate();
-            if (rowsAffected > 0) {
-                JOptionPane.showMessageDialog(this, "BSCS Student updated successfully!");
-                loadBSCSData();
-            } else {
-                JOptionPane.showMessageDialog(this, "No student found with ID: " + ID);
-            }
-        }
-    } catch (NumberFormatException e) {
-        JOptionPane.showMessageDialog(this, "Invalid grade format");
-    } catch (Exception e) {
-        JOptionPane.showMessageDialog(this, "Error updating: " + e.getMessage());
-        e.printStackTrace();
-    }
 }                                       
 
 private void Delete1ActionPerformed2(java.awt.event.ActionEvent evt) {                                        
-    String ID;
-    int notfound = 0;
-    try {
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        
-        String url = "jdbc:MySQL://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        Connection con = DriverManager.getConnection(url, user, pass);
-        Statement st = con.createStatement();
-        ID = Searchdata1.getText();
-        if("".equals(ID)) {
-            JOptionPane.showMessageDialog(new JFrame(), "ID is required", "Dialog", JOptionPane.ERROR_MESSAGE);
-        } else {
-            String sql = "SELECT * FROM bscs_students WHERE id=" + ID;
-            ResultSet rs = st.executeQuery(sql);
-            while(rs.next()) {                          
-                notfound = 1;
-                String sql2 = "DELETE FROM bscs_students WHERE id=" + ID;
-                st.executeUpdate(sql2);
-                loadBSCSData();
-            }
-            if(notfound == 0) {
-                JOptionPane.showMessageDialog(new JFrame(), "Invalid ID", "Dialog", JOptionPane.ERROR_MESSAGE);
-            }
-        }
-    } catch (Exception e){
-        System.out.println("Error " +e.getMessage());
-    }
+
 }                                       
 
 private void scrchBtn1ActionPerformed2(java.awt.event.ActionEvent evt) {                                          
-    String ID = Searchdata1.getText();
-    
-    if(ID.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Please enter an ID to search");
-        return;
-    }
-    
-    try {
-        String url = "jdbc:mysql://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        try (Connection con = DriverManager.getConnection(url, user, pass)) {
-            String sql = "SELECT * FROM bscs_students WHERE id = ?";
-            PreparedStatement pstmt = con.prepareStatement(sql);
-            pstmt.setString(1, ID);
-            
-            ResultSet rs = pstmt.executeQuery();
-            if (rs.next()) {
-                fname1.setText(rs.getString("first_name"));
-                lname1.setText(rs.getString("last_name"));
-                password2.setText(rs.getString("password"));
-                email1.setText(rs.getString("email"));
-                schoolyr3.setText(rs.getString("school_year"));
-                section3.setText(rs.getString("section"));
-                grade3.setText(rs.getString("grade"));
-                attendance3.setText(rs.getString("attendance"));
-                
-                byte[] photoData = rs.getBytes("photo");
-                if (photoData != null && photoData.length > 0) {
-                    currentImage = ImageIO.read(new ByteArrayInputStream(photoData));
-                    ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
-                        photoPreview1.getWidth(), 
-                        photoPreview1.getHeight(), 
-                        Image.SCALE_SMOOTH));
-                    photoPreview1.setIcon(icon);
-                } else {
-                    photoPreview1.setIcon(null);
-                    currentImage = null;
-                }
-            } else {
-                JOptionPane.showMessageDialog(this, "No BSCS student found with ID: " + ID);
-            }
-        }
-    } catch (Exception e) {
-        JOptionPane.showMessageDialog(this, "Error searching: " + e.getMessage());
-        e.printStackTrace();
-    }
+
 }                                         
 
 private void btnTakePhoto1ActionPerformed2(java.awt.event.ActionEvent evt) {                                             
-    try {
-        if (webcam == null) {
-            System.out.println("Attempting to get default webcam...");
-            webcam = Webcam.getDefault();
-            
-            if (webcam == null) {
-                String errorMsg = "No webcam detected!\n" +
-                                 "1. Check if webcam is connected\n" +
-                                 "2. Try another USB port\n" +
-                                 "3. Test webcam in another application";
-                JOptionPane.showMessageDialog(this, errorMsg, "Webcam Error", JOptionPane.ERROR_MESSAGE);
-                return;
-            }
-            
-            webcam.setViewSize(WebcamResolution.VGA.getSize());
-            System.out.println("Webcam found: " + webcam.getName());
-            
-            webcam.open(true);
-            System.out.println("Webcam opened successfully");
-        }
-        
-        System.out.println("Webcam open status: " + webcam.isOpen());
-        
-        currentImage = webcam.getImage();
-        
-        if (currentImage == null) {
-            throw new Exception("Failed to capture image (null returned)");
-        }
-        
-        System.out.println("Image captured: " + currentImage.getWidth() + "x" + currentImage.getHeight());
-        
-        Image scaledImage = currentImage.getScaledInstance(
-            photoPreview1.getWidth(),
-            photoPreview1.getHeight(),
-            Image.SCALE_SMOOTH);
-        photoPreview1.setIcon(new ImageIcon(scaledImage));
-        
-    } catch (Exception e) {
-        String errorDetails = "Error accessing camera:\n" +
-                             e.getMessage() + "\n\n" +
-                             "Possible solutions:\n" +
-                             "1. Close other applications using the webcam\n" +
-                             "2. Reinstall webcam drivers\n" +
-                             "3. Restart your computer";
-        
-        JOptionPane.showMessageDialog(this, 
-            errorDetails,
-            "Camera Error",
-            JOptionPane.ERROR_MESSAGE);
-        
-        e.printStackTrace();
-        
-        if (webcam != null) {
-            webcam.close();
-            webcam = null;
-        }
-    }
+
 }                                            
 
 private void btnUploadPhoto1ActionPerformed2(java.awt.event.ActionEvent evt) {                                                
-    JFileChooser fileChooser = new JFileChooser();
-    fileChooser.setAcceptAllFileFilterUsed(false);
-    fileChooser.addChoosableFileFilter(new FileNameExtensionFilter(
-        "Image files", "jpg", "jpeg", "png", "gif"));
-    
-    int returnValue = fileChooser.showOpenDialog(this);
-    if (returnValue == JFileChooser.APPROVE_OPTION) {
-        try {
-            File selectedFile = fileChooser.getSelectedFile();
-            currentImage = ImageIO.read(selectedFile);
-            if (currentImage != null) {
-                ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
-                    photoPreview1.getWidth(),
-                    photoPreview1.getHeight(),
-                    Image.SCALE_SMOOTH));
-                photoPreview1.setIcon(icon);
-            }
-        } catch (IOException ex) {
-            JOptionPane.showMessageDialog(this, "Error loading image: " + ex.getMessage());
-            ex.printStackTrace();
-        }
-    }
+
 }                                               
 
 private void Clear1ActionPerformed2(java.awt.event.ActionEvent evt) {                                       
-    fname1.setText("");
-    lname1.setText("");
-    password2.setText("");
-    email1.setText("");
-    schoolyr3.setText("");
-    section3.setText("");
-    grade3.setText("");
-    attendance3.setText("");
-    photoPreview1.setIcon(null);
-    currentImage = null;
+
 }       
 
 private void loadBSISData() throws SQLException {
@@ -2959,10 +4387,10 @@ private void loadBSISData() throws SQLException {
             });
         }
         
-        Table1.setModel(model);
-        Table1.setDefaultRenderer(byte[].class, new ImageRenderer());
-        Table1.getColumnModel().getColumn(8).setMinWidth(100);
-        Table1.getColumnModel().getColumn(8).setMaxWidth(150);
+        Table3.setModel(model);
+        Table3.setDefaultRenderer(byte[].class, new ImageRenderer());
+        Table3.getColumnModel().getColumn(8).setMinWidth(100);
+        Table3.getColumnModel().getColumn(8).setMaxWidth(150);
         
         con.close();
     } catch (Exception e) {
@@ -2972,73 +4400,7 @@ private void loadBSISData() throws SQLException {
 }
 
 private void Submit1ActionPerformed3(java.awt.event.ActionEvent evt) {                                       
-    String gradeInput = grade3.getText();       
-    try {
-        double gradeValue = Double.parseDouble(gradeInput);
-        if (gradeValue < 0 || gradeValue > 100) {
-            JOptionPane.showMessageDialog(this, "Grade must be between 0.00 and 100.00");
-            return;
-        }
-        DecimalFormat df = new DecimalFormat("#.00");
-        String grStr = df.format(gradeValue);
-        
-        if(fname1.getText().isEmpty() || lname1.getText().isEmpty() || 
-           email1.getText().isEmpty() || password2.getText().isEmpty() ||
-           schoolyr3.getText().isEmpty() || section3.getText().isEmpty() || 
-           attendance3.getText().isEmpty()) {
-            JOptionPane.showMessageDialog(this, "All fields are required!");
-            return;
-        }
-        
-        if(!email1.getText().matches("^[a-zA-Z0-9._%+-]+@(gmail\\.com|yahoo\\.com|outlook\\.com)$")) {
-            JOptionPane.showMessageDialog(this, "Enter a valid email address");
-            return;
-        }
-
-        String url = "jdbc:mysql://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        try (Connection con = DriverManager.getConnection(url, user, pass)) {
-            String sql = "INSERT INTO bsis_students (first_name, last_name, password, email, " +
-                         "school_year, section, grade, attendance, photo) " +
-                         "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)";
-            
-            PreparedStatement pstmt = con.prepareStatement(sql);
-            
-            pstmt.setString(1, fname1.getText());
-            pstmt.setString(2, lname1.getText());
-            pstmt.setString(3, password2.getText());
-            pstmt.setString(4, email1.getText());
-            pstmt.setString(5, schoolyr3.getText());
-            pstmt.setString(6, section3.getText());
-            pstmt.setString(7, grStr);
-            pstmt.setString(8, attendance3.getText());
-            
-            if (currentImage != null) {
-                try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
-                    ImageIO.write(currentImage, "jpg", baos);
-                    pstmt.setBytes(9, baos.toByteArray());
-                }
-            } else {
-                pstmt.setNull(9, Types.BLOB);
-            }
-            
-            int rowsAffected = pstmt.executeUpdate();
-            if (rowsAffected > 0) {
-                JOptionPane.showMessageDialog(this, "BSIS Student saved successfully!");
-                clearBSISForm();
-                loadBSISData();
-            } else {
-                JOptionPane.showMessageDialog(this, "Failed to save student");
-            }
-        }
-    } catch (NumberFormatException e) {
-        JOptionPane.showMessageDialog(this, "Invalid grade format. Use numbers like 95.50");
-    } catch (Exception e) {
-        JOptionPane.showMessageDialog(this, "Error: " + e.getMessage());
-        e.printStackTrace();
-    }
+    
 }
 
 private void clearBSISForm() {
@@ -3055,248 +4417,27 @@ private void clearBSISForm() {
 }
 
 private void Update1ActionPerformed3(java.awt.event.ActionEvent evt) {                                        
-    String ID = Searchdata1.getText(); 
-    if(ID.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "ID is required for update");
-        return;
-    }
-    
-    try {
-        double gradeValue = Double.parseDouble(grade3.getText());
-        if (gradeValue < 0 || gradeValue > 100) {
-            JOptionPane.showMessageDialog(this, "Grade must be between 0.00 and 100.00");
-            return;
-        }
-        DecimalFormat df = new DecimalFormat("#.00");
-        String grStr = df.format(gradeValue);
-        
-        String url = "jdbc:mysql://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        try (Connection con = DriverManager.getConnection(url, user, pass)) {
-            String sql = "UPDATE bsis_students SET first_name=?, last_name=?, password=?, " +
-                         "email=?, school_year=?, section=?, grade=?, attendance=?, photo=? " +
-                         "WHERE id=?";
-            
-            PreparedStatement pstmt = con.prepareStatement(sql);
-            
-            pstmt.setString(1, fname1.getText());
-            pstmt.setString(2, lname1.getText());
-            pstmt.setString(3, password2.getText());
-            pstmt.setString(4, email1.getText());
-            pstmt.setString(5, schoolyr3.getText());
-            pstmt.setString(6, section3.getText());
-            pstmt.setString(7, grStr);
-            pstmt.setString(8, attendance3.getText());
-            
-            if (currentImage != null) {
-                try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
-                    ImageIO.write(currentImage, "jpg", baos);
-                    pstmt.setBytes(9, baos.toByteArray());
-                }
-            } else {
-                pstmt.setNull(9, Types.BLOB);
-            }
-            
-            pstmt.setString(10, ID);
-            
-            int rowsAffected = pstmt.executeUpdate();
-            if (rowsAffected > 0) {
-                JOptionPane.showMessageDialog(this, "BSIS Student updated successfully!");
-                loadBSITData();
-            } else {
-                JOptionPane.showMessageDialog(this, "No student found with ID: " + ID);
-            }
-        }
-    } catch (NumberFormatException e) {
-        JOptionPane.showMessageDialog(this, "Invalid grade format");
-    } catch (Exception e) {
-        JOptionPane.showMessageDialog(this, "Error updating: " + e.getMessage());
-        e.printStackTrace();
-    }
+
 }                                       
 
 private void Delete1ActionPerformed3(java.awt.event.ActionEvent evt) {                                        
-    String ID;
-    int notfound = 0;
-    try {
-        Class.forName("com.mysql.cj.jdbc.Driver");
-        
-        String url = "jdbc:MySQL://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        Connection con = DriverManager.getConnection(url, user, pass);
-        Statement st = con.createStatement();
-        ID = Searchdata1.getText();
-        if("".equals(ID)) {
-            JOptionPane.showMessageDialog(new JFrame(), "ID is required", "Dialog", JOptionPane.ERROR_MESSAGE);
-        } else {
-            String sql = "SELECT * FROM bsis_students WHERE id=" + ID;
-            ResultSet rs = st.executeQuery(sql);
-            while(rs.next()) {                          
-                notfound = 1;
-                String sql2 = "DELETE FROM bsis_students WHERE id=" + ID;
-                st.executeUpdate(sql2);
-                loadBSISData();
-            }
-            if(notfound == 0) {
-                JOptionPane.showMessageDialog(new JFrame(), "Invalid ID", "Dialog", JOptionPane.ERROR_MESSAGE);
-            }
-        }
-    } catch (Exception e){
-        System.out.println("Error " +e.getMessage());
-    }
+
 }                                       
 
 private void scrchBtn1ActionPerformed3(java.awt.event.ActionEvent evt) {                                          
-    String ID = Searchdata1.getText();
-    
-    if(ID.isEmpty()) {
-        JOptionPane.showMessageDialog(this, "Please enter an ID to search");
-        return;
-    }
-    
-    try {
-        String url = "jdbc:mysql://localhost:3306/finals_db";
-        String user = "root";
-        String pass = "";
-        
-        try (Connection con = DriverManager.getConnection(url, user, pass)) {
-            String sql = "SELECT * FROM bsis_students WHERE id = ?";
-            PreparedStatement pstmt = con.prepareStatement(sql);
-            pstmt.setString(1, ID);
-            
-            ResultSet rs = pstmt.executeQuery();
-            if (rs.next()) {
-                fname1.setText(rs.getString("first_name"));
-                lname1.setText(rs.getString("last_name"));
-                password2.setText(rs.getString("password"));
-                email1.setText(rs.getString("email"));
-                schoolyr3.setText(rs.getString("school_year"));
-                section3.setText(rs.getString("section"));
-                grade3.setText(rs.getString("grade"));
-                attendance3.setText(rs.getString("attendance"));
-                
-                byte[] photoData = rs.getBytes("photo");
-                if (photoData != null && photoData.length > 0) {
-                    currentImage = ImageIO.read(new ByteArrayInputStream(photoData));
-                    ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
-                        photoPreview1.getWidth(), 
-                        photoPreview1.getHeight(), 
-                        Image.SCALE_SMOOTH));
-                    photoPreview1.setIcon(icon);
-                } else {
-                    photoPreview1.setIcon(null);
-                    currentImage = null;
-                }
-            } else {
-                JOptionPane.showMessageDialog(this, "No BSIS student found with ID: " + ID);
-            }
-        }
-    } catch (Exception e) {
-        JOptionPane.showMessageDialog(this, "Error searching: " + e.getMessage());
-        e.printStackTrace();
-    }
+
 }                                         
 
 private void btnTakePhoto1ActionPerformed3(java.awt.event.ActionEvent evt) {                                             
-    try {
-        if (webcam == null) {
-            System.out.println("Attempting to get default webcam...");
-            webcam = Webcam.getDefault();
-            
-            if (webcam == null) {
-                String errorMsg = "No webcam detected!\n" +
-                                 "1. Check if webcam is connected\n" +
-                                 "2. Try another USB port\n" +
-                                 "3. Test webcam in another application";
-                JOptionPane.showMessageDialog(this, errorMsg, "Webcam Error", JOptionPane.ERROR_MESSAGE);
-                return;
-            }
-            
-            webcam.setViewSize(WebcamResolution.VGA.getSize());
-            System.out.println("Webcam found: " + webcam.getName());
-            
-            webcam.open(true);
-            System.out.println("Webcam opened successfully");
-        }
-        
-        System.out.println("Webcam open status: " + webcam.isOpen());
-        
-        currentImage = webcam.getImage();
-        
-        if (currentImage == null) {
-            throw new Exception("Failed to capture image (null returned)");
-        }
-        
-        System.out.println("Image captured: " + currentImage.getWidth() + "x" + currentImage.getHeight());
-        
-        Image scaledImage = currentImage.getScaledInstance(
-            photoPreview1.getWidth(),
-            photoPreview1.getHeight(),
-            Image.SCALE_SMOOTH);
-        photoPreview1.setIcon(new ImageIcon(scaledImage));
-        
-    } catch (Exception e) {
-        String errorDetails = "Error accessing camera:\n" +
-                             e.getMessage() + "\n\n" +
-                             "Possible solutions:\n" +
-                             "1. Close other applications using the webcam\n" +
-                             "2. Reinstall webcam drivers\n" +
-                             "3. Restart your computer";
-        
-        JOptionPane.showMessageDialog(this, 
-            errorDetails,
-            "Camera Error",
-            JOptionPane.ERROR_MESSAGE);
-        
-        e.printStackTrace();
-        
-        if (webcam != null) {
-            webcam.close();
-            webcam = null;
-        }
-    }
+
 }                                            
 
 private void btnUploadPhoto1ActionPerformed3(java.awt.event.ActionEvent evt) {                                                
-    JFileChooser fileChooser = new JFileChooser();
-    fileChooser.setAcceptAllFileFilterUsed(false);
-    fileChooser.addChoosableFileFilter(new FileNameExtensionFilter(
-        "Image files", "jpg", "jpeg", "png", "gif"));
-    
-    int returnValue = fileChooser.showOpenDialog(this);
-    if (returnValue == JFileChooser.APPROVE_OPTION) {
-        try {
-            File selectedFile = fileChooser.getSelectedFile();
-            currentImage = ImageIO.read(selectedFile);
-            if (currentImage != null) {
-                ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
-                    photoPreview1.getWidth(),
-                    photoPreview1.getHeight(),
-                    Image.SCALE_SMOOTH));
-                photoPreview1.setIcon(icon);
-            }
-        } catch (IOException ex) {
-            JOptionPane.showMessageDialog(this, "Error loading image: " + ex.getMessage());
-            ex.printStackTrace();
-        }
-    }
+
 }                                               
 
 private void Clear1ActionPerformed3(java.awt.event.ActionEvent evt) {                                       
-    fname1.setText("");
-    lname1.setText("");
-    password2.setText("");
-    email1.setText("");
-    schoolyr3.setText("");
-    section3.setText("");
-    grade3.setText("");
-    attendance3.setText("");
-    photoPreview1.setIcon(null);
-    currentImage = null;
+
 }                                      
             private void takePhoto() {
     try {
@@ -3592,10 +4733,101 @@ public void dispose(){
     private java.awt.TextField grade6;
     private javax.swing.JLabel grade7;
     private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton12;
+    private javax.swing.JButton jButton13;
+    private javax.swing.JButton jButton14;
+    private javax.swing.JButton jButton15;
+    private javax.swing.JButton jButton16;
+    private javax.swing.JButton jButton17;
+    private javax.swing.JButton jButton18;
+    private javax.swing.JButton jButton19;
+    private javax.swing.JButton jButton20;
+    private javax.swing.JButton jButton21;
+    private javax.swing.JButton jButton22;
+    private javax.swing.JButton jButton23;
+    private javax.swing.JButton jButton24;
+    private javax.swing.JButton jButton25;
+    private javax.swing.JButton jButton26;
+    private javax.swing.JButton jButton27;
+    private javax.swing.JComboBox<String> jComboBox25;
+    private javax.swing.JComboBox<String> jComboBox26;
+    private javax.swing.JComboBox<String> jComboBox27;
+    private javax.swing.JComboBox<String> jComboBox28;
+    private javax.swing.JComboBox<String> jComboBox29;
+    private javax.swing.JComboBox<String> jComboBox30;
+    private javax.swing.JComboBox<String> jComboBox31;
+    private javax.swing.JComboBox<String> jComboBox32;
+    private javax.swing.JComboBox<String> jComboBox33;
+    private javax.swing.JComboBox<String> jComboBox34;
+    private javax.swing.JComboBox<String> jComboBox35;
+    private javax.swing.JComboBox<String> jComboBox36;
+    private javax.swing.JComboBox<String> jComboBox37;
+    private javax.swing.JComboBox<String> jComboBox38;
+    private javax.swing.JComboBox<String> jComboBox39;
+    private javax.swing.JComboBox<String> jComboBox40;
+    private javax.swing.JLabel jLabel1;
+    private javax.swing.JLabel jLabel2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JLabel jLabel31;
+    private javax.swing.JLabel jLabel34;
+    private javax.swing.JLabel jLabel35;
+    private javax.swing.JLabel jLabel36;
+    private javax.swing.JLabel jLabel37;
+    private javax.swing.JLabel jLabel38;
+    private javax.swing.JLabel jLabel39;
+    private javax.swing.JLabel jLabel4;
+    private javax.swing.JLabel jLabel40;
+    private javax.swing.JLabel jLabel41;
+    private javax.swing.JLabel jLabel42;
+    private javax.swing.JLabel jLabel43;
+    private javax.swing.JLabel jLabel46;
+    private javax.swing.JLabel jLabel47;
+    private javax.swing.JLabel jLabel48;
+    private javax.swing.JLabel jLabel49;
+    private javax.swing.JLabel jLabel52;
+    private javax.swing.JLabel jLabel53;
+    private javax.swing.JLabel jLabel54;
+    private javax.swing.JLabel jLabel57;
+    private javax.swing.JLabel jLabel58;
+    private javax.swing.JLabel jLabel59;
+    private javax.swing.JLabel jLabel60;
+    private javax.swing.JLabel jLabel63;
+    private javax.swing.JLabel jLabel64;
+    private javax.swing.JLabel jLabel65;
+    private javax.swing.JLabel jLabel66;
+    private javax.swing.JLabel jLabel67;
+    private javax.swing.JLabel jLabel68;
+    private javax.swing.JLabel jLabel71;
+    private javax.swing.JLabel jLabel72;
+    private javax.swing.JLabel jLabel73;
+    private javax.swing.JLabel jLabel74;
+    private javax.swing.JLabel jLabel75;
+    private javax.swing.JLabel jLabel76;
+    private javax.swing.JLabel jLabel77;
+    private javax.swing.JLabel jLabel78;
+    private javax.swing.JLabel jLabel79;
+    private javax.swing.JLabel jLabel80;
+    private javax.swing.JLabel jLabel81;
+    private javax.swing.JLabel jLabel82;
+    private javax.swing.JLabel jLabel83;
+    private javax.swing.JLabel jLabel84;
+    private javax.swing.JLabel jLabel85;
+    private javax.swing.JLabel jLabel86;
+    private javax.swing.JLabel jLabel87;
+    private javax.swing.JLabel jLabel88;
+    private javax.swing.JLabel jLabel89;
+    private javax.swing.JLabel jLabel90;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel10;
     private javax.swing.JPanel jPanel11;
-    private javax.swing.JPanel jPanel2;
+    private javax.swing.JPanel jPanel12;
+    private javax.swing.JPanel jPanel14;
+    private javax.swing.JPanel jPanel16;
+    private javax.swing.JPanel jPanel17;
+    private javax.swing.JPanel jPanel20;
+    private javax.swing.JPanel jPanel21;
+    private javax.swing.JPanel jPanel22;
+    private javax.swing.JPanel jPanel23;
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
@@ -3604,10 +4836,34 @@ public void dispose(){
     private javax.swing.JPanel jPanel8;
     private javax.swing.JPanel jPanel9;
     private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane10;
+    private javax.swing.JScrollPane jScrollPane11;
+    private javax.swing.JScrollPane jScrollPane14;
+    private javax.swing.JScrollPane jScrollPane15;
+    private javax.swing.JScrollPane jScrollPane16;
+    private javax.swing.JScrollPane jScrollPane17;
     private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JScrollPane jScrollPane3;
     private javax.swing.JScrollPane jScrollPane4;
+    private javax.swing.JScrollPane jScrollPane6;
+    private javax.swing.JScrollPane jScrollPane8;
     private javax.swing.JTabbedPane jTabbedPane1;
+    private javax.swing.JTabbedPane jTabbedPane2;
+    private javax.swing.JTabbedPane jTabbedPane3;
+    private javax.swing.JTabbedPane jTabbedPane4;
+    private javax.swing.JTabbedPane jTabbedPane5;
+    private javax.swing.JTable jTable10;
+    private javax.swing.JTable jTable11;
+    private javax.swing.JTable jTable12;
+    private javax.swing.JTable jTable13;
+    private javax.swing.JTable jTable2;
+    private javax.swing.JTable jTable4;
+    private javax.swing.JTable jTable6;
+    private javax.swing.JTable jTable7;
+    private java.awt.TextField lmname;
+    private java.awt.TextField lmname1;
+    private java.awt.TextField lmname2;
+    private java.awt.TextField lmname3;
     private java.awt.TextField lname;
     private java.awt.TextField lname1;
     private java.awt.TextField lname2;
@@ -3644,6 +4900,22 @@ public void dispose(){
     private java.awt.TextField section3;
     private java.awt.TextField section4;
     private java.awt.TextField section5;
+    private java.awt.TextField textField11;
+    private java.awt.TextField textField12;
+    private java.awt.TextField textField13;
+    private java.awt.TextField textField14;
+    private java.awt.TextField textField15;
+    private java.awt.TextField textField16;
+    private java.awt.TextField textField17;
+    private java.awt.TextField textField18;
+    private java.awt.TextField textField19;
+    private java.awt.TextField textField20;
+    private java.awt.TextField textField21;
+    private java.awt.TextField textField22;
+    private java.awt.TextField textField23;
+    private java.awt.TextField textField24;
+    private java.awt.TextField textField25;
+    private java.awt.TextField textField26;
     // End of variables declaration//GEN-END:variables
 
     

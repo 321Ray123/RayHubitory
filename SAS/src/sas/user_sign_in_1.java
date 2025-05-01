@@ -1,13 +1,4 @@
 
-
-
-
-
-
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
- */
     package sas;
 import com.github.sarxos.webcam.Webcam;
 import com.github.sarxos.webcam.WebcamPanel;
@@ -98,6 +89,13 @@ private final String DB_PASS = "";
 
         buttonGroup1 = new javax.swing.ButtonGroup();
         buttonGroup2 = new javax.swing.ButtonGroup();
+        jPanel1 = new javax.swing.JPanel();
+        jPanel2 = new javax.swing.JPanel();
+        Title = new javax.swing.JLabel();
+        jPanel3 = new javax.swing.JPanel();
+        jPanel4 = new javax.swing.JPanel();
+        jLabel2 = new javax.swing.JLabel();
+        jScrollPane4 = new javax.swing.JScrollPane();
         jPanel6 = new javax.swing.JPanel();
         Campus = new javax.swing.JLabel();
         Program = new javax.swing.JLabel();
@@ -160,14 +158,32 @@ private final String DB_PASS = "";
         cYearDate = new javax.swing.JComboBox<>();
         email1 = new javax.swing.JLabel();
         txtPassword = new java.awt.TextField();
-        jPanel1 = new javax.swing.JPanel();
-        jPanel2 = new javax.swing.JPanel();
-        Title = new javax.swing.JLabel();
-        jPanel3 = new javax.swing.JPanel();
-        jPanel4 = new javax.swing.JPanel();
-        jLabel2 = new javax.swing.JLabel();
-        jScrollPane4 = new javax.swing.JScrollPane();
         jButton3 = new javax.swing.JButton();
+
+        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
+
+        jPanel2.setBackground(new java.awt.Color(255, 145, 77));
+        jPanel2.setForeground(new java.awt.Color(255, 145, 77));
+
+        Title.setBackground(new java.awt.Color(0, 0, 0));
+        Title.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
+        Title.setText("STUDENT SIGN UP PANEL");
+
+        jPanel3.setBackground(new java.awt.Color(214, 237, 198));
+
+        jPanel4.setBackground(new java.awt.Color(234, 245, 226));
+
+        jLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
+        jLabel2.setText("Personal information");
+
+        jScrollPane4.setBackground(new java.awt.Color(255, 255, 255));
+        jScrollPane4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
+        jScrollPane4.setForeground(new java.awt.Color(255, 255, 255));
+        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
+        jScrollPane4.setToolTipText("");
+        jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
 
         jPanel6.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -718,30 +734,7 @@ private final String DB_PASS = "";
                 .addGap(30, 30, 30))
         );
 
-        setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
-
-        jPanel1.setBackground(new java.awt.Color(255, 255, 255));
-
-        jPanel2.setBackground(new java.awt.Color(255, 145, 77));
-        jPanel2.setForeground(new java.awt.Color(255, 145, 77));
-
-        Title.setBackground(new java.awt.Color(0, 0, 0));
-        Title.setFont(new java.awt.Font("Segoe UI Semibold", 0, 24)); // NOI18N
-        Title.setText("STUDENT SIGN UP PANEL");
-
-        jPanel3.setBackground(new java.awt.Color(214, 237, 198));
-
-        jPanel4.setBackground(new java.awt.Color(234, 245, 226));
-
-        jLabel2.setFont(new java.awt.Font("Segoe UI Semibold", 0, 18)); // NOI18N
-        jLabel2.setText("Personal information");
-
-        jScrollPane4.setBackground(new java.awt.Color(255, 255, 255));
-        jScrollPane4.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
-        jScrollPane4.setForeground(new java.awt.Color(255, 255, 255));
-        jScrollPane4.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_NEVER);
-        jScrollPane4.setToolTipText("");
-        jScrollPane4.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
+        jScrollPane4.setViewportView(jPanel6);
 
         javax.swing.GroupLayout jPanel4Layout = new javax.swing.GroupLayout(jPanel4);
         jPanel4.setLayout(jPanel4Layout);
@@ -752,17 +745,15 @@ private final String DB_PASS = "";
                 .addComponent(jLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 187, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addGap(0, 592, Short.MAX_VALUE))
             .addGroup(jPanel4Layout.createSequentialGroup()
-                .addGap(14, 14, 14)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 1333, Short.MAX_VALUE)
-                .addContainerGap())
+                .addContainerGap()
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, 1347, Short.MAX_VALUE))
         );
         jPanel4Layout.setVerticalGroup(
             jPanel4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel4Layout.createSequentialGroup()
                 .addComponent(jLabel2)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 726, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addContainerGap())
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 12, Short.MAX_VALUE)
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 726, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
 
         javax.swing.GroupLayout jPanel3Layout = new javax.swing.GroupLayout(jPanel3);
