@@ -382,7 +382,12 @@ public class Admin extends javax.swing.JFrame {
         jPanel1.setPreferredSize(new java.awt.Dimension(600, 500));
 
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(500, 80));
+        jScrollPane1.setColumnHeaderView(Table);
+        jScrollPane1.setMinimumSize(new java.awt.Dimension(2715, 797));
+        jScrollPane1.setPreferredSize(new java.awt.Dimension(2715, 797));
+        jScrollPane1.setRequestFocusEnabled(false);
+        jScrollPane1.setRowHeaderView(Table);
+        jScrollPane1.setViewportView(Table);
 
         Table.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
@@ -399,7 +404,7 @@ public class Admin extends javax.swing.JFrame {
                 java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false
+                false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -411,8 +416,50 @@ public class Admin extends javax.swing.JFrame {
             }
         });
         Table.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        Table.setPreferredSize(new java.awt.Dimension(500, 400));
+        Table.setMinimumSize(new java.awt.Dimension(2900, 797));
+        Table.setPreferredSize(new java.awt.Dimension(2715, 797));
+        Table.setRowSelectionAllowed(false);
+        Table.getTableHeader().setResizingAllowed(false);
+        Table.getTableHeader().setReorderingAllowed(false);
         jScrollPane1.setViewportView(Table);
+        if (Table.getColumnModel().getColumnCount() > 0) {
+            Table.getColumnModel().getColumn(0).setMinWidth(25);
+            Table.getColumnModel().getColumn(0).setPreferredWidth(25);
+            Table.getColumnModel().getColumn(1).setMinWidth(100);
+            Table.getColumnModel().getColumn(1).setPreferredWidth(100);
+            Table.getColumnModel().getColumn(1).setMaxWidth(100);
+            Table.getColumnModel().getColumn(2).setMinWidth(100);
+            Table.getColumnModel().getColumn(2).setPreferredWidth(100);
+            Table.getColumnModel().getColumn(3).setMinWidth(100);
+            Table.getColumnModel().getColumn(3).setPreferredWidth(100);
+            Table.getColumnModel().getColumn(4).setMinWidth(75);
+            Table.getColumnModel().getColumn(5).setMinWidth(100);
+            Table.getColumnModel().getColumn(5).setPreferredWidth(100);
+            Table.getColumnModel().getColumn(6).setMinWidth(75);
+            Table.getColumnModel().getColumn(7).setMinWidth(75);
+            Table.getColumnModel().getColumn(8).setMinWidth(50);
+            Table.getColumnModel().getColumn(9).setMinWidth(75);
+            Table.getColumnModel().getColumn(9).setPreferredWidth(50);
+            Table.getColumnModel().getColumn(10).setMinWidth(110);
+            Table.getColumnModel().getColumn(11).setMinWidth(75);
+            Table.getColumnModel().getColumn(12).setMinWidth(150);
+            Table.getColumnModel().getColumn(13).setMinWidth(150);
+            Table.getColumnModel().getColumn(14).setMinWidth(150);
+            Table.getColumnModel().getColumn(15).setMinWidth(150);
+            Table.getColumnModel().getColumn(16).setMinWidth(50);
+            Table.getColumnModel().getColumn(17).setMinWidth(100);
+            Table.getColumnModel().getColumn(18).setMinWidth(50);
+            Table.getColumnModel().getColumn(19).setMinWidth(75);
+            Table.getColumnModel().getColumn(20).setMinWidth(75);
+            Table.getColumnModel().getColumn(21).setMinWidth(100);
+            Table.getColumnModel().getColumn(22).setMinWidth(75);
+            Table.getColumnModel().getColumn(23).setMinWidth(100);
+            Table.getColumnModel().getColumn(24).setMinWidth(100);
+            Table.getColumnModel().getColumn(25).setMinWidth(150);
+            Table.getColumnModel().getColumn(26).setMinWidth(150);
+            Table.getColumnModel().getColumn(27).setMinWidth(50);
+            Table.getColumnModel().getColumn(28).setMinWidth(50);
+        }
 
         btnUploadPhoto.setText("Upload Photo");
         btnUploadPhoto.addActionListener(new java.awt.event.ActionListener() {
@@ -685,7 +732,7 @@ public class Admin extends javax.swing.JFrame {
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(Searchdata, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(scrchBtn))
-                .addContainerGap(181, Short.MAX_VALUE))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jScrollPane1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
@@ -2676,7 +2723,8 @@ DefaultTableModel model = new DefaultTableModel(
 ) {
     @Override
     public Class<?> getColumnClass(int column) {
-        return column == 8 ? byte[].class : String.class;
+        // Make sure this matches your photo column index (9 in this case)
+        return column == 10 ? byte[].class : String.class;
     }
 };
         
@@ -2728,8 +2776,8 @@ DefaultTableModel model = new DefaultTableModel(
         Table.setDefaultRenderer(byte[].class, new ImageRenderer());
         
         // 4. Make sure column is visible
-        Table.getColumnModel().getColumn(8).setMinWidth(100);
-        Table.getColumnModel().getColumn(8).setMaxWidth(150);
+        Table.getColumnModel().getColumn(10).setMinWidth(100);
+        Table.getColumnModel().getColumn(10).setMaxWidth(150);
         
         con.close();
     } catch (Exception e) {
@@ -2791,10 +2839,10 @@ try {
             if (currentImage != null) {
                 try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
                     ImageIO.write(currentImage, "jpg", baos);
-                    pstmt.setBytes(9, baos.toByteArray());
+                    pstmt.setBytes(10, baos.toByteArray());
                 }
             } else {
-                pstmt.setNull(9, Types.BLOB);
+                pstmt.setNull(10, Types.BLOB);
             }
             
             // Execute and handle result
@@ -3024,80 +3072,32 @@ private void clearForm() {
     }//GEN-LAST:event_attendance2ActionPerformed
 
     private void btnTakePhotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnTakePhotoActionPerformed
-          try {
-        // Debug: Check if webcam is already initialized
-        System.out.println("Webcam state before initialization: " + (webcam != null ? "Exists" : "Null"));
-        
-        // Initialize webcam if not already done
+ try {
         if (webcam == null) {
-            System.out.println("Attempting to get default webcam...");
             webcam = Webcam.getDefault();
-            
             if (webcam == null) {
-                String errorMsg = "No webcam detected!\n" +
-                                 "1. Check if webcam is connected\n" +
-                                 "2. Try another USB port\n" +
-                                 "3. Test webcam in another application";
-                JOptionPane.showMessageDialog(this, errorMsg, "Webcam Error", JOptionPane.ERROR_MESSAGE);
+                JOptionPane.showMessageDialog(this, "No webcam detected!");
                 return;
             }
-            
-            // Configure webcam settings
             webcam.setViewSize(WebcamResolution.VGA.getSize());
-            System.out.println("Webcam found: " + webcam.getName());
-            
-            // Open the webcam
-            webcam.open(true); // true = wait for camera to be ready
-            System.out.println("Webcam opened successfully");
+            webcam.open();
         }
         
-        // Debug: Verify webcam is open
-        System.out.println("Webcam open status: " + webcam.isOpen());
-        
-        // Capture image with timeout
         currentImage = webcam.getImage();
-        
-        if (currentImage == null) {
-            throw new Exception("Failed to capture image (null returned)");
+        if (currentImage != null) {
+            updatePhotoPreview(currentImage);
         }
-        
-        System.out.println("Image captured: " + currentImage.getWidth() + "x" + currentImage.getHeight());
-        
-        // Display preview
-        Image scaledImage = currentImage.getScaledInstance(
-            photoPreview.getWidth(),
-            photoPreview.getHeight(),
-            Image.SCALE_SMOOTH);
-        photoPreview.setIcon(new ImageIcon(scaledImage));
-        
     } catch (Exception e) {
-        // Enhanced error handling
-        String errorDetails = "Error accessing camera:\n" +
-                             e.getMessage() + "\n\n" +
-                             "Possible solutions:\n" +
-                             "1. Close other applications using the webcam\n" +
-                             "2. Reinstall webcam drivers\n" +
-                             "3. Restart your computer";
-        
-        JOptionPane.showMessageDialog(this, 
-            errorDetails,
-            "Camera Error",
-            JOptionPane.ERROR_MESSAGE);
-        
+        JOptionPane.showMessageDialog(this, "Error accessing camera: " + e.getMessage());
         e.printStackTrace();
-        
-        // Clean up if something went wrong
-        if (webcam != null) {
-            webcam.close();
-            webcam = null;
-        }
+    
     }
 
         
     }//GEN-LAST:event_btnTakePhotoActionPerformed
 
     private void btnUploadPhotoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadPhotoActionPerformed
-        JFileChooser fileChooser = new JFileChooser();
+   JFileChooser fileChooser = new JFileChooser();
     fileChooser.setAcceptAllFileFilterUsed(false);
     fileChooser.addChoosableFileFilter(new FileNameExtensionFilter(
         "Image files", "jpg", "jpeg", "png", "gif"));
@@ -3107,13 +3107,7 @@ private void clearForm() {
         try {
             File selectedFile = fileChooser.getSelectedFile();
             currentImage = ImageIO.read(selectedFile);
-            if (currentImage != null) {
-                ImageIcon icon = new ImageIcon(currentImage.getScaledInstance(
-                    photoPreview.getWidth(),
-                    photoPreview.getHeight(),
-                    Image.SCALE_SMOOTH));
-                photoPreview.setIcon(icon);
-            }
+            updatePhotoPreview(currentImage);
         } catch (IOException ex) {
             JOptionPane.showMessageDialog(this, "Error loading image: " + ex.getMessage());
             ex.printStackTrace();
@@ -4580,38 +4574,69 @@ private void displayPhotoFromDB(int studentId) {
     
     // Add this as an inner class in your form
 private class ImageRenderer extends DefaultTableCellRenderer {
-    private JLabel lbl = new JLabel();
+    private JLabel label = new JLabel();
     
     @Override
     public Component getTableCellRendererComponent(JTable table, Object value,
         boolean isSelected, boolean hasFocus, int row, int column) {
         
-        super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
+        // Clear previous settings
+        label.setIcon(null);
+        label.setText("");
+        label.setHorizontalAlignment(JLabel.CENTER);
         
-        lbl = (JLabel) super.getTableCellRendererComponent(table, value, isSelected, hasFocus, row, column);
-        lbl.setHorizontalAlignment(JLabel.CENTER);
-        
-        if (column == 8 && value instanceof byte[]) {
+        if (value instanceof byte[]) {
             byte[] imageData = (byte[]) value;
             try {
                 if (imageData != null && imageData.length > 0) {
                     ImageIcon icon = new ImageIcon(imageData);
+                    // Scale the image to fit the cell
                     Image img = icon.getImage().getScaledInstance(80, 80, Image.SCALE_SMOOTH);
-                    lbl.setIcon(new ImageIcon(img));
+                    label.setIcon(new ImageIcon(img));
                 } else {
-                    lbl.setIcon(null);
-                    lbl.setText("[No Photo]");
+                    label.setText("[No Photo]");
                 }
             } catch (Exception e) {
-                lbl.setIcon(null);
-                lbl.setText("[Error]");
+                label.setText("[Error]");
+                e.printStackTrace();
             }
         } else {
-            lbl.setIcon(null);
+            label.setText(value != null ? value.toString() : "");
         }
-        return lbl;
+        
+        // Set background for selection
+        if (isSelected) {
+            label.setBackground(table.getSelectionBackground());
+            label.setForeground(table.getSelectionForeground());
+        } else {
+            label.setBackground(table.getBackground());
+            label.setForeground(table.getForeground());
+        }
+        
+        label.setOpaque(true);
+        return label;
     }
+}
+private void displayImageOnLabel(JLabel label, BufferedImage image) {
+    if (image != null) {
+        ImageIcon icon = new ImageIcon(image.getScaledInstance(
+            label.getWidth(),
+            label.getHeight(),
+            Image.SCALE_SMOOTH));
+        label.setIcon(icon);
+        label.setText(""); // Clear any text
+    } else {
+        label.setIcon(null);
+        label.setText("No Image");
+    }
+}
 
+// Use this method when setting images to your preview labels
+private void updatePhotoPreview(BufferedImage image) {
+    displayImageOnLabel(photoPreview, image);
+    displayImageOnLabel(photoPreview1, image);
+    displayImageOnLabel(photoPreview2, image);
+    displayImageOnLabel(photoPreview3, image);
 }
 @Override
 public void dispose(){
