@@ -158,11 +158,12 @@ private final String DB_PASS = "";
         cYearDate = new javax.swing.JComboBox<>();
         email1 = new javax.swing.JLabel();
         txtPassword = new java.awt.TextField();
-        textField1 = new java.awt.TextField();
-        jLabel3 = new javax.swing.JLabel();
+        txtStudentID = new java.awt.TextField();
+        StudentID = new javax.swing.JLabel();
         jButton3 = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+        setResizable(false);
 
         jPanel1.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -242,14 +243,13 @@ private final String DB_PASS = "";
         email.setBackground(new java.awt.Color(0, 0, 0));
         email.setText("E-mail");
 
-        txtmname.setText("Middle Name");
         txtmname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtmnameActionPerformed(evt);
             }
         });
 
-        txtfname.setText("First Name");
+        txtfname.setName("First Name"); // NOI18N
         txtfname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtfnameActionPerformed(evt);
@@ -262,7 +262,6 @@ private final String DB_PASS = "";
             }
         });
 
-        txtlname.setText("Last Name");
         txtlname.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 txtlnameActionPerformed(evt);
@@ -477,7 +476,13 @@ private final String DB_PASS = "";
             }
         });
 
-        jLabel3.setText("Student ID");
+        txtStudentID.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtStudentIDActionPerformed(evt);
+            }
+        });
+
+        StudentID.setText("Student ID");
 
         javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
         jPanel6.setLayout(jPanel6Layout);
@@ -533,7 +538,7 @@ private final String DB_PASS = "";
                                     .addGroup(jPanel6Layout.createSequentialGroup()
                                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(email1)
-                                            .addComponent(jLabel3))
+                                            .addComponent(StudentID))
                                         .addGap(72, 72, 72)))
                                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(cDistrict, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -544,7 +549,7 @@ private final String DB_PASS = "";
                                     .addComponent(txtEmail, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                                     .addComponent(txtBarangay, javax.swing.GroupLayout.DEFAULT_SIZE, 393, Short.MAX_VALUE)
                                     .addComponent(txtPassword, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(textField1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
+                                    .addComponent(txtStudentID, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                         .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel6Layout.createSequentialGroup()
@@ -738,8 +743,8 @@ private final String DB_PASS = "";
                         .addComponent(txtNationality, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                    .addComponent(textField1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                    .addComponent(jLabel3))
+                    .addComponent(txtStudentID, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(StudentID))
                 .addGap(32, 32, 32)
                 .addComponent(btnSubmit)
                 .addGap(30, 30, 30))
@@ -803,7 +808,7 @@ private final String DB_PASS = "";
                     .addGroup(jPanel2Layout.createSequentialGroup()
                         .addGap(538, 538, 538)
                         .addComponent(Title)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 457, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 460, Short.MAX_VALUE)
                         .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 91, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap())
         );
@@ -846,6 +851,7 @@ private final String DB_PASS = "";
         );
 
         pack();
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
 
     private void txtmnameActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtmnameActionPerformed
@@ -971,8 +977,8 @@ private final String DB_PASS = "";
 String mainTableSql = "INSERT INTO students (school_year, section, grade, photo, campus, " +
         "birth_place, home_address, province, city, scheme, barangay, district, sex, " +
         "civil_status, birth_date, zip_code, nationality, religion, contact_no, mobile_no, " +
-        "height, weight, email, password, last_name, first_name, middle_name) " +
-        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+        "height, weight, email, password,student_id, last_name, first_name, middle_name) " +
+        "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
 // Program-specific tables (same approach)
 String programTableSql = "";
@@ -983,22 +989,22 @@ switch(course) {
         programTableSql = "INSERT INTO bsis_students (school_year, section, grade, photo, campus, " +
                 "birth_place, home_address, province, city, scheme, barangay, district, sex, " +
                 "civil_status, birth_date, zip_code, nationality, religion, contact_no, mobile_no, " +
-                "height, weight, email, password, last_name, first_name, middle_name) " +
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                "height, weight, email, password,student_id, last_name, first_name, middle_name) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         break;
     case "BSIT":
         programTableSql = "INSERT INTO bsit_students (school_year, section, grade, photo, campus, " +
                 "birth_place, home_address, province, city, scheme, barangay, district, sex, " +
                 "civil_status, birth_date, zip_code, nationality, religion, contact_no, mobile_no, " +
-                "height, weight, email, password, last_name, first_name, middle_name) " +
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                "height, weight, email, password, student_id,last_name, first_name, middle_name) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         break;
     case "BSCS":
         programTableSql = "INSERT INTO bscs_students (school_year, section, grade, photo, campus, " +
                 "birth_place, home_address, province, city, scheme, barangay, district, sex, " +
                 "civil_status, birth_date, zip_code, nationality, religion, contact_no, mobile_no, " +
-                "height, weight, email, password, last_name, first_name, middle_name) " +
-                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+                "height, weight, email, password, student_id,last_name, first_name, middle_name) " +
+                "VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
         break;
 }
     
@@ -1110,6 +1116,8 @@ private void setCommonParameters(PreparedStatement pstmt) throws SQLException {
     // Password
     pstmt.setString(paramIndex++, txtPassword.getText());
     
+    pstmt.setString(paramIndex++, txtStudentID.getText());
+    
     // Last name
     pstmt.setString(paramIndex++, txtlname.getText());
     
@@ -1136,6 +1144,7 @@ private void setCommonParameters(PreparedStatement pstmt) throws SQLException {
             txtMobileNo.setText("");
             txtHeight.setText("");
             txtWeight.setText("");
+            txtStudentID.setText("");
 
             // Reset combo boxes and radio buttons
             cCampus.setSelectedIndex(0);
@@ -1277,6 +1286,12 @@ private void setCommonParameters(PreparedStatement pstmt) throws SQLException {
               
     }//GEN-LAST:event_jButton3ActionPerformed
 
+    private void txtStudentIDActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtStudentIDActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtStudentIDActionPerformed
+    
+    
+    
     /**
      * @param args the command line arguments
      */
@@ -1317,6 +1332,7 @@ private void setCommonParameters(PreparedStatement pstmt) throws SQLException {
     private javax.swing.JLabel Campus;
     private javax.swing.JLabel Name;
     private javax.swing.JLabel Program;
+    private javax.swing.JLabel StudentID;
     private javax.swing.JLabel Title;
     private javax.swing.JLabel address;
     private javax.swing.JLabel barangay;
@@ -1353,7 +1369,6 @@ private void setCommonParameters(PreparedStatement pstmt) throws SQLException {
     private javax.swing.JButton jButton3;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JLabel jLabel3;
     private javax.swing.JLabel jLabel37;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPanel jPanel2;
@@ -1370,7 +1385,6 @@ private void setCommonParameters(PreparedStatement pstmt) throws SQLException {
     private javax.swing.JLabel reion;
     private javax.swing.JLabel scheme;
     private javax.swing.JLabel sexatbirth;
-    private java.awt.TextField textField1;
     private javax.swing.JLabel townorcity;
     private java.awt.TextField txtAddress;
     private java.awt.TextField txtBarangay;
@@ -1382,6 +1396,7 @@ private void setCommonParameters(PreparedStatement pstmt) throws SQLException {
     private java.awt.TextField txtNationality;
     private java.awt.TextField txtPassword;
     private java.awt.TextField txtReligion;
+    private java.awt.TextField txtStudentID;
     private java.awt.TextField txtWeight;
     private java.awt.TextField txtZip;
     private java.awt.TextField txtfname;

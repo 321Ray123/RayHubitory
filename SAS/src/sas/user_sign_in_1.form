@@ -9,10 +9,11 @@
   </NonVisualComponents>
   <Properties>
     <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="resizable" type="boolean" value="false"/>
   </Properties>
   <SyntheticProperties>
     <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
-    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="true"/>
   </SyntheticProperties>
   <AuxValues>
     <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
@@ -81,7 +82,7 @@
                           <Group type="102" attributes="0">
                               <EmptySpace min="-2" pref="538" max="-2" attributes="0"/>
                               <Component id="Title" min="-2" max="-2" attributes="0"/>
-                              <EmptySpace pref="457" max="32767" attributes="0"/>
+                              <EmptySpace pref="460" max="32767" attributes="0"/>
                               <Component id="jButton3" min="-2" pref="91" max="-2" attributes="0"/>
                           </Group>
                       </Group>
@@ -285,7 +286,7 @@
                                                           <Group type="102" attributes="0">
                                                               <Group type="103" groupAlignment="0" attributes="0">
                                                                   <Component id="email1" alignment="0" min="-2" max="-2" attributes="0"/>
-                                                                  <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                                                  <Component id="StudentID" min="-2" max="-2" attributes="0"/>
                                                               </Group>
                                                               <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
                                                           </Group>
@@ -300,7 +301,7 @@
                                                           <Component id="txtEmail" alignment="0" max="32767" attributes="0"/>
                                                           <Component id="txtBarangay" alignment="0" pref="393" max="32767" attributes="0"/>
                                                           <Component id="txtPassword" alignment="0" max="32767" attributes="0"/>
-                                                          <Component id="textField1" max="32767" attributes="0"/>
+                                                          <Component id="txtStudentID" max="32767" attributes="0"/>
                                                       </Group>
                                                   </Group>
                                               </Group>
@@ -552,8 +553,8 @@
                                       </Group>
                                       <EmptySpace max="-2" attributes="0"/>
                                       <Group type="103" groupAlignment="1" attributes="0">
-                                          <Component id="textField1" min="-2" max="-2" attributes="0"/>
-                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtStudentID" min="-2" max="-2" attributes="0"/>
+                                          <Component id="StudentID" min="-2" max="-2" attributes="0"/>
                                       </Group>
                                       <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
                                       <Component id="btnSubmit" min="-2" max="-2" attributes="0"/>
@@ -689,16 +690,13 @@
                               </Properties>
                             </Component>
                             <Component class="java.awt.TextField" name="txtmname">
-                              <Properties>
-                                <Property name="text" type="java.lang.String" value="Middle Name"/>
-                              </Properties>
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtmnameActionPerformed"/>
                               </Events>
                             </Component>
                             <Component class="java.awt.TextField" name="txtfname">
                               <Properties>
-                                <Property name="text" type="java.lang.String" value="First Name"/>
+                                <Property name="name" type="java.lang.String" value="First Name" noResource="true"/>
                               </Properties>
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtfnameActionPerformed"/>
@@ -710,9 +708,6 @@
                               </Events>
                             </Component>
                             <Component class="java.awt.TextField" name="txtlname">
-                              <Properties>
-                                <Property name="text" type="java.lang.String" value="Last Name"/>
-                              </Properties>
                               <Events>
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtlnameActionPerformed"/>
                               </Events>
@@ -1253,9 +1248,12 @@
                                 <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtPasswordActionPerformed"/>
                               </Events>
                             </Component>
-                            <Component class="java.awt.TextField" name="textField1">
+                            <Component class="java.awt.TextField" name="txtStudentID">
+                              <Events>
+                                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtStudentIDActionPerformed"/>
+                              </Events>
                             </Component>
-                            <Component class="javax.swing.JLabel" name="jLabel3">
+                            <Component class="javax.swing.JLabel" name="StudentID">
                               <Properties>
                                 <Property name="text" type="java.lang.String" value="Student ID"/>
                               </Properties>

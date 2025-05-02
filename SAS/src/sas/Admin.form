@@ -2433,7 +2433,7 @@
 
                   <Layout class="org.netbeans.modules.form.compat2.layouts.support.JTabbedPaneSupportLayout"/>
                   <SubComponents>
-                    <Container class="javax.swing.JPanel" name="jPanel9">
+                    <Container class="javax.swing.JPanel" name="Cityname">
                       <Properties>
                         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                           <Color blue="e2" green="f5" red="ea" type="rgb"/>
@@ -2459,71 +2459,220 @@
                               <Group type="102" alignment="0" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
                                       <Group type="102" attributes="0">
-                                          <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
-                                          <Component id="lmname2" min="-2" pref="350" max="-2" attributes="0"/>
-                                      </Group>
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
                                               <Group type="102" attributes="0">
-                                                  <Component id="Searchdata2" min="-2" pref="265" max="-2" attributes="0"/>
-                                                  <EmptySpace max="-2" attributes="0"/>
-                                                  <Component id="scrchBtn2" min="-2" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="22" max="-2" attributes="0"/>
-                                                      <Component id="Submit2" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                      <Component id="Update2" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                      <Component id="Clear2" min="-2" max="-2" attributes="0"/>
-                                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
-                                                      <Component id="Delete2" min="-2" max="-2" attributes="0"/>
-                                                  </Group>
-                                                  <Component id="schoolyr8" alignment="0" min="-2" pref="359" max="-2" attributes="0"/>
-                                                  <Component id="schoolyr7" alignment="0" max="32767" attributes="0"/>
-                                                  <Component id="Email4" alignment="0" max="32767" attributes="0"/>
-                                                  <Component id="password5" alignment="0" max="32767" attributes="0"/>
-                                                  <Component id="Lastname2" alignment="0" max="32767" attributes="0"/>
-                                                  <Group type="102" alignment="0" attributes="0">
-                                                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
-                                                      <Group type="103" groupAlignment="0" attributes="0">
-                                                          <Component id="password4" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
-                                                          <Component id="lname2" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
-                                                          <Component id="email2" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
-                                                          <Component id="schoolyr6" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
-                                                          <Component id="section4" alignment="0" min="-2" pref="349" max="-2" attributes="0"/>
-                                                          <Component id="grade4" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
-                                                          <Component id="attendance4" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
+                                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Component id="Lastname2" alignment="0" min="-2" pref="176" max="-2" attributes="0"/>
+                                                              <Component id="Firstname2" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="fname2" min="-2" pref="176" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" attributes="0">
+                                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                                  <Component id="btnTakePhoto2" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="btnUploadPhoto2" min="-2" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="1" attributes="0">
+                                                                  <Component id="grade5" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="grade4" min="-2" pref="17" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="1" attributes="0">
+                                                                  <Component id="attendance5" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="attendance4" min="-2" pref="16" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
                                                       </Group>
                                                   </Group>
-                                                  <Component id="grade5" alignment="0" min="-2" pref="359" max="-2" attributes="0"/>
-                                                  <Component id="attendance5" alignment="1" max="32767" attributes="0"/>
-                                                  <Component id="Email5" alignment="1" max="32767" attributes="0"/>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="schoolyr7" min="-2" pref="50" max="-2" attributes="0"/>
+                                                              <Component id="schoolyr6" min="-2" pref="75" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="schoolyr8" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="section4" min="-2" pref="87" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <EmptySpace max="32767" attributes="0"/>
+                                                                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <EmptySpace min="-2" pref="14" max="-2" attributes="0"/>
+                                                                  <Component id="textField5" max="32767" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="textField6" min="-2" pref="85" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                                              <Component id="email2" alignment="0" pref="176" max="32767" attributes="0"/>
+                                                              <Component id="Email4" alignment="0" min="-2" pref="141" max="-2" attributes="0"/>
+                                                              <Component id="lname2" alignment="0" max="32767" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="password4" max="32767" attributes="0"/>
+                                                              <Component id="textField4" max="32767" attributes="0"/>
+                                                              <Component id="lmname2" alignment="0" max="32767" attributes="0"/>
+                                                              <Group type="102" attributes="0">
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                                                                      <Component id="password5" min="-2" pref="108" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="photoPreview2" min="-2" max="-2" attributes="0"/>
+                                                      <Component id="jcontactnum" min="-2" max="-2" attributes="0"/>
+                                                  </Group>
+                                              </Group>
+                                              <Group type="102" alignment="1" attributes="0">
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="1" attributes="0">
+                                                      <Component id="textField1" alignment="0" max="32767" attributes="0"/>
+                                                      <Component id="BirthPlace" alignment="1" max="32767" attributes="0"/>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="City" min="-2" pref="80" max="-2" attributes="0"/>
+                                                              <Component id="jLabel14" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="Barangay" alignment="0" min="-2" pref="94" max="-2" attributes="0"/>
+                                                              <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="jLabel15" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="District" min="-2" pref="70" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="ZipCode" max="32767" attributes="0"/>
+                                                              </Group>
+                                                              <Group type="102" attributes="0">
+                                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                                      <Group type="102" attributes="0">
+                                                                          <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                                                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                                                          <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                                                      </Group>
+                                                                      <Component id="jLabel16" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                                  </Group>
+                                                                  <EmptySpace min="0" pref="10" max="32767" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jscheme" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="scheme" min="-2" pref="45" max="-2" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" alignment="0" attributes="0">
+                                                          <Group type="103" groupAlignment="1" attributes="0">
+                                                              <Component id="jLabel9" alignment="0" min="-2" max="-2" attributes="0"/>
+                                                              <Group type="102" alignment="0" attributes="0">
+                                                                  <Component id="sex" min="-2" pref="80" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="CivilStatus" min="-2" pref="94" max="-2" attributes="0"/>
+                                                                  <EmptySpace max="-2" attributes="0"/>
+                                                                  <Component id="BirthDate" min="-2" pref="99" max="-2" attributes="0"/>
+                                                              </Group>
+                                                          </Group>
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                  </Group>
+                                                  <EmptySpace max="-2" attributes="0"/>
+                                                  <Group type="103" groupAlignment="0" attributes="0">
+                                                      <Component id="contactnum" max="32767" attributes="0"/>
+                                                      <Component id="mobilenum" alignment="0" max="32767" attributes="0"/>
+                                                      <Group type="102" alignment="1" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel22" min="-2" pref="67" max="-2" attributes="0"/>
+                                                              <Component id="Height" min="-2" pref="100" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Group type="102" attributes="0">
+                                                                  <Component id="jLabel23" min="-2" max="-2" attributes="0"/>
+                                                                  <EmptySpace min="-2" pref="38" max="-2" attributes="0"/>
+                                                              </Group>
+                                                              <Component id="Weight" pref="110" max="32767" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <Component id="jmobilenum" min="-2" max="-2" attributes="0"/>
+                                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                                      </Group>
+                                                      <Group type="102" attributes="0">
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jLabel18" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="Nationality" min="-2" pref="80" max="-2" attributes="0"/>
+                                                          </Group>
+                                                          <EmptySpace max="-2" attributes="0"/>
+                                                          <Group type="103" groupAlignment="0" attributes="0">
+                                                              <Component id="jreligion" min="-2" max="-2" attributes="0"/>
+                                                              <Component id="religion" max="32767" attributes="0"/>
+                                                          </Group>
+                                                      </Group>
+                                                  </Group>
                                               </Group>
                                           </Group>
-                                      </Group>
-                                  </Group>
-                                  <EmptySpace min="-2" pref="1210" max="-2" attributes="0"/>
-                              </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="jLabel3" alignment="0" min="-2" max="-2" attributes="0"/>
-                                      <Component id="fname2" alignment="0" pref="350" max="32767" attributes="0"/>
-                                      <Component id="Firstname2" max="32767" attributes="0"/>
-                                  </Group>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="1" attributes="0">
-                                      <Group type="102" alignment="1" attributes="0">
-                                          <Component id="btnTakePhoto2" min="-2" max="-2" attributes="0"/>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="btnUploadPhoto2" min="-2" max="-2" attributes="0"/>
                                       </Group>
-                                      <Component id="photoPreview2" min="-2" pref="200" max="-2" attributes="0"/>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Email5" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Searchdata2" min="-2" pref="85" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="scrchBtn2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Submit2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Update2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Clear2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Delete2" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                      </Group>
                                   </Group>
-                                  <EmptySpace min="6" max="32767" attributes="0"/>
                                   <Component id="jScrollPane3" min="-2" pref="1204" max="-2" attributes="0"/>
                               </Group>
                           </Group>
@@ -2536,61 +2685,149 @@
                                       <Component id="btnTakePhoto2" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="btnUploadPhoto2" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="Firstname2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Component id="photoPreview2" alignment="0" min="-2" max="-2" attributes="0"/>
                                       <Group type="102" alignment="0" attributes="0">
-                                          <Component id="fname2" min="-2" max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="fname2" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lmname2" min="-2" pref="20" max="-2" attributes="0"/>
+                                          </Group>
                                           <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="lmname2" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="Lastname2" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="lname2" min="-2" pref="20" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="password5" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="password4" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="Email4" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="email2" min="-2" pref="20" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
-                                          <Component id="schoolyr7" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="schoolyr6" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="schoolyr8" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="section4" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="grade5" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="grade4" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="attendance5" min="-2" max="-2" attributes="0"/>
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Component id="attendance4" min="-2" pref="20" max="-2" attributes="0"/>
-                                          <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="3" attributes="0">
-                                              <Component id="Submit2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Update2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Delete2" alignment="3" min="-2" max="-2" attributes="0"/>
-                                              <Component id="Clear2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Lastname2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel5" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="textField4" min="-2" max="-2" attributes="0"/>
+                                              <Component id="lname2" min="-2" pref="20" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="Email4" min="-2" max="-2" attributes="0"/>
+                                              <Component id="password5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="password4" min="-2" max="-2" attributes="0"/>
+                                              <Component id="email2" min="-2" pref="21" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="schoolyr7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="schoolyr8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel7" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel8" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="schoolyr6" max="32767" attributes="0"/>
+                                              <Component id="section4" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="0" attributes="0">
+                                                  <Component id="textField5" alignment="1" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="textField6" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Component id="photoPreview2" min="-2" pref="188" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="3" attributes="0">
+                                              <Component id="jcontactnum" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel6" alignment="3" min="-2" max="-2" attributes="0"/>
                                           </Group>
                                       </Group>
                                   </Group>
-                                  <EmptySpace type="separate" max="-2" attributes="0"/>
-                                  <Component id="Email5" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="BirthPlace" min="-2" max="-2" attributes="0"/>
+                                      <Component id="contactnum" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jmobilenum" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="textField1" min="-2" max="-2" attributes="0"/>
+                                      <Component id="mobilenum" min="-2" max="-2" attributes="0"/>
+                                  </Group>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="1" attributes="0">
-                                      <Component id="Searchdata2" min="-2" max="-2" attributes="0"/>
-                                      <Component id="scrchBtn2" min="-2" max="-2" attributes="0"/>
+                                      <Group type="102" attributes="0">
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="jLabel13" min="-2" max="-2" attributes="0"/>
+                                              <Component id="jLabel17" min="-2" max="-2" attributes="0"/>
+                                              <Group type="103" groupAlignment="3" attributes="0">
+                                                  <Component id="jLabel18" alignment="3" min="-2" max="-2" attributes="0"/>
+                                                  <Component id="jreligion" alignment="3" min="-2" max="-2" attributes="0"/>
+                                              </Group>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="1" attributes="0">
+                                              <Component id="District" min="-2" max="-2" attributes="0"/>
+                                              <Component id="ZipCode" min="-2" max="-2" attributes="0"/>
+                                              <Component id="Nationality" min="-2" max="-2" attributes="0"/>
+                                              <Component id="religion" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="City" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Component id="Barangay" min="-2" max="-2" attributes="0"/>
+                                      </Group>
                                   </Group>
-                                  <EmptySpace min="47" max="32767" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="3" attributes="0">
+                                      <Component id="jLabel14" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel15" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel16" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jscheme" alignment="3" min="-2" pref="16" max="-2" attributes="0"/>
+                                      <Component id="jLabel22" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      <Component id="jLabel23" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="sex" min="-2" max="-2" attributes="0"/>
+                                      <Component id="BirthDate" alignment="0" min="-2" max="-2" attributes="0"/>
+                                      <Component id="scheme" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Height" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Weight" min="-2" max="-2" attributes="0"/>
+                                      <Component id="CivilStatus" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Email5" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Searchdata2" min="-2" max="-2" attributes="0"/>
+                                      <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                                          <Component id="scrchBtn2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Submit2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Update2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Clear2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                          <Component id="Delete2" alignment="3" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="attendance4" min="-2" pref="20" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="grade4" min="-2" max="-2" attributes="0"/>
+                                              <Component id="grade5" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="attendance5" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
                               </Group>
                               <Component id="jScrollPane3" alignment="1" max="32767" attributes="0"/>
                           </Group>
@@ -2887,7 +3124,7 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="Email4">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="email"/>
+                            <Property name="text" type="java.lang.String" value="Email"/>
                           </Properties>
                         </Component>
                         <Component class="javax.swing.JButton" name="Submit2">
@@ -2966,7 +3203,7 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="schoolyr7">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="school year"/>
+                            <Property name="text" type="java.lang.String" value="Year"/>
                           </Properties>
                         </Component>
                         <Component class="java.awt.TextField" name="section4">
@@ -2979,7 +3216,7 @@
                         </Component>
                         <Component class="javax.swing.JLabel" name="schoolyr8">
                           <Properties>
-                            <Property name="text" type="java.lang.String" value="section"/>
+                            <Property name="text" type="java.lang.String" value="Section"/>
                           </Properties>
                         </Component>
                         <Component class="java.awt.TextField" name="grade4">
@@ -3014,6 +3251,142 @@
                           </Properties>
                         </Component>
                         <Component class="java.awt.TextField" name="lmname2">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel5">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Extensions"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel7">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Campus"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel8">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Province"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="BirthPlace">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel6">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Birth Place"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="textField1">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel9">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Home Address"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel10">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="City"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jscheme">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Scheme"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="Barangay">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel12">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Barangay"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="textField4">
+                        </Component>
+                        <Component class="java.awt.TextField" name="textField5">
+                        </Component>
+                        <Component class="java.awt.TextField" name="textField6">
+                        </Component>
+                        <Component class="java.awt.TextField" name="City">
+                        </Component>
+                        <Component class="java.awt.TextField" name="scheme">
+                        </Component>
+                        <Component class="java.awt.TextField" name="District">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel13">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="District"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="sex">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel14">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Sex"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="CivilStatus">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel15">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Civil Status"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="BirthDate">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel16">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Birth Date"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="ZipCode">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel17">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Zip Code"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="Nationality">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel18">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Nationality"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="religion">
+                          <Events>
+                            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="religionActionPerformed"/>
+                          </Events>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jreligion">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Religion"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="contactnum">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jcontactnum">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Contact Number"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="mobilenum">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jmobilenum">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Mobile Number"/>
+                          </Properties>
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel22">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Height (cm)"/>
+                          </Properties>
+                        </Component>
+                        <Component class="java.awt.TextField" name="Height">
+                        </Component>
+                        <Component class="java.awt.TextField" name="Weight">
+                        </Component>
+                        <Component class="javax.swing.JLabel" name="jLabel23">
+                          <Properties>
+                            <Property name="text" type="java.lang.String" value="Weight (kg)"/>
+                          </Properties>
                         </Component>
                       </SubComponents>
                     </Container>
@@ -3590,17 +3963,6 @@
                           <Group type="103" groupAlignment="0" attributes="0">
                               <Group type="102" attributes="0">
                                   <Group type="103" groupAlignment="0" attributes="0">
-                                      <Group type="102" alignment="0" attributes="0">
-                                          <EmptySpace max="-2" attributes="0"/>
-                                          <Group type="103" groupAlignment="0" attributes="0">
-                                              <Group type="102" alignment="0" attributes="0">
-                                                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
-                                                  <Component id="lmname3" min="-2" pref="354" max="-2" attributes="0"/>
-                                              </Group>
-                                              <Component id="jLabel4" alignment="0" min="-2" max="-2" attributes="0"/>
-                                          </Group>
-                                          <EmptySpace max="32767" attributes="0"/>
-                                      </Group>
                                       <Group type="102" attributes="0">
                                           <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                                           <Group type="103" groupAlignment="0" attributes="0">
@@ -3609,10 +3971,10 @@
                                               <Group type="102" alignment="0" attributes="0">
                                                   <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                                                   <Group type="103" groupAlignment="0" attributes="0">
-                                                      <Component id="lname3" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
-                                                      <Component id="fname3" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
+                                                      <Component id="fname3" min="-2" pref="135" max="-2" attributes="0"/>
+                                                      <Component id="lname3" min="-2" pref="129" max="-2" attributes="0"/>
                                                   </Group>
-                                                  <EmptySpace min="0" pref="216" max="32767" attributes="0"/>
+                                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                               </Group>
                                           </Group>
                                       </Group>
@@ -3646,12 +4008,10 @@
                                                                   <Group type="102" alignment="0" attributes="0">
                                                                       <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
                                                                       <Group type="103" groupAlignment="0" attributes="0">
-                                                                          <Component id="password6" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
                                                                           <Component id="email3" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
                                                                           <Component id="schoolyr9" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
                                                                           <Component id="section5" alignment="0" min="-2" pref="349" max="-2" attributes="0"/>
-                                                                          <Component id="grade6" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
-                                                                          <Component id="attendance6" alignment="0" min="-2" pref="350" max="-2" attributes="0"/>
+                                                                          <Component id="password6" alignment="0" min="-2" pref="130" max="-2" attributes="0"/>
                                                                       </Group>
                                                                   </Group>
                                                               </Group>
@@ -3673,12 +4033,33 @@
                                                   <Group type="103" groupAlignment="0" attributes="0">
                                                       <Component id="Email6" alignment="0" max="32767" attributes="0"/>
                                                       <Component id="schoolyr10" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="grade7" alignment="0" max="32767" attributes="0"/>
-                                                      <Component id="attendance7" alignment="0" max="32767" attributes="0"/>
                                                   </Group>
                                                   <EmptySpace min="242" pref="242" max="-2" attributes="0"/>
                                               </Group>
                                           </Group>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="attendance7" min="-2" max="-2" attributes="0"/>
+                                              <Component id="grade7" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="grade6" min="-2" max="-2" attributes="0"/>
+                                              <Component id="attendance6" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Group type="102" attributes="0">
+                                                  <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                                                  <Component id="lmname3" min="-2" pref="133" max="-2" attributes="0"/>
+                                              </Group>
+                                              <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                                       </Group>
                                   </Group>
                                   <EmptySpace max="-2" attributes="0"/>
@@ -3730,15 +4111,7 @@
                                   <Component id="schoolyr11" min="-2" max="-2" attributes="0"/>
                                   <EmptySpace max="-2" attributes="0"/>
                                   <Component id="section5" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="grade7" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="grade6" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="attendance7" min="-2" max="-2" attributes="0"/>
-                                  <EmptySpace max="-2" attributes="0"/>
-                                  <Component id="attendance6" min="-2" pref="20" max="-2" attributes="0"/>
-                                  <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="132" max="-2" attributes="0"/>
                                   <Group type="103" groupAlignment="3" attributes="0">
                                       <Component id="Submit3" alignment="3" min="-2" max="-2" attributes="0"/>
                                       <Component id="Update3" alignment="3" min="-2" max="-2" attributes="0"/>
@@ -3753,6 +4126,18 @@
                                       <Component id="scrchBtn3" alignment="1" min="-2" max="-2" attributes="0"/>
                                   </Group>
                                   <EmptySpace max="32767" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="grade6" min="-2" max="-2" attributes="0"/>
+                                          <EmptySpace max="-2" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="attendance6" min="-2" pref="20" max="-2" attributes="0"/>
+                                              <Component id="attendance7" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                      <Component id="grade7" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace max="-2" attributes="0"/>
                               </Group>
                               <Component id="jScrollPane4" max="32767" attributes="0"/>
                           </Group>
