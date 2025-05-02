@@ -383,8 +383,8 @@ public class Admin extends javax.swing.JFrame {
 
         jScrollPane1.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
         jScrollPane1.setColumnHeaderView(Table);
-        jScrollPane1.setMinimumSize(new java.awt.Dimension(2715, 797));
-        jScrollPane1.setPreferredSize(new java.awt.Dimension(2715, 797));
+        jScrollPane1.setMinimumSize(new java.awt.Dimension(2750, 797));
+        jScrollPane1.setPreferredSize(new java.awt.Dimension(2750, 797));
         jScrollPane1.setRequestFocusEnabled(false);
         jScrollPane1.setRowHeaderView(Table);
         jScrollPane1.setViewportView(Table);
@@ -404,7 +404,7 @@ public class Admin extends javax.swing.JFrame {
                 java.lang.Integer.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false
+                false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, false, false, false, false, false, false, false, false, false, false, false, false
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -416,8 +416,8 @@ public class Admin extends javax.swing.JFrame {
             }
         });
         Table.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
-        Table.setMinimumSize(new java.awt.Dimension(2900, 797));
-        Table.setPreferredSize(new java.awt.Dimension(2715, 797));
+        Table.setMinimumSize(new java.awt.Dimension(2750, 797));
+        Table.setPreferredSize(new java.awt.Dimension(2750, 797));
         Table.setRowSelectionAllowed(false);
         Table.getTableHeader().setResizingAllowed(false);
         Table.getTableHeader().setReorderingAllowed(false);
@@ -448,8 +448,9 @@ public class Admin extends javax.swing.JFrame {
             Table.getColumnModel().getColumn(15).setMinWidth(150);
             Table.getColumnModel().getColumn(16).setMinWidth(50);
             Table.getColumnModel().getColumn(17).setMinWidth(100);
-            Table.getColumnModel().getColumn(18).setMinWidth(50);
+            Table.getColumnModel().getColumn(18).setPreferredWidth(75);
             Table.getColumnModel().getColumn(19).setMinWidth(75);
+            Table.getColumnModel().getColumn(19).setPreferredWidth(75);
             Table.getColumnModel().getColumn(20).setMinWidth(75);
             Table.getColumnModel().getColumn(21).setMinWidth(100);
             Table.getColumnModel().getColumn(22).setMinWidth(75);
@@ -457,8 +458,8 @@ public class Admin extends javax.swing.JFrame {
             Table.getColumnModel().getColumn(24).setMinWidth(100);
             Table.getColumnModel().getColumn(25).setMinWidth(150);
             Table.getColumnModel().getColumn(26).setMinWidth(150);
-            Table.getColumnModel().getColumn(27).setMinWidth(50);
-            Table.getColumnModel().getColumn(28).setMinWidth(50);
+            Table.getColumnModel().getColumn(27).setPreferredWidth(75);
+            Table.getColumnModel().getColumn(28).setPreferredWidth(75);
         }
 
         btnUploadPhoto.setText("Upload Photo");
@@ -604,46 +605,38 @@ public class Admin extends javax.swing.JFrame {
         jPanel1Layout.setHorizontalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(10, 10, 10)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addComponent(fname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addComponent(Firstname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 1205, javax.swing.GroupLayout.PREFERRED_SIZE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(14, 14, 14)
+                        .addComponent(lmname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addComponent(jLabel1))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(10, 10, 10)
                         .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Email1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                             .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addComponent(fname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 50, Short.MAX_VALUE))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addComponent(Firstname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(14, 14, 14)
-                                .addComponent(lmname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel1))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
                                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel1Layout.createSequentialGroup()
-                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(lname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(schoolyr2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(section2, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(grade2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(attendance2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(0, 54, Short.MAX_VALUE))
-                                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                                        .addComponent(Searchdata, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                        .addGap(23, 23, 23)
-                                        .addComponent(scrchBtn))
-                                    .addComponent(Email1, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(email, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(schoolyr2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(section2, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(grade2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(attendance2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                                     .addGroup(jPanel1Layout.createSequentialGroup()
                                         .addGap(15, 15, 15)
                                         .addComponent(Submit)
@@ -652,37 +645,42 @@ public class Admin extends javax.swing.JFrame {
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                                         .addComponent(Clear)
                                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(Delete)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 21, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                            .addComponent(schoolyr1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(attendance, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(grade, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(schoolyr, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Email, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(password1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Lastname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
-                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addComponent(btnTakePhoto)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnUploadPhoto)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE))
+                                        .addComponent(Delete))
+                                    .addGroup(jPanel1Layout.createSequentialGroup()
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(password, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addComponent(lname, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addComponent(photoPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                                .addComponent(btnTakePhoto)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(btnUploadPhoto)))))
+                                .addGap(5, 5, 5))))
+                    .addComponent(schoolyr1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(attendance, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(grade, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(schoolyr, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Email, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(password1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(Lastname, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel1Layout.createSequentialGroup()
-                        .addComponent(photoPreview, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(8, 8, 8)))
-                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 899, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(Searchdata, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(scrchBtn)
+                        .addGap(0, 0, Short.MAX_VALUE)))
+                .addGap(1105, 1105, 1105))
         );
         jPanel1Layout.setVerticalGroup(
             jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel1Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel1Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(Firstname))
                     .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(btnTakePhoto)
-                        .addComponent(btnUploadPhoto)))
+                        .addComponent(Firstname)
+                        .addComponent(btnTakePhoto))
+                    .addComponent(btnUploadPhoto, javax.swing.GroupLayout.Alignment.TRAILING))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addComponent(photoPreview, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -792,7 +790,7 @@ public class Admin extends javax.swing.JFrame {
                             .addComponent(jLabel41)
                             .addComponent(jLabel42)
                             .addComponent(jLabel38))
-                        .addGap(29, 44, Short.MAX_VALUE))
+                        .addGap(29, 306, Short.MAX_VALUE))
                     .addGroup(jPanel21Layout.createSequentialGroup()
                         .addGroup(jPanel21Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel21Layout.createSequentialGroup()
@@ -990,24 +988,27 @@ public class Admin extends javax.swing.JFrame {
         jPanel8.setMaximumSize(new java.awt.Dimension(600, 500));
         jPanel8.setPreferredSize(new java.awt.Dimension(600, 500));
 
-        jScrollPane2.setPreferredSize(new java.awt.Dimension(500, 80));
+        jScrollPane2.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        jScrollPane2.setAutoscrolls(true);
+        jScrollPane2.setMaximumSize(new java.awt.Dimension(2750, 32767));
+        jScrollPane2.setPreferredSize(new java.awt.Dimension(2750, 80));
 
         Table1.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "ID", "First Name", "Middle Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
+                "ID", "First Name", "Middle Name", "Last Name", "student ID", "Email", "school year", "sec", "grade", "attendance", "photo", "Campus", "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, false, true
+                false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false, false
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -1018,10 +1019,47 @@ public class Admin extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        Table1.setPreferredSize(new java.awt.Dimension(500, 400));
+        Table1.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
+        Table1.setMinimumSize(new java.awt.Dimension(2750, 797));
+        Table1.setPreferredSize(new java.awt.Dimension(2750, 797));
+        Table1.setRowSelectionAllowed(false);
+        Table1.getTableHeader().setResizingAllowed(false);
+        Table1.getTableHeader().setReorderingAllowed(false);
         jScrollPane2.setViewportView(Table1);
         if (Table1.getColumnModel().getColumnCount() > 0) {
-            Table1.getColumnModel().getColumn(0).setMaxWidth(50);
+            Table1.getColumnModel().getColumn(0).setResizable(false);
+            Table1.getColumnModel().getColumn(0).setPreferredWidth(25);
+            Table1.getColumnModel().getColumn(1).setResizable(false);
+            Table1.getColumnModel().getColumn(2).setResizable(false);
+            Table1.getColumnModel().getColumn(3).setResizable(false);
+            Table1.getColumnModel().getColumn(4).setResizable(false);
+            Table1.getColumnModel().getColumn(5).setResizable(false);
+            Table1.getColumnModel().getColumn(6).setResizable(false);
+            Table1.getColumnModel().getColumn(7).setResizable(false);
+            Table1.getColumnModel().getColumn(8).setResizable(false);
+            Table1.getColumnModel().getColumn(9).setResizable(false);
+            Table1.getColumnModel().getColumn(9).setPreferredWidth(50);
+            Table1.getColumnModel().getColumn(10).setResizable(false);
+            Table1.getColumnModel().getColumn(11).setResizable(false);
+            Table1.getColumnModel().getColumn(12).setResizable(false);
+            Table1.getColumnModel().getColumn(13).setResizable(false);
+            Table1.getColumnModel().getColumn(14).setResizable(false);
+            Table1.getColumnModel().getColumn(15).setResizable(false);
+            Table1.getColumnModel().getColumn(16).setResizable(false);
+            Table1.getColumnModel().getColumn(17).setResizable(false);
+            Table1.getColumnModel().getColumn(18).setResizable(false);
+            Table1.getColumnModel().getColumn(19).setResizable(false);
+            Table1.getColumnModel().getColumn(20).setResizable(false);
+            Table1.getColumnModel().getColumn(21).setResizable(false);
+            Table1.getColumnModel().getColumn(22).setResizable(false);
+            Table1.getColumnModel().getColumn(23).setResizable(false);
+            Table1.getColumnModel().getColumn(24).setResizable(false);
+            Table1.getColumnModel().getColumn(25).setResizable(false);
+            Table1.getColumnModel().getColumn(26).setResizable(false);
+            Table1.getColumnModel().getColumn(27).setResizable(false);
+            Table1.getColumnModel().getColumn(27).setPreferredWidth(75);
+            Table1.getColumnModel().getColumn(28).setResizable(false);
+            Table1.getColumnModel().getColumn(28).setPreferredWidth(75);
         }
 
         btnUploadPhoto1.setText("Upload Photo");
@@ -1167,83 +1205,68 @@ public class Admin extends javax.swing.JFrame {
         jPanel8Layout.setHorizontalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGap(22, 22, 22)
-                                .addComponent(Submit1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Update1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Clear1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                .addComponent(Delete1)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 58, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(attendance1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(grade1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(schoolyr4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Email2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(password3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addComponent(Lastname1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addGroup(jPanel8Layout.createSequentialGroup()
-                                            .addComponent(Searchdata1, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGap(23, 23, 23)
-                                            .addComponent(scrchBtn1))
-                                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                            .addComponent(Email3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                            .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
-                                                .addGap(10, 10, 10)
-                                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                    .addComponent(password2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(lname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(email1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(schoolyr3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(section3, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(grade3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addComponent(attendance3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                                    .addComponent(schoolyr5, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                .addGap(0, 50, Short.MAX_VALUE))
-                            .addComponent(Firstname1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
+                        .addGap(22, 22, 22)
+                        .addComponent(Submit1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(Update1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(Clear1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(Delete1))
+                    .addComponent(schoolyr4, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(grade1, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addGroup(jPanel8Layout.createSequentialGroup()
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel8Layout.createSequentialGroup()
-                                        .addGap(14, 14, 14)
-                                        .addComponent(lmname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(jLabel2)))
-                            .addGroup(jPanel8Layout.createSequentialGroup()
-                                .addGap(20, 20, 20)
-                                .addComponent(fname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel8Layout.createSequentialGroup()
-                        .addComponent(btnTakePhoto1)
+                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(Firstname1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
+                                    .addGap(10, 10, 10)
+                                    .addComponent(fname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                            .addComponent(jLabel2)
+                            .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                .addComponent(schoolyr5, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(jPanel8Layout.createSequentialGroup()
+                                    .addComponent(Searchdata1, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGap(23, 23, 23)
+                                    .addComponent(scrchBtn1))
+                                .addComponent(Email3, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
+                                    .addGap(10, 10, 10)
+                                    .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(password2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(lname1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(email1, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(schoolyr3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(section3, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(grade3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                        .addComponent(attendance3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                                .addComponent(password3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Email2, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
+                                    .addGap(14, 14, 14)
+                                    .addComponent(lmname1, javax.swing.GroupLayout.PREFERRED_SIZE, 346, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addComponent(Lastname1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(attendance1, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnUploadPhoto1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel8Layout.createSequentialGroup()
-                        .addComponent(photoPreview1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(8, 8, 8)))
-                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 899, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel8Layout.createSequentialGroup()
+                                .addComponent(btnTakePhoto1)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(btnUploadPhoto1))
+                            .addComponent(photoPreview1, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1204, Short.MAX_VALUE))
         );
         jPanel8Layout.setVerticalGroup(
             jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel8Layout.createSequentialGroup()
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(btnTakePhoto1)
-                    .addComponent(btnUploadPhoto1)
-                    .addComponent(Firstname1))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel8Layout.createSequentialGroup()
+                        .addComponent(Firstname1)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(fname1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(jLabel2)
@@ -1258,39 +1281,44 @@ public class Admin extends javax.swing.JFrame {
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                         .addComponent(password2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Email2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(email1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(11, 11, 11)
-                        .addComponent(schoolyr4)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(schoolyr3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(schoolyr5)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(section3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(grade1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(grade3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(attendance1)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(attendance3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(20, 20, 20)
+                        .addComponent(Email2))
+                    .addComponent(photoPreview1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel8Layout.createSequentialGroup()
+                        .addContainerGap()
                         .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Submit1)
-                            .addComponent(Update1)
-                            .addComponent(Delete1)
-                            .addComponent(Clear1))
-                        .addGap(27, 27, 27)
-                        .addComponent(Email3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Searchdata1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(scrchBtn1)))
-                    .addComponent(photoPreview1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(179, Short.MAX_VALUE))
+                            .addComponent(btnTakePhoto1)
+                            .addComponent(btnUploadPhoto1))))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(email1, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(11, 11, 11)
+                .addComponent(schoolyr4)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(schoolyr3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(schoolyr5)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(section3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(grade1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(grade3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(attendance1)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(attendance3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Submit1)
+                    .addComponent(Update1)
+                    .addComponent(Delete1)
+                    .addComponent(Clear1))
+                .addGap(27, 27, 27)
+                .addComponent(Email3)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel8Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(Searchdata1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(scrchBtn1))
+                .addContainerGap(186, Short.MAX_VALUE))
             .addComponent(jScrollPane2, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
@@ -1349,14 +1377,14 @@ public class Admin extends javax.swing.JFrame {
                         .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addComponent(jLabel47)
                             .addComponent(jLabel48))
-                        .addGap(29, 41, Short.MAX_VALUE))
+                        .addGap(29, 303, Short.MAX_VALUE))
                     .addGroup(jPanel22Layout.createSequentialGroup()
                         .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel22Layout.createSequentialGroup()
                                 .addGroup(jPanel22Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel22Layout.createSequentialGroup()
                                         .addComponent(jLabel46)
-                                        .addGap(0, 69, Short.MAX_VALUE))
+                                        .addGap(0, 331, Short.MAX_VALUE))
                                     .addComponent(textField16, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jButton17))
@@ -1550,24 +1578,27 @@ public class Admin extends javax.swing.JFrame {
         jPanel9.setMaximumSize(new java.awt.Dimension(600, 500));
         jPanel9.setPreferredSize(new java.awt.Dimension(600, 500));
 
-        jScrollPane3.setPreferredSize(new java.awt.Dimension(500, 80));
+        jScrollPane3.setHorizontalScrollBarPolicy(javax.swing.ScrollPaneConstants.HORIZONTAL_SCROLLBAR_ALWAYS);
+        jScrollPane3.setMaximumSize(new java.awt.Dimension(2750, 797));
+        jScrollPane3.setMinimumSize(new java.awt.Dimension(2750, 797));
+        jScrollPane3.setPreferredSize(new java.awt.Dimension(2750, 797));
 
         Table2.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "ID", "First Name", "Middle Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
+                "ID", "First Name", "Middle Name", "Last Name", "Student ID", "Email", "school year", "sec", "grade", "attendance", "photo", "Campus", "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, false, true
+                true, false, false, false, false, false, false, false, false, false, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, true, false, true
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -1578,10 +1609,20 @@ public class Admin extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        Table2.setPreferredSize(new java.awt.Dimension(500, 400));
+        Table2.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
+        Table2.setMinimumSize(new java.awt.Dimension(2750, 797));
+        Table2.setPreferredSize(new java.awt.Dimension(2750, 797));
+        Table2.getTableHeader().setResizingAllowed(false);
+        Table2.getTableHeader().setReorderingAllowed(false);
         jScrollPane3.setViewportView(Table2);
         if (Table2.getColumnModel().getColumnCount() > 0) {
+            Table2.getColumnModel().getColumn(0).setMinWidth(25);
+            Table2.getColumnModel().getColumn(0).setPreferredWidth(25);
             Table2.getColumnModel().getColumn(0).setMaxWidth(50);
+            Table2.getColumnModel().getColumn(27).setMinWidth(75);
+            Table2.getColumnModel().getColumn(27).setPreferredWidth(75);
+            Table2.getColumnModel().getColumn(28).setMinWidth(75);
+            Table2.getColumnModel().getColumn(28).setPreferredWidth(75);
         }
 
         btnUploadPhoto2.setText("Upload Photo");
@@ -1727,10 +1768,17 @@ public class Admin extends javax.swing.JFrame {
         jPanel9Layout.setHorizontalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
-                .addGap(10, 10, 10)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                        .addGap(24, 24, 24)
+                        .addComponent(lmname2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel9Layout.createSequentialGroup()
+                                .addComponent(Searchdata2, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                .addComponent(scrchBtn2))
                             .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                 .addGroup(jPanel9Layout.createSequentialGroup()
                                     .addGap(22, 22, 22)
@@ -1757,44 +1805,29 @@ public class Admin extends javax.swing.JFrame {
                                         .addComponent(grade4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
                                         .addComponent(attendance4, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
                                 .addComponent(grade5, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                .addComponent(attendance5, javax.swing.GroupLayout.PREFERRED_SIZE, 360, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGap(14, 14, 14)
-                                .addComponent(lmname2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                    .addGroup(jPanel9Layout.createSequentialGroup()
-                        .addGap(10, 10, 10)
-                        .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addComponent(jLabel3)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(fname2, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                    .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                        .addGroup(jPanel9Layout.createSequentialGroup()
-                                            .addComponent(Searchdata2, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addGap(23, 23, 23)
-                                            .addComponent(scrchBtn2))
-                                        .addComponent(Email5, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                                .addGap(40, 40, 40))
-                            .addGroup(jPanel9Layout.createSequentialGroup()
-                                .addComponent(Firstname2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))))
-                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                .addComponent(attendance5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(Email5, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))))
+                .addGap(1210, 1210, 1210))
+            .addGroup(jPanel9Layout.createSequentialGroup()
+                .addGap(20, 20, 20)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                    .addComponent(jLabel3)
+                    .addComponent(fname2, javax.swing.GroupLayout.DEFAULT_SIZE, 350, Short.MAX_VALUE)
+                    .addComponent(Firstname2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addGroup(jPanel9Layout.createSequentialGroup()
                         .addComponent(btnTakePhoto2)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnUploadPhoto2)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 10, Short.MAX_VALUE))
-                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel9Layout.createSequentialGroup()
-                        .addComponent(photoPreview2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(8, 8, 8)))
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 899, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addComponent(btnUploadPhoto2))
+                    .addComponent(photoPreview2, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(jScrollPane3, javax.swing.GroupLayout.PREFERRED_SIZE, 1204, javax.swing.GroupLayout.PREFERRED_SIZE))
         );
         jPanel9Layout.setVerticalGroup(
             jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel9Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(btnTakePhoto2)
                     .addComponent(btnUploadPhoto2)
@@ -1842,13 +1875,13 @@ public class Admin extends javax.swing.JFrame {
                             .addComponent(Update2)
                             .addComponent(Delete2)
                             .addComponent(Clear2))))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 159, Short.MAX_VALUE)
+                .addGap(18, 18, 18)
                 .addComponent(Email5)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addGroup(jPanel9Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
                     .addComponent(Searchdata2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addComponent(scrchBtn2))
-                .addGap(47, 47, 47))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jScrollPane3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
@@ -1927,7 +1960,7 @@ public class Admin extends javax.swing.JFrame {
                                         .addGroup(jPanel20Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                             .addComponent(jLabel83)
                                             .addComponent(jComboBox33, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))))
-                                .addGap(0, 27, Short.MAX_VALUE)))
+                                .addGap(0, 289, Short.MAX_VALUE)))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)))
                 .addComponent(jScrollPane14, javax.swing.GroupLayout.PREFERRED_SIZE, 1288, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
@@ -2101,24 +2134,25 @@ public class Admin extends javax.swing.JFrame {
         jPanel10.setMaximumSize(new java.awt.Dimension(600, 500));
         jPanel10.setPreferredSize(new java.awt.Dimension(600, 500));
 
-        jScrollPane4.setPreferredSize(new java.awt.Dimension(500, 80));
+        jScrollPane4.setMinimumSize(new java.awt.Dimension(2750, 797));
+        jScrollPane4.setPreferredSize(new java.awt.Dimension(2750, 797));
 
         Table3.setModel(new javax.swing.table.DefaultTableModel(
             new Object [][] {
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null},
-                {null, null, null, null, null, null, null, null, null, null}
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
             },
             new String [] {
-                "ID", "First Name", "Middle Name", "Last Name", "Email", "school year", "sec", "grade", "attendance", "photo"
+                "ID", "First Name", "Middle Name", "Last Name", "Student ID", "Email", "school year", "sec", "grade", "attendance", "photo", "Campus", "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight"
             }
         ) {
             Class[] types = new Class [] {
-                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class
+                java.lang.Integer.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.Object.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.String.class, java.lang.Integer.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class, java.lang.Object.class
             };
             boolean[] canEdit = new boolean [] {
-                false, false, false, false, false, false, false, false, false, true
+                false, false, false, false, true, false, false, false, false, false, true, true, true, true, true, true, false, true, true, true, true, true, true, true, true, true, true, true, false
             };
 
             public Class getColumnClass(int columnIndex) {
@@ -2129,10 +2163,22 @@ public class Admin extends javax.swing.JFrame {
                 return canEdit [columnIndex];
             }
         });
-        Table3.setPreferredSize(new java.awt.Dimension(500, 400));
+        Table3.setAutoResizeMode(javax.swing.JTable.AUTO_RESIZE_OFF);
+        Table3.setMinimumSize(new java.awt.Dimension(2750, 797));
+        Table3.setPreferredSize(new java.awt.Dimension(2750, 797));
+        Table3.getTableHeader().setResizingAllowed(false);
+        Table3.getTableHeader().setReorderingAllowed(false);
         jScrollPane4.setViewportView(Table3);
         if (Table3.getColumnModel().getColumnCount() > 0) {
+            Table3.getColumnModel().getColumn(0).setMinWidth(25);
+            Table3.getColumnModel().getColumn(0).setPreferredWidth(25);
             Table3.getColumnModel().getColumn(0).setMaxWidth(50);
+            Table3.getColumnModel().getColumn(16).setMinWidth(50);
+            Table3.getColumnModel().getColumn(16).setPreferredWidth(50);
+            Table3.getColumnModel().getColumn(26).setResizable(false);
+            Table3.getColumnModel().getColumn(27).setMinWidth(75);
+            Table3.getColumnModel().getColumn(27).setPreferredWidth(75);
+            Table3.getColumnModel().getColumn(28).setPreferredWidth(75);
         }
 
         btnUploadPhoto3.setText("Upload Photo");
@@ -2280,87 +2326,85 @@ public class Admin extends javax.swing.JFrame {
             .addGroup(jPanel10Layout.createSequentialGroup()
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel10Layout.createSequentialGroup()
-                                .addGap(10, 10, 10)
-                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addComponent(Lastname3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(Firstname3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(jPanel10Layout.createSequentialGroup()
-                                        .addGap(10, 10, 10)
-                                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addComponent(lname3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                            .addComponent(fname3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(0, 53, Short.MAX_VALUE))))
-                            .addGroup(jPanel10Layout.createSequentialGroup()
-                                .addContainerGap()
-                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                    .addGroup(jPanel10Layout.createSequentialGroup()
-                                        .addGap(22, 22, 22)
-                                        .addComponent(Submit3)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(Update3)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(Clear3)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                                        .addComponent(Delete3)
-                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 32, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                    .addComponent(attendance7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(grade7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(schoolyr10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(Email6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(password7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addGroup(jPanel10Layout.createSequentialGroup()
-                                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                            .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                                                .addGroup(jPanel10Layout.createSequentialGroup()
-                                                    .addComponent(Searchdata3, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                    .addGap(23, 23, 23)
-                                                    .addComponent(scrchBtn3))
-                                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
-                                                    .addComponent(Email7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                                    .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel10Layout.createSequentialGroup()
-                                                        .addGap(10, 10, 10)
-                                                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                                                            .addComponent(password6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(email3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(schoolyr9, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(section5, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(grade6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
-                                                            .addComponent(attendance6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
-                                            .addComponent(schoolyr11, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE))
-                                        .addGap(0, 53, Short.MAX_VALUE)))))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED))
-                    .addGroup(jPanel10Layout.createSequentialGroup()
                         .addContainerGap()
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                             .addGroup(jPanel10Layout.createSequentialGroup()
                                 .addGap(10, 10, 10)
                                 .addComponent(lmname3, javax.swing.GroupLayout.PREFERRED_SIZE, 354, javax.swing.GroupLayout.PREFERRED_SIZE))
                             .addComponent(jLabel4))
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                     .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addComponent(btnTakePhoto3)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(btnUploadPhoto3))
-                    .addComponent(photoPreview3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))
+                        .addGap(10, 10, 10)
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(Lastname3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addComponent(Firstname3, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGap(10, 10, 10)
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(lname3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addComponent(fname3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE))
+                                .addGap(0, 216, Short.MAX_VALUE))))
+                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGap(22, 22, 22)
+                                .addComponent(Submit3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Update3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Clear3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                                .addComponent(Delete3)
+                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 230, Short.MAX_VALUE))
+                            .addComponent(password7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(schoolyr11, javax.swing.GroupLayout.PREFERRED_SIZE, 359, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel10Layout.createSequentialGroup()
+                                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                                .addComponent(Searchdata3, javax.swing.GroupLayout.PREFERRED_SIZE, 265, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                .addGap(23, 23, 23)
+                                                .addComponent(scrchBtn3))
+                                            .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                                .addComponent(Email7, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                                .addGroup(javax.swing.GroupLayout.Alignment.LEADING, jPanel10Layout.createSequentialGroup()
+                                                    .addGap(10, 10, 10)
+                                                    .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                                        .addComponent(password6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(email3, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(schoolyr9, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(section5, javax.swing.GroupLayout.PREFERRED_SIZE, 349, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(grade6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                                        .addComponent(attendance6, javax.swing.GroupLayout.PREFERRED_SIZE, 350, javax.swing.GroupLayout.PREFERRED_SIZE)))))
+                                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                                .addComponent(btnTakePhoto3)
+                                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                                                .addComponent(btnUploadPhoto3))
+                                            .addComponent(photoPreview3, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.PREFERRED_SIZE, 200, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                                .addGap(0, 0, Short.MAX_VALUE))
+                            .addGroup(jPanel10Layout.createSequentialGroup()
+                                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(Email6, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(schoolyr10, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(grade7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                    .addComponent(attendance7, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                                .addGap(242, 242, 242)))))
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 899, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addComponent(jScrollPane4, javax.swing.GroupLayout.PREFERRED_SIZE, 1198, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap())
         );
         jPanel10Layout.setVerticalGroup(
             jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(jPanel10Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jPanel10Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addComponent(Firstname3))
-                    .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                        .addComponent(btnTakePhoto3)
-                        .addComponent(btnUploadPhoto3)))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(jPanel10Layout.createSequentialGroup()
+                        .addComponent(Firstname3)
+                        .addGap(11, 11, 11)
                         .addComponent(fname3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                         .addGap(14, 14, 14)
                         .addComponent(Lastname3)
@@ -2373,41 +2417,46 @@ public class Admin extends javax.swing.JFrame {
                         .addGap(17, 17, 17)
                         .addComponent(password7)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(password6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(Email6)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(email3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(schoolyr10)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(schoolyr9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(schoolyr11)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(section5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(grade7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(grade6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(attendance7)
-                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(attendance6, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
-                        .addGap(20, 20, 20)
+                        .addComponent(password6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel10Layout.createSequentialGroup()
                         .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                            .addComponent(Submit3)
-                            .addComponent(Update3)
-                            .addComponent(Delete3)
-                            .addComponent(Clear3))
-                        .addGap(27, 27, 27)
-                        .addComponent(Email7)
+                            .addComponent(btnTakePhoto3)
+                            .addComponent(btnUploadPhoto3))
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(Searchdata3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(scrchBtn3)))
-                    .addComponent(photoPreview3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
-                .addContainerGap(169, Short.MAX_VALUE))
+                        .addComponent(photoPreview3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(Email6)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(email3, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(schoolyr10)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(schoolyr9, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(schoolyr11)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(section5, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(grade7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(grade6, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(attendance7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addComponent(attendance6, javax.swing.GroupLayout.PREFERRED_SIZE, 20, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(20, 20, 20)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(Submit3)
+                    .addComponent(Update3)
+                    .addComponent(Delete3)
+                    .addComponent(Clear3))
+                .addGap(27, 27, 27)
+                .addComponent(Email7)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                .addGroup(jPanel10Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                    .addComponent(Searchdata3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(scrchBtn3))
+                .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
             .addComponent(jScrollPane4, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
         );
 
@@ -2468,7 +2517,7 @@ public class Admin extends javax.swing.JFrame {
                                 .addGroup(jPanel23Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                                     .addGroup(jPanel23Layout.createSequentialGroup()
                                         .addComponent(jLabel52)
-                                        .addGap(0, 69, Short.MAX_VALUE))
+                                        .addGap(0, 331, Short.MAX_VALUE))
                                     .addComponent(textField18, javax.swing.GroupLayout.Alignment.TRAILING, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
                                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                                 .addComponent(jButton19))
@@ -2712,26 +2761,24 @@ public void loadData() throws SQLException {
         Statement st = con.createStatement();
         
         // 1. Define columns INCLUDING photo
-        String[] columns = {"ID","First Name","Last Name","Email","School Year", 
+        String[] columns = {"ID","First Name","Last Name","Email","School Year", "Student ID",
                            "Section", "Grade", "Attendance", "Photo", "Campus", " Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" };
         
 DefaultTableModel model = new DefaultTableModel(
     new Object[][]{}, 
-    new String[]{"ID", "First Name", "Middle Name" ,"Last Name", "Email", "School Year", "Section", "Grade", "Attendance", "Photo", "Campus",
+    new String[]{"ID", "First Name", "Middle Name" ,"Last Name", "Student ID","Email", "School Year", "Section", "Grade", "Attendance", "Photo", "Campus",
         "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status",
         "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" }
 ) {
     @Override
     public Class<?> getColumnClass(int column) {
-        // Make sure this matches your photo column index (9 in this case)
+        // for photo column
         return column == 10 ? byte[].class : String.class;
     }
 };
         
         // 2. Explicit column selection
-        String sql = "SELECT id, first_name, middle_name, last_name, email, school_year, " +
-                    "section, grade, attendance, photo, campus, birth_place, home_address, province, city, scheme, barangay, district, sex, civil_status,"
-                + " birth_date, zip_code, nationality, religion, contact_no, mobile_no, height, weight  FROM students";
+        String sql = "SELECT * FROM students";
         
         ResultSet rs = st.executeQuery(sql);
         while (rs.next()) {
@@ -2744,6 +2791,7 @@ DefaultTableModel model = new DefaultTableModel(
                 rs.getString("first_name"),
                 rs.getString("middle_name"),
                 rs.getString("last_name"),
+                rs.getString("student_id"),
                 rs.getString("email"),
                 rs.getString("school_year"),
                 rs.getString("section"),
@@ -2776,9 +2824,64 @@ DefaultTableModel model = new DefaultTableModel(
         Table.setDefaultRenderer(byte[].class, new ImageRenderer());
         
         // 4. Make sure column is visible
+        Table.getColumnModel().getColumn(0).setMinWidth(50);
+        Table.getColumnModel().getColumn(0).setMaxWidth(50);
+        Table.getColumnModel().getColumn(1).setMinWidth(100);
+        Table.getColumnModel().getColumn(1).setMaxWidth(150);
+        Table.getColumnModel().getColumn(2).setMinWidth(100);
+        Table.getColumnModel().getColumn(2).setMaxWidth(150);
+        Table.getColumnModel().getColumn(3).setMinWidth(100);
+        Table.getColumnModel().getColumn(3).setMaxWidth(150);
+        Table.getColumnModel().getColumn(4).setMinWidth(100);
+        Table.getColumnModel().getColumn(4).setMaxWidth(150);
+        Table.getColumnModel().getColumn(5).setMinWidth(100);
+        Table.getColumnModel().getColumn(5).setMaxWidth(150);
+        Table.getColumnModel().getColumn(6).setMinWidth(100);
+        Table.getColumnModel().getColumn(6).setMaxWidth(150);
+        Table.getColumnModel().getColumn(7).setMinWidth(100);
+        Table.getColumnModel().getColumn(7).setMaxWidth(150);
+        Table.getColumnModel().getColumn(8).setMinWidth(100);
+        Table.getColumnModel().getColumn(8).setMaxWidth(150);
+        Table.getColumnModel().getColumn(9).setMinWidth(100);
+        Table.getColumnModel().getColumn(9).setMaxWidth(150);
         Table.getColumnModel().getColumn(10).setMinWidth(100);
         Table.getColumnModel().getColumn(10).setMaxWidth(150);
-        
+        Table.getColumnModel().getColumn(11).setMinWidth(100);
+        Table.getColumnModel().getColumn(11).setMaxWidth(150);
+        Table.getColumnModel().getColumn(12).setMinWidth(100);
+        Table.getColumnModel().getColumn(12).setMaxWidth(150);
+        Table.getColumnModel().getColumn(13).setMinWidth(100);
+        Table.getColumnModel().getColumn(13).setMaxWidth(150);
+        Table.getColumnModel().getColumn(14).setMinWidth(100);
+        Table.getColumnModel().getColumn(14).setMaxWidth(150);
+        Table.getColumnModel().getColumn(15).setMinWidth(100);
+        Table.getColumnModel().getColumn(15).setMaxWidth(150);
+        Table.getColumnModel().getColumn(16).setMinWidth(100);
+        Table.getColumnModel().getColumn(16).setMaxWidth(150);
+        Table.getColumnModel().getColumn(17).setMinWidth(100);
+        Table.getColumnModel().getColumn(17).setMaxWidth(150);
+        Table.getColumnModel().getColumn(18).setMinWidth(75);
+        Table.getColumnModel().getColumn(18).setMaxWidth(150);
+        Table.getColumnModel().getColumn(19).setMinWidth(100);
+        Table.getColumnModel().getColumn(19).setMaxWidth(150);
+        Table.getColumnModel().getColumn(20).setMinWidth(100);
+        Table.getColumnModel().getColumn(20).setMaxWidth(150);
+        Table.getColumnModel().getColumn(21).setMinWidth(100);
+        Table.getColumnModel().getColumn(21).setMaxWidth(150);
+        Table.getColumnModel().getColumn(22).setMinWidth(100);
+        Table.getColumnModel().getColumn(22).setMaxWidth(150);
+        Table.getColumnModel().getColumn(23).setMinWidth(100);
+        Table.getColumnModel().getColumn(23).setMaxWidth(150);
+        Table.getColumnModel().getColumn(24).setMinWidth(100);
+        Table.getColumnModel().getColumn(24).setMaxWidth(150);
+        Table.getColumnModel().getColumn(25).setMinWidth(100);
+        Table.getColumnModel().getColumn(25).setMaxWidth(150);
+        Table.getColumnModel().getColumn(26).setMinWidth(100);
+        Table.getColumnModel().getColumn(26).setMaxWidth(150);
+        Table.getColumnModel().getColumn(27).setMinWidth(50);
+        Table.getColumnModel().getColumn(27).setMaxWidth(150);
+        Table.getColumnModel().getColumn(28).setMinWidth(50);
+        Table.getColumnModel().getColumn(28).setMaxWidth(150);      
         con.close();
     } catch (Exception e) {
         System.out.println("Error " + e.getMessage());
@@ -2839,10 +2942,10 @@ try {
             if (currentImage != null) {
                 try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
                     ImageIO.write(currentImage, "jpg", baos);
-                    pstmt.setBytes(10, baos.toByteArray());
+                    pstmt.setBytes(9, baos.toByteArray());
                 }
             } else {
-                pstmt.setNull(10, Types.BLOB);
+                pstmt.setNull(9, Types.BLOB);
             }
             
             // Execute and handle result
@@ -2916,15 +3019,23 @@ private void clearForm() {
             pstmt.setString(6, section2.getText());
             pstmt.setString(7, grStr);
             pstmt.setString(8, attendance2.getText());
-            
+            /*JFileChooser fileChooser = new JFileChooser();
+    fileChooser.setAcceptAllFileFilterUsed(false);
+    fileChooser.addChoosableFileFilter(new FileNameExtensionFilter(
+        "Image files", "jpg", "jpeg", "png", "gif"));
+            */
             // Handle photo
             if (currentImage != null) {
                 try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
                     ImageIO.write(currentImage, "jpg", baos);
+                    ImageIO.write(currentImage, "png", baos);
+                    ImageIO.write(currentImage, "jpeg", baos);
                     pstmt.setBytes(9, baos.toByteArray());
+                    System.out.println("photo try");
                 }
             } else {
                 // Keep existing photo if no new one is provided
+                System.out.println("no photo");
                 pstmt.setNull(9, Types.BLOB);
             }
             
@@ -3105,6 +3216,7 @@ private void clearForm() {
     int returnValue = fileChooser.showOpenDialog(this);
     if (returnValue == JFileChooser.APPROVE_OPTION) {
         try {
+            System.out.println("1");
             File selectedFile = fileChooser.getSelectedFile();
             currentImage = ImageIO.read(selectedFile);
             updatePhotoPreview(currentImage);
@@ -3113,6 +3225,7 @@ private void clearForm() {
             ex.printStackTrace();
         }
     }
+    
     }//GEN-LAST:event_btnUploadPhotoActionPerformed
 
     private void btnUploadPhoto1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUploadPhoto1ActionPerformed
@@ -3124,6 +3237,7 @@ private void clearForm() {
     int returnValue = fileChooser.showOpenDialog(this);
     if (returnValue == JFileChooser.APPROVE_OPTION) {
         try {
+            System.out.println("2");
             File selectedFile = fileChooser.getSelectedFile();
             currentImage = ImageIO.read(selectedFile);
             if (currentImage != null) {
@@ -3320,6 +3434,8 @@ String ID = Searchdata1.getText();
             if (currentImage != null) {
                 try (ByteArrayOutputStream baos = new ByteArrayOutputStream()) {
                     ImageIO.write(currentImage, "jpg", baos);
+                    ImageIO.write(currentImage, "png", baos);
+                    ImageIO.write(currentImage, "jpeg", baos);
                     pstmt.setBytes(9, baos.toByteArray());
                 }
             } else {
@@ -4164,6 +4280,7 @@ String gradeInput = grade4.getText();
     }//GEN-LAST:event_jComboBox28ActionPerformed
 
     private void loadBSITData() throws SQLException {
+
     try {
         Class.forName("com.mysql.cj.jdbc.Driver");
         String url = "jdbc:MySQL://localhost:3306/finals_db";
@@ -4173,40 +4290,127 @@ String gradeInput = grade4.getText();
         Connection con = DriverManager.getConnection(url, user, pass);
         Statement st = con.createStatement();
         
-        DefaultTableModel model = new DefaultTableModel(
-            new Object[][]{}, 
-            new String[]{"ID", "First Name", "Middle Name","Last Name", "Email", "School Year", "Section", "Grade", "Attendance", "Photo", "Campus"}
-        ) {
-            @Override
-            public Class<?> getColumnClass(int column) {
-                return column == 8 ? byte[].class : String.class;
-            }
-        };
+        String[] columns = {"ID","First Name","Last Name","Email","School Year", "Student ID",
+                           "Section", "Grade", "Attendance", "Photo", "Campus", " Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" };
         
-        String sql = "SELECT id, first_name, last_name, email, school_year, " +
-                    "section, grade, attendance, photo FROM bsit_students";
+DefaultTableModel model = new DefaultTableModel(
+    new Object[][]{}, 
+    new String[]{"ID", "First Name", "Middle Name" ,"Last Name", "Student ID","Email", "School Year", "Section", "Grade", "Attendance", "Photo", "Campus",
+        "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status",
+        "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" }
+) {
+    @Override
+    public Class<?> getColumnClass(int column) {
+        // for photo column
+        return column == 10 ? byte[].class : String.class;
+    }
+};
+        
+        // 2. Explicit column selection
+        String sql = "SELECT * FROM bsit_students";
         
         ResultSet rs = st.executeQuery(sql);
         while (rs.next()) {
             byte[] photoData = rs.getBytes("photo");
+            System.out.println("Photo data length: " + 
+                (photoData != null ? photoData.length : "null")); // Debug
+            
             model.addRow(new Object[]{
                 rs.getString("id"),
                 rs.getString("first_name"),
+                rs.getString("middle_name"),
                 rs.getString("last_name"),
+                rs.getString("student_id"),
                 rs.getString("email"),
                 rs.getString("school_year"),
                 rs.getString("section"),
                 rs.getString("grade"),
                 rs.getString("attendance"),
-                photoData
+                photoData,  // This must be included
+                rs.getString("campus"),
+                rs.getString("birth_place"),
+                rs.getString("home_address"),
+                rs.getString("province"),
+                rs.getString("city"),
+                rs.getString("scheme"),
+                rs.getString("barangay"),
+                rs.getString("district"),
+                rs.getString("sex"),
+                rs.getString("civil_status"),
+                rs.getString("birth_date"),
+                rs.getString("zip_code"),
+                rs.getString("nationality"),
+                rs.getString("religion"),
+                rs.getString("contact_no"),
+                rs.getString("mobile_no"),
+                rs.getString("height"),
+                rs.getString("weight")
             });
         }
         
+        // 3. Apply renderer AFTER setting model
         Table1.setModel(model);
         Table1.setDefaultRenderer(byte[].class, new ImageRenderer());
+        
+        // 4. Make sure column is visible
+        Table1.getColumnModel().getColumn(0).setMinWidth(50);
+        Table1.getColumnModel().getColumn(0).setMaxWidth(50);
+        Table1.getColumnModel().getColumn(1).setMinWidth(100);
+        Table1.getColumnModel().getColumn(1).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(2).setMinWidth(100);
+        Table1.getColumnModel().getColumn(2).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(3).setMinWidth(100);
+        Table1.getColumnModel().getColumn(3).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(4).setMinWidth(100);
+        Table1.getColumnModel().getColumn(4).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(5).setMinWidth(100);
+        Table1.getColumnModel().getColumn(5).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(6).setMinWidth(100);
+        Table1.getColumnModel().getColumn(6).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(7).setMinWidth(100);
+        Table1.getColumnModel().getColumn(7).setMaxWidth(150);
         Table1.getColumnModel().getColumn(8).setMinWidth(100);
         Table1.getColumnModel().getColumn(8).setMaxWidth(150);
-        
+        Table1.getColumnModel().getColumn(9).setMinWidth(100);
+        Table1.getColumnModel().getColumn(9).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(10).setMinWidth(100);
+        Table1.getColumnModel().getColumn(10).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(11).setMinWidth(100);
+        Table1.getColumnModel().getColumn(11).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(12).setMinWidth(100);
+        Table1.getColumnModel().getColumn(12).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(13).setMinWidth(100);
+        Table1.getColumnModel().getColumn(13).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(14).setMinWidth(100);
+        Table1.getColumnModel().getColumn(14).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(15).setMinWidth(100);
+        Table1.getColumnModel().getColumn(15).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(16).setMinWidth(100);
+        Table1.getColumnModel().getColumn(16).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(17).setMinWidth(100);
+        Table1.getColumnModel().getColumn(17).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(18).setMinWidth(75);
+        Table1.getColumnModel().getColumn(18).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(19).setMinWidth(100);
+        Table1.getColumnModel().getColumn(19).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(20).setMinWidth(100);
+        Table1.getColumnModel().getColumn(20).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(21).setMinWidth(100);
+        Table1.getColumnModel().getColumn(21).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(22).setMinWidth(100);
+        Table1.getColumnModel().getColumn(22).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(23).setMinWidth(100);
+        Table1.getColumnModel().getColumn(23).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(24).setMinWidth(100);
+        Table1.getColumnModel().getColumn(24).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(25).setMinWidth(100);
+        Table1.getColumnModel().getColumn(25).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(26).setMinWidth(100);
+        Table1.getColumnModel().getColumn(26).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(27).setMinWidth(50);
+        Table1.getColumnModel().getColumn(27).setMaxWidth(150);
+        Table1.getColumnModel().getColumn(28).setMinWidth(50);
+        Table1.getColumnModel().getColumn(28).setMaxWidth(150);
         con.close();
     } catch (Exception e) {
         System.out.println("Error " + e.getMessage());
@@ -4261,39 +4465,127 @@ private void loadBSCSData() throws SQLException {
         Connection con = DriverManager.getConnection(url, user, pass);
         Statement st = con.createStatement();
         
-        DefaultTableModel model = new DefaultTableModel(
-            new Object[][]{}, 
-            new String[]{"ID", "First Name", "Last Name", "Email", "School Year", "Section", "Grade", "Attendance", "Photo"}
-        ) {
-            @Override
-            public Class<?> getColumnClass(int column) {
-                return column == 8 ? byte[].class : String.class;
-            }
-        };
+        String[] columns = {"ID","First Name","Last Name","Email","School Year", "Student ID",
+                           "Section", "Grade", "Attendance", "Photo", "Campus", " Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" };
         
-        String sql = "SELECT id, first_name, last_name, email, school_year, " +
-                    "section, grade, attendance, photo FROM bscs_students";
+DefaultTableModel model = new DefaultTableModel(
+    new Object[][]{}, 
+    new String[]{"ID", "First Name", "Middle Name" ,"Last Name", "Student ID","Email", "School Year", "Section", "Grade", "Attendance", "Photo", "Campus",
+        "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status",
+        "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" }
+) {
+    @Override
+    public Class<?> getColumnClass(int column) {
+        // for photo column
+        return column == 10 ? byte[].class : String.class;
+    }
+};
+        
+        // 2. Explicit column selection
+        String sql = "SELECT * FROM bscs_students";
         
         ResultSet rs = st.executeQuery(sql);
         while (rs.next()) {
             byte[] photoData = rs.getBytes("photo");
+            System.out.println("Photo data length: " + 
+                (photoData != null ? photoData.length : "null")); // Debug
+            
             model.addRow(new Object[]{
                 rs.getString("id"),
                 rs.getString("first_name"),
+                rs.getString("middle_name"),
                 rs.getString("last_name"),
+                rs.getString("student_id"),
                 rs.getString("email"),
                 rs.getString("school_year"),
                 rs.getString("section"),
                 rs.getString("grade"),
                 rs.getString("attendance"),
-                photoData
+                photoData,  // This must be included
+                rs.getString("campus"),
+                rs.getString("birth_place"),
+                rs.getString("home_address"),
+                rs.getString("province"),
+                rs.getString("city"),
+                rs.getString("scheme"),
+                rs.getString("barangay"),
+                rs.getString("district"),
+                rs.getString("sex"),
+                rs.getString("civil_status"),
+                rs.getString("birth_date"),
+                rs.getString("zip_code"),
+                rs.getString("nationality"),
+                rs.getString("religion"),
+                rs.getString("contact_no"),
+                rs.getString("mobile_no"),
+                rs.getString("height"),
+                rs.getString("weight")
             });
         }
         
+        // 3. Apply renderer AFTER setting model
         Table2.setModel(model);
         Table2.setDefaultRenderer(byte[].class, new ImageRenderer());
+        
+        // 4.Make sure column is visible
+        Table2.getColumnModel().getColumn(0).setMinWidth(50);
+        Table2.getColumnModel().getColumn(0).setMaxWidth(50);
+        Table2.getColumnModel().getColumn(1).setMinWidth(100);
+        Table2.getColumnModel().getColumn(1).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(2).setMinWidth(100);
+        Table2.getColumnModel().getColumn(2).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(3).setMinWidth(100);
+        Table2.getColumnModel().getColumn(3).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(4).setMinWidth(100);
+        Table2.getColumnModel().getColumn(4).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(5).setMinWidth(100);
+        Table2.getColumnModel().getColumn(5).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(6).setMinWidth(100);
+        Table2.getColumnModel().getColumn(6).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(7).setMinWidth(100);
+        Table2.getColumnModel().getColumn(7).setMaxWidth(150);
         Table2.getColumnModel().getColumn(8).setMinWidth(100);
         Table2.getColumnModel().getColumn(8).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(9).setMinWidth(100);
+        Table2.getColumnModel().getColumn(9).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(10).setMinWidth(100);
+        Table2.getColumnModel().getColumn(10).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(11).setMinWidth(100);
+        Table2.getColumnModel().getColumn(11).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(12).setMinWidth(100);
+        Table2.getColumnModel().getColumn(12).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(13).setMinWidth(100);
+        Table2.getColumnModel().getColumn(13).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(14).setMinWidth(100);
+        Table2.getColumnModel().getColumn(14).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(15).setMinWidth(100);
+        Table2.getColumnModel().getColumn(15).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(16).setMinWidth(100);
+        Table2.getColumnModel().getColumn(16).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(17).setMinWidth(100);
+        Table2.getColumnModel().getColumn(17).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(18).setMinWidth(75);
+        Table2.getColumnModel().getColumn(18).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(19).setMinWidth(100);
+        Table2.getColumnModel().getColumn(19).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(20).setMinWidth(100);
+        Table2.getColumnModel().getColumn(20).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(21).setMinWidth(100);
+        Table2.getColumnModel().getColumn(21).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(22).setMinWidth(100);
+        Table2.getColumnModel().getColumn(22).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(23).setMinWidth(100);
+        Table2.getColumnModel().getColumn(23).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(24).setMinWidth(100);
+        Table2.getColumnModel().getColumn(24).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(25).setMinWidth(100);
+        Table2.getColumnModel().getColumn(25).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(26).setMinWidth(100);
+        Table2.getColumnModel().getColumn(26).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(27).setMinWidth(50);
+        Table2.getColumnModel().getColumn(27).setMaxWidth(150);
+        Table2.getColumnModel().getColumn(28).setMinWidth(50);
+        Table2.getColumnModel().getColumn(28).setMaxWidth(150);
         
         con.close();
     } catch (Exception e) {
@@ -4352,39 +4644,128 @@ private void loadBSISData() throws SQLException {
         Connection con = DriverManager.getConnection(url, user, pass);
         Statement st = con.createStatement();
         
-        DefaultTableModel model = new DefaultTableModel(
-            new Object[][]{}, 
-            new String[]{"ID", "First Name", "Last Name", "Email", "School Year", "Section", "Grade", "Attendance", "Photo"}
-        ) {
-            @Override
-            public Class<?> getColumnClass(int column) {
-                return column == 8 ? byte[].class : String.class;
-            }
-        };
+        String[] columns = {"ID","First Name","Last Name","Email","School Year", "Student ID",
+                           "Section", "Grade", "Attendance", "Photo", "Campus", " Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status", "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" };
         
-        String sql = "SELECT id, first_name, last_name, email, school_year, " +
-                    "section, grade, attendance, photo FROM bsis_students";
+DefaultTableModel model = new DefaultTableModel(
+    new Object[][]{}, 
+    new String[]{"ID", "First Name", "Middle Name" ,"Last Name", "Student ID","Email", "School Year", "Section", "Grade", "Attendance", "Photo", "Campus",
+        "Birth Place", "Home Address", "Province", "City", "Scheme", "Barangay", "District", "Sex", "Civil Status",
+        "Birth Date", "Zip Code", "Nationality", "Religion", "Contact Number", "Mobile Number", "Height", "Weight" }
+) {
+    @Override
+    public Class<?> getColumnClass(int column) {
+        // for photo column
+        return column == 10 ? byte[].class : String.class;
+    }
+};
+        
+        // 2. Explicit column selection
+        String sql = "SELECT * FROM bsis_students";
         
         ResultSet rs = st.executeQuery(sql);
         while (rs.next()) {
             byte[] photoData = rs.getBytes("photo");
+            System.out.println("Photo data length: " + 
+                (photoData != null ? photoData.length : "null")); // Debug
+            
             model.addRow(new Object[]{
                 rs.getString("id"),
                 rs.getString("first_name"),
+                rs.getString("middle_name"),
                 rs.getString("last_name"),
+                rs.getString("student_id"),
                 rs.getString("email"),
                 rs.getString("school_year"),
                 rs.getString("section"),
                 rs.getString("grade"),
                 rs.getString("attendance"),
-                photoData
+                photoData,  // This must be included
+                rs.getString("campus"),
+                rs.getString("birth_place"),
+                rs.getString("home_address"),
+                rs.getString("province"),
+                rs.getString("city"),
+                rs.getString("scheme"),
+                rs.getString("barangay"),
+                rs.getString("district"),
+                rs.getString("sex"),
+                rs.getString("civil_status"),
+                rs.getString("birth_date"),
+                rs.getString("zip_code"),
+                rs.getString("nationality"),
+                rs.getString("religion"),
+                rs.getString("contact_no"),
+                rs.getString("mobile_no"),
+                rs.getString("height"),
+                rs.getString("weight")
             });
         }
         
+        // 3. Apply renderer AFTER setting model
         Table3.setModel(model);
         Table3.setDefaultRenderer(byte[].class, new ImageRenderer());
+        
+        // 4.3ake sure column is visible
+        Table3.getColumnModel().getColumn(0).setMinWidth(50);
+        Table3.getColumnModel().getColumn(0).setMaxWidth(50);
+        Table3.getColumnModel().getColumn(1).setMinWidth(100);
+        Table3.getColumnModel().getColumn(1).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(2).setMinWidth(100);
+        Table3.getColumnModel().getColumn(2).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(3).setMinWidth(100);
+        Table3.getColumnModel().getColumn(3).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(4).setMinWidth(100);
+        Table3.getColumnModel().getColumn(4).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(5).setMinWidth(100);
+        Table3.getColumnModel().getColumn(5).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(6).setMinWidth(100);
+        Table3.getColumnModel().getColumn(6).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(7).setMinWidth(100);
+        Table3.getColumnModel().getColumn(7).setMaxWidth(150);
         Table3.getColumnModel().getColumn(8).setMinWidth(100);
         Table3.getColumnModel().getColumn(8).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(9).setMinWidth(100);
+        Table3.getColumnModel().getColumn(9).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(10).setMinWidth(100);
+        Table3.getColumnModel().getColumn(10).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(11).setMinWidth(100);
+        Table3.getColumnModel().getColumn(11).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(12).setMinWidth(100);
+        Table3.getColumnModel().getColumn(12).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(13).setMinWidth(100);
+        Table3.getColumnModel().getColumn(13).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(14).setMinWidth(100);
+        Table3.getColumnModel().getColumn(14).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(15).setMinWidth(100);
+        Table3.getColumnModel().getColumn(15).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(16).setMinWidth(100);
+        Table3.getColumnModel().getColumn(16).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(17).setMinWidth(100);
+        Table3.getColumnModel().getColumn(17).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(18).setMinWidth(75);
+        Table3.getColumnModel().getColumn(18).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(19).setMinWidth(100);
+        Table3.getColumnModel().getColumn(19).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(20).setMinWidth(100);
+        Table3.getColumnModel().getColumn(20).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(21).setMinWidth(100);
+        Table3.getColumnModel().getColumn(21).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(22).setMinWidth(100);
+        Table3.getColumnModel().getColumn(22).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(23).setMinWidth(100);
+        Table3.getColumnModel().getColumn(23).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(24).setMinWidth(100);
+        Table3.getColumnModel().getColumn(24).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(25).setMinWidth(100);
+        Table3.getColumnModel().getColumn(25).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(26).setMinWidth(100);
+        Table3.getColumnModel().getColumn(26).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(27).setMinWidth(50);
+        Table3.getColumnModel().getColumn(27).setMaxWidth(150);
+        Table3.getColumnModel().getColumn(28).setMinWidth(50);
+        Table3.getColumnModel().getColumn(28).setMaxWidth(150);
+
         
         con.close();
     } catch (Exception e) {
