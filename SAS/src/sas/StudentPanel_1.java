@@ -66,23 +66,204 @@ public class StudentPanel_1 extends javax.swing.JFrame {
     
     public StudentPanel_1(int studentId, String tableName) {  // Add String tableName parameter
      this.studentId = studentId;
-    this.studentProgram = tableName; // Store the full table name directly
+    this.studentProgram = tableName;
     connectToDatabase();
     initComponents();
+    
+    // Initialize and load data
+    initializeTables();
     loadStudentData();
-    }
-
-
-
-  private void connectToDatabase() {
-        try {
-            connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
-        } catch (SQLException e) {
-            e.printStackTrace();
-            JOptionPane.showMessageDialog(this, "Database connection failed: " + e.getMessage(), 
-                "Connection Error", JOptionPane.ERROR_MESSAGE);
+    loadGradeData();
+    loadAttendanceData();
+    
+    // Set window closing behavior
+    setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
+    addWindowListener(new WindowAdapter() {
+        @Override
+        public void windowClosing(WindowEvent e) {
+            try {
+                if (connection != null && !connection.isClosed()) {
+                    connection.close();
+                }
+            } catch (SQLException ex) {
+                ex.printStackTrace();
+            }
         }
+    });
+}
+
+
+private void initializeTables() {
+    // Initialize Grade Table (Tgrade)
+    DefaultTableModel gradeModel = new DefaultTableModel(
+        new Object[][]{},
+        new String[]{
+            "STUDENT ID", "SUBJECT ID", "SUBJECT NAME", "MIDTERM", "FINALTERM", "TOTAL", "UNITS"
+        }
+    ) {
+        @Override
+        public boolean isCellEditable(int row, int column) {
+            return false; // Make all cells non-editable
+        }
+    };
+    Tgrade.setModel(gradeModel);
+    
+    // Initialize Attendance Table (TAttendance)
+    DefaultTableModel attendanceModel = new DefaultTableModel(
+        new Object[][]{},
+        new String[]{
+            "STUDENT ID", "PATHFIT", "FINALS PATHFIT", "COMPPROG", "FINALS COMPPROG", 
+            "FREEHAND", "FINALS FREEHAND", "MATH", "FINALS MATH", "NSTP", 
+            "FINALS NSTP", "BAS", "FINALS BAS", "GAMEDEV", "FINALS GAMEDEV", "TOTAL ABSENCES"
+        }
+    ) {
+        @Override
+        public boolean isCellEditable(int row, int column) {
+            return false; // Make all cells non-editable
+        }
+    };
+    TAttendance.setModel(attendanceModel);
+    
+    // Center align text in tables
+    DefaultTableCellRenderer centerRenderer = new DefaultTableCellRenderer();
+    centerRenderer.setHorizontalAlignment(JLabel.CENTER);
+    Tgrade.setDefaultRenderer(Object.class, centerRenderer);
+    TAttendance.setDefaultRenderer(Object.class, centerRenderer);
+    
+    // Set column widths
+    Tgrade.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+    TAttendance.setAutoResizeMode(JTable.AUTO_RESIZE_OFF);
+    
+    // Set specific column widths for Tgrade
+    Tgrade.getColumnModel().getColumn(0).setPreferredWidth(100); // STUDENT ID
+    Tgrade.getColumnModel().getColumn(1).setPreferredWidth(100); // SUBJECT ID
+    Tgrade.getColumnModel().getColumn(2).setPreferredWidth(250); // SUBJECT NAME
+    Tgrade.getColumnModel().getColumn(3).setPreferredWidth(80);  // MIDTERM
+    Tgrade.getColumnModel().getColumn(4).setPreferredWidth(80);  // FINALTERM
+    Tgrade.getColumnModel().getColumn(5).setPreferredWidth(80);  // TOTAL
+    Tgrade.getColumnModel().getColumn(6).setPreferredWidth(60);  // UNITS
+    
+    // Set specific column widths for TAttendance
+    for (int i = 0; i < TAttendance.getColumnCount(); i++) {
+        TAttendance.getColumnModel().getColumn(i).setPreferredWidth(100);
     }
+    TAttendance.getColumnModel().getColumn(15).setPreferredWidth(120); // TOTAL ABSENCES
+}
+
+private void loadGradeData() {
+    try {
+        String query = "SELECT * FROM grades_gwa WHERE student_id = ?";
+        pstmt = connection.prepareStatement(query);
+        pstmt.setInt(1, studentId);
+        
+        ResultSet rs = pstmt.executeQuery();
+        DefaultTableModel model = (DefaultTableModel) Tgrade.getModel();
+        model.setRowCount(0);
+        
+        double totalGrade = 0;
+        int totalUnits = 0;
+        
+        while (rs.next()) {
+            String subjectId = rs.getString("subject_id");
+            String subjectName = rs.getString("subject_name");
+            String midterm = rs.getString("midterm");
+            String finals = rs.getString("finals");
+            String total = rs.getString("total");
+            String units = rs.getString("units");
+            
+            model.addRow(new Object[]{
+                studentId, 
+                subjectId, 
+                subjectName, 
+                midterm != null ? midterm : "",
+                finals != null ? finals : "",
+                total != null ? total : "",
+                units != null ? units : ""
+            });
+            
+            if (total != null && !total.isEmpty() && units != null && !units.isEmpty()) {
+                try {
+                    double gradeValue = Double.parseDouble(total);
+                    int unitValue = Integer.parseInt(units);
+                    totalGrade += gradeValue * unitValue;
+                    totalUnits += unitValue;
+                } catch (NumberFormatException e) {
+                    // Ignore parsing errors
+                }
+            }
+        }
+        
+        // Calculate and display GWA
+        if (totalUnits > 0) {
+            double gwa = totalGrade / totalUnits;
+            DecimalFormat df = new DecimalFormat("#.##");
+            Lgwa.setText(df.format(gwa));
+        } else {
+            Lgwa.setText("N/A");
+        }
+        
+    } catch (SQLException e) {
+        JOptionPane.showMessageDialog(this, 
+            "Error loading grade data: " + e.getMessage(), 
+            "Database Error", 
+            JOptionPane.ERROR_MESSAGE);
+        e.printStackTrace();
+    }
+}
+
+private void loadAttendanceData() {
+    try {
+        String query = "SELECT * FROM absences WHERE student_id = ?";
+        pstmt = connection.prepareStatement(query);
+        pstmt.setInt(1, studentId);
+        
+        ResultSet rs = pstmt.executeQuery();
+        DefaultTableModel model = (DefaultTableModel) TAttendance.getModel();
+        model.setRowCount(0);
+        
+        if (rs.next()) {
+            model.addRow(new Object[]{
+                rs.getString("student_id"),
+                rs.getString("PATHFIT"),
+                rs.getString("FINALS_PATHFIT"),
+                rs.getString("COMPPROG"),
+                rs.getString("FINALS_COMPPROG"),
+                rs.getString("FREEHAND"),
+                rs.getString("FINALS_FREEHAND"),
+                rs.getString("MATH"),
+                rs.getString("FINALS_MATH"),
+                rs.getString("NSTP"),
+                rs.getString("FINALS_NSTP"),
+                rs.getString("BAS"),
+                rs.getString("FINALS_BAS"),
+                rs.getString("GAMEDEV"),
+                rs.getString("FINALS_GAMEDEV"),
+                rs.getString("total_absences")
+            });
+        }
+    } catch (SQLException e) {
+        JOptionPane.showMessageDialog(this, 
+            "Error loading attendance data: " + e.getMessage(), 
+            "Database Error", 
+            JOptionPane.ERROR_MESSAGE);
+        e.printStackTrace();
+    }
+}
+  private void connectToDatabase() {
+         try {
+        connection = DriverManager.getConnection(DB_URL, DB_USER, DB_PASS);
+        // Test the connection
+        connection.createStatement().executeQuery("SELECT 1");
+    } catch (SQLException e) {
+        JOptionPane.showMessageDialog(this, 
+            "Database connection failed: " + e.getMessage(), 
+            "Connection Error", 
+            JOptionPane.ERROR_MESSAGE);
+        e.printStackTrace();
+        // Close the window if connection fails
+        dispatchEvent(new WindowEvent(this, WindowEvent.WINDOW_CLOSING));
+    }
+}
 
 
  private void loadStudentData() {
@@ -160,14 +341,19 @@ public class StudentPanel_1 extends javax.swing.JFrame {
         jButton1 = new javax.swing.JButton();
         jTabbedPane1 = new javax.swing.JTabbedPane();
         jLayeredPane4 = new javax.swing.JLayeredPane();
-        jScrollPane3 = new javax.swing.JScrollPane();
-        jTable3 = new javax.swing.JTable();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
         jLabel9 = new javax.swing.JLabel();
         jLabel10 = new javax.swing.JLabel();
-        jLabel7 = new javax.swing.JLabel();
-        jComboBox1 = new javax.swing.JComboBox<>();
+        jTabbedPane2 = new javax.swing.JTabbedPane();
+        jPanel7 = new javax.swing.JPanel();
+        jScrollPane1 = new javax.swing.JScrollPane();
+        Tgrade = new javax.swing.JTable();
+        jLabel1 = new javax.swing.JLabel();
+        Lgwa = new javax.swing.JLabel();
+        jPanel6 = new javax.swing.JPanel();
+        jScrollPane2 = new javax.swing.JScrollPane();
+        TAttendance = new javax.swing.JTable();
         jLayeredPane2 = new javax.swing.JLayeredPane();
         jLabel15 = new javax.swing.JLabel();
         jLabel16 = new javax.swing.JLabel();
@@ -235,12 +421,12 @@ public class StudentPanel_1 extends javax.swing.JFrame {
         setBackground(new java.awt.Color(255, 145, 77));
         setCursor(new java.awt.Cursor(java.awt.Cursor.HAND_CURSOR));
         setResizable(false);
+        setSize(new java.awt.Dimension(1920, 1080));
 
         jPanel3.setBackground(new java.awt.Color(255, 145, 77));
         jPanel3.setAlignmentX(0.0F);
         jPanel3.setAlignmentY(0.0F);
 
-        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sas/Logoutresized.png"))); // NOI18N
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -252,7 +438,7 @@ public class StudentPanel_1 extends javax.swing.JFrame {
         jPanel3Layout.setHorizontalGroup(
             jPanel3Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel3Layout.createSequentialGroup()
-                .addContainerGap(959, Short.MAX_VALUE)
+                .addContainerGap(1811, Short.MAX_VALUE)
                 .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 103, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
         );
@@ -269,19 +455,6 @@ public class StudentPanel_1 extends javax.swing.JFrame {
         jTabbedPane1.setOpaque(true);
         jTabbedPane1.setPreferredSize(new java.awt.Dimension(1000, 750));
 
-        jTable3.setModel(new javax.swing.table.DefaultTableModel(
-            new Object [][] {
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null},
-                {null, null, null, null}
-            },
-            new String [] {
-                "Title 1", "Title 2", "Title 3", "Title 4"
-            }
-        ));
-        jScrollPane3.setViewportView(jTable3);
-
         jLabel5.setText("Name");
 
         jLabel6.setText("Welcome,");
@@ -290,48 +463,119 @@ public class StudentPanel_1 extends javax.swing.JFrame {
 
         jLabel10.setText("Student ID:  ");
 
-        jLabel7.setText("Year & Section:");
+        jTabbedPane2.setBackground(new java.awt.Color(234, 245, 226));
 
-        jComboBox1.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Item 1", "Item 2", "Item 3", "Item 4" }));
-        jComboBox1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jComboBox1ActionPerformed(evt);
+        jPanel7.setBackground(new java.awt.Color(234, 245, 226));
+
+        Tgrade.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null}
+            },
+            new String [] {
+                "STUDENT ID", "SUBJECT ID", "SUBJECT NAME", "MIDTERM", "FINALTERM", "TOTAL", "UNITS"
             }
-        });
+        ));
+        jScrollPane1.setViewportView(Tgrade);
 
-        jLayeredPane4.setLayer(jScrollPane3, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        jLabel1.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        jLabel1.setText("GWA:");
+
+        Lgwa.setFont(new java.awt.Font("Segoe UI", 0, 18)); // NOI18N
+        Lgwa.setText("gwa here");
+
+        javax.swing.GroupLayout jPanel7Layout = new javax.swing.GroupLayout(jPanel7);
+        jPanel7.setLayout(jPanel7Layout);
+        jPanel7Layout.setHorizontalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addGap(41, 41, 41)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 55, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(Lgwa, javax.swing.GroupLayout.PREFERRED_SIZE, 86, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(jPanel7Layout.createSequentialGroup()
+                        .addContainerGap()
+                        .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 756, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(1140, Short.MAX_VALUE))
+        );
+        jPanel7Layout.setVerticalGroup(
+            jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel7Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 401, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                .addGroup(jPanel7Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(Lgwa, javax.swing.GroupLayout.PREFERRED_SIZE, 33, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addContainerGap(446, Short.MAX_VALUE))
+        );
+
+        jTabbedPane2.addTab("Grade", jPanel7);
+
+        jPanel6.setBackground(new java.awt.Color(234, 245, 226));
+
+        TAttendance.setModel(new javax.swing.table.DefaultTableModel(
+            new Object [][] {
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null},
+                {null, null, null, null, null, null, null, null, null, null, null, null, null, null, null, null}
+            },
+            new String [] {
+                "STUDENT ID", "PATHFIT", "FINALS PATHFIT", "COMPPROG", "FINALS COMPPROG", "FREEHAND", "FINALS FREEHAND", "MATH", "FINALS MATH", "NSTP", "FINALS NSTP", "BAS", "FINALS BAS", "GAMEDEV", "FINALS GAMEDEV", "TOTAL ABSENCES"
+            }
+        ));
+        jScrollPane2.setViewportView(TAttendance);
+
+        javax.swing.GroupLayout jPanel6Layout = new javax.swing.GroupLayout(jPanel6);
+        jPanel6.setLayout(jPanel6Layout);
+        jPanel6Layout.setHorizontalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.DEFAULT_SIZE, 1890, Short.MAX_VALUE)
+                .addContainerGap())
+        );
+        jPanel6Layout.setVerticalGroup(
+            jPanel6Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel6Layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 401, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addContainerGap(491, Short.MAX_VALUE))
+        );
+
+        jTabbedPane2.addTab("Attendance", jPanel6);
+
         jLayeredPane4.setLayer(jLabel5, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jLabel6, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jLabel9, javax.swing.JLayeredPane.DEFAULT_LAYER);
         jLayeredPane4.setLayer(jLabel10, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane4.setLayer(jLabel7, javax.swing.JLayeredPane.DEFAULT_LAYER);
-        jLayeredPane4.setLayer(jComboBox1, javax.swing.JLayeredPane.DEFAULT_LAYER);
+        jLayeredPane4.setLayer(jTabbedPane2, javax.swing.JLayeredPane.DEFAULT_LAYER);
 
         javax.swing.GroupLayout jLayeredPane4Layout = new javax.swing.GroupLayout(jLayeredPane4);
         jLayeredPane4.setLayout(jLayeredPane4Layout);
         jLayeredPane4Layout.setHorizontalGroup(
             jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jLayeredPane4Layout.createSequentialGroup()
-                .addContainerGap()
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 1062, Short.MAX_VALUE))
             .addGroup(jLayeredPane4Layout.createSequentialGroup()
+                .addContainerGap()
                 .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                     .addGroup(jLayeredPane4Layout.createSequentialGroup()
-                        .addContainerGap()
-                        .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jLayeredPane4Layout.createSequentialGroup()
-                                .addComponent(jLabel10)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addGroup(jLayeredPane4Layout.createSequentialGroup()
-                                .addComponent(jLabel6)
-                                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                                .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
-                            .addComponent(jLabel7)))
+                        .addComponent(jLabel10)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel9, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE))
                     .addGroup(jLayeredPane4Layout.createSequentialGroup()
-                        .addGap(21, 21, 21)
-                        .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                        .addComponent(jLabel6)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
+                        .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 158, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+            .addGroup(jLayeredPane4Layout.createSequentialGroup()
+                .addGap(12, 12, 12)
+                .addComponent(jTabbedPane2)
+                .addContainerGap())
         );
         jLayeredPane4Layout.setVerticalGroup(
             jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -344,16 +588,12 @@ public class StudentPanel_1 extends javax.swing.JFrame {
                 .addGroup(jLayeredPane4Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(jLabel10)
                     .addComponent(jLabel9))
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jLabel7)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jComboBox1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
-                .addComponent(jScrollPane3, javax.swing.GroupLayout.DEFAULT_SIZE, 669, Short.MAX_VALUE)
+                .addComponent(jTabbedPane2)
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/sas/SecandProgresized.png")), jLayeredPane4); // NOI18N
+        jTabbedPane1.addTab("Section And Program", jLayeredPane4);
 
         jLabel15.setText("Student ID:  ");
 
@@ -366,8 +606,6 @@ public class StudentPanel_1 extends javax.swing.JFrame {
         jPanel1.setBackground(new java.awt.Color(217, 217, 217));
         jPanel1.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.setForeground(new java.awt.Color(214, 237, 198));
-
-        jLabel21.setIcon(new javax.swing.ImageIcon(getClass().getResource("/sas/PersonalInforesized2.png"))); // NOI18N
 
         jPanel2.setBackground(new java.awt.Color(255, 255, 255));
 
@@ -452,10 +690,10 @@ public class StudentPanel_1 extends javax.swing.JFrame {
         jLabel41.setText("Mobile no.");
 
         jLabel42.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel42.setText("Height");
+        jLabel42.setText("Height(in cm)");
 
         jLabel43.setBackground(new java.awt.Color(0, 0, 0));
-        jLabel43.setText("Weight");
+        jLabel43.setText("Weight(in kg)");
 
         photoPreview.setBackground(new java.awt.Color(255, 255, 255));
         photoPreview.setForeground(new java.awt.Color(255, 255, 255));
@@ -820,7 +1058,7 @@ public class StudentPanel_1 extends javax.swing.JFrame {
                     .addGroup(jLayeredPane2Layout.createSequentialGroup()
                         .addComponent(jLabel8)
                         .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                        .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 202, Short.MAX_VALUE)
+                        .addComponent(jLabel17, javax.swing.GroupLayout.DEFAULT_SIZE, 1054, Short.MAX_VALUE)
                         .addGap(801, 801, 801))
                     .addGroup(jLayeredPane2Layout.createSequentialGroup()
                         .addComponent(jLabel15)
@@ -844,7 +1082,7 @@ public class StudentPanel_1 extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jTabbedPane1.addTab("", new javax.swing.ImageIcon(getClass().getResource("/sas/ProfileAndInforesized.png")), jLayeredPane2, "Profile Info"); // NOI18N
+        jTabbedPane1.addTab("Profile Info", null, jLayeredPane2, "Profile Info");
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
@@ -858,7 +1096,7 @@ public class StudentPanel_1 extends javax.swing.JFrame {
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
                 .addComponent(jPanel3, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
-                .addComponent(jTabbedPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 851, Short.MAX_VALUE))
+                .addComponent(jTabbedPane1, javax.swing.GroupLayout.DEFAULT_SIZE, 1024, Short.MAX_VALUE))
         );
 
         pack();
@@ -866,15 +1104,16 @@ public class StudentPanel_1 extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-            // Logout action
-        this.dispose();
-        new testing_1().setVisible(true); // Assuming you have a LoginForm class
-              
+        try {
+        if (connection != null && !connection.isClosed()) {
+            connection.close();
+        }
+    } catch (SQLException ex) {
+        ex.printStackTrace();
+    }
+    this.dispose();
+    new testing_1().setVisible(true);
     }//GEN-LAST:event_jButton1ActionPerformed
-
-    private void jComboBox1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jComboBox1ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jComboBox1ActionPerformed
 
     /**
      * @param args the command line arguments
@@ -915,11 +1154,14 @@ public class StudentPanel_1 extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JLabel Lgwa;
+    private javax.swing.JTable TAttendance;
+    private javax.swing.JTable Tgrade;
     private javax.swing.ButtonGroup buttonGroup1;
     private javax.swing.ButtonGroup buttonGroup2;
     private javax.swing.JLabel dontmind;
     private javax.swing.JButton jButton1;
-    private javax.swing.JComboBox<String> jComboBox1;
+    private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel10;
     private javax.swing.JLabel jLabel15;
     private javax.swing.JLabel jLabel16;
@@ -952,7 +1194,6 @@ public class StudentPanel_1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel43;
     private javax.swing.JLabel jLabel5;
     private javax.swing.JLabel jLabel6;
-    private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
     private javax.swing.JLabel jLabel9;
     private javax.swing.JLayeredPane jLayeredPane2;
@@ -962,9 +1203,12 @@ public class StudentPanel_1 extends javax.swing.JFrame {
     private javax.swing.JPanel jPanel3;
     private javax.swing.JPanel jPanel4;
     private javax.swing.JPanel jPanel5;
-    private javax.swing.JScrollPane jScrollPane3;
+    private javax.swing.JPanel jPanel6;
+    private javax.swing.JPanel jPanel7;
+    private javax.swing.JScrollPane jScrollPane1;
+    private javax.swing.JScrollPane jScrollPane2;
     private javax.swing.JTabbedPane jTabbedPane1;
-    private javax.swing.JTable jTable3;
+    private javax.swing.JTabbedPane jTabbedPane2;
     private javax.swing.JLabel lAddress;
     private javax.swing.JLabel lBarangay;
     private javax.swing.JLabel lCampus;
