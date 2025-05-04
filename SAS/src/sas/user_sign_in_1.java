@@ -1175,19 +1175,36 @@ private final String DB_PASS = "";
     }//GEN-LAST:event_btnUploadPhotoActionPerformed
 
     private void btnSubmitActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSubmitActionPerformed
-        if (validateFields()) {
-            try {
-                saveStudentData();
-                JOptionPane.showMessageDialog(this, "Student information saved successfully!",
-                    "Success", JOptionPane.INFORMATION_MESSAGE);
-                clearFields();
-            } catch (SQLException | ParseException ex) {
-                System.out.println("error:" + ex.getMessage()  );
-                Logger.getLogger(StudentPanel.class.getName()).log(Level.SEVERE, null, ex);
-            }
+     if (validateFields()) {
+        try {
+            saveStudentData();
+            // Get the last inserted ID
+            int newStudentId = getLastInsertedId();
+            JOptionPane.showMessageDialog(this, "Student information saved successfully!",
+                "Success", JOptionPane.INFORMATION_MESSAGE);
+            
+            // Open the student panel with the new ID
+            this.dispose();
+            new StudentPanel_1(newStudentId, cCourse.getSelectedItem().toString().toLowerCase() + "_students").setVisible(true);
+            
+        } catch (SQLException | ParseException ex) {
+            System.out.println("error:" + ex.getMessage());
+            Logger.getLogger(StudentPanel.class.getName()).log(Level.SEVERE, null, ex);
         }
+    }
         }
 
+    private int getLastInsertedId() throws SQLException {
+    try (Connection conn = DatabaseConnection.getConnection();
+         Statement stmt = conn.createStatement();
+         ResultSet rs = stmt.executeQuery("SELECT LAST_INSERT_ID()")) {
+        if (rs.next()) {
+            return rs.getInt(1);
+        }
+    }
+    return -1; // Return -1 if no ID found
+}
+    
         private boolean validateFields() {
 
             if(txtfname.getText().isEmpty() ||
@@ -1253,7 +1270,7 @@ private final String DB_PASS = "";
             JOptionPane.showMessageDialog(this, "Enter a Zip Code!");
             return false;
         }
-             if (txtZip.getText().length() > 5) {
+             if (txtZip.getText().length() > 6) {
             JOptionPane.showMessageDialog(null, 
                 "Please input your correct Zip Code!");
             return false;
